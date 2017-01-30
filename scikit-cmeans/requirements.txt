@@ -1,0 +1,7 @@
+pandas
+savReaderWriter
+numpy
+scipy
+matplotlib
+sklearn
+git+git://github.com/bm424/scikit-cmeans.git@master
