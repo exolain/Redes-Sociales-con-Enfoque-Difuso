@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 from skcmeans.algorithms import Probabilistic
-from sklearn.datasets import make_blobs
+
 class CosineProbabilistic(Probabilistic):
     metric = 'cosine'
 plt.figure(figsize=(5, 5)).add_subplot(aspect='equal')
