@@ -4,11 +4,12 @@ import matplotlib.pyplot as plt
 from skcmeans.algorithms import Probabilistic
 from sklearn.datasets import make_blobs
 class CosineProbabilistic(Probabilistic):
-    metric = 'cosine'
+    metric = 'euclidean'
 plt.figure(figsize=(5, 5)).add_subplot(aspect='equal')
 n_clusters = 4
-df = pd.read_csv('./scikit-cmeans/data/clean/2014.csv')
-data = df.as_matrix(columns=['titulo','condicion_actual'])
+#df = pd.read_csv('./scikit-cmeans/data/clean/2014.csv')
+df = pd.read_csv('./scikit-cmeans/data/clean/iris.csv')
+data = df.as_matrix(columns=['SepalLength','SepalWidth'])
 #print(data)
 clusterer = CosineProbabilistic(n_clusters=n_clusters, n_init=20)
 clusterer.fit(data)
