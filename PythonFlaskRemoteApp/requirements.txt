@@ -1,0 +1,9 @@
+#pandas
+#numpy
+#scipy
+#matplotlib
+#sklearn
+pymongo
+flask
+fabric
+#git+git://github.com/bm424/scikit-cmeans.git@master
