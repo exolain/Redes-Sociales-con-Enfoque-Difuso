@@ -6,15 +6,16 @@ import numpy as np
 from scipy.spatial.distance import pdist, squareform
 import numbers
 
-#df = pd.read_csv('./scikit-cmeans/data/clean/2014.csv')
-#data = df.as_matrix(columns=['titulo','condicion_actual'])
+df = pd.read_csv('/var/www/PythonFlaskRemoteApp/backends/scikitcmeans/data/clean/2014.csv')
+data = df.as_matrix(columns=['titulo','condicion_actual','ingreso_discreto'])
 
-X=pd.DataFrame({'age':[21,21,19,30,21,21,19,30],
-'gender':['M','M','N','M','F','F','F','F'],
-'civil_status':['MARRIED','SINGLE','SINGLE','SINGLE','MARRIED','SINGLE','WIDOW','DIVORCED'],
-'salary':[3000.0,1200.0 ,32000.0,1800.0 ,2900.0 ,1100.0 ,10000.0,1500.0],
-'children':[True,False,True,True,True,False,False,True],
-'available_credit':[2200,100,22000,1100,2000,100,6000,2200]})
+X = pd.DataFrame(data)
+#X=pd.DataFrame({'age':[21,21,19,30,21,21,19,30],
+#'gender':['M','M','N','M','F','F','F','F'],
+#'civil_status':['MARRIED','SINGLE','SINGLE','SINGLE','MARRIED','SINGLE','WIDOW','DIVORCED'],
+#'salary':[3000.0,1200.0 ,32000.0,1800.0 ,2900.0 ,1100.0 ,10000.0,1500.0],
+#'children':[True,False,True,True,True,False,False,True],
+#'available_credit':[2200,100,22000,1100,2000,100,6000,2200]})
 
 print(X)
 
@@ -64,16 +65,19 @@ def gower(xi, xj,V=None,w=None,VI=None):
     if w is None:
         w=[1]*cols
 
+    sum_sij=0.0
+    sum_wij=0.0
     for col in xrange(cols):
         sij=0.0
         wij=0.0
+
 
         if np.issubdtype(VI[col], np.number):
             sij=abs(xi[col]-xj[col])/(V[col])
             wij=(w[col],0)[pd.isnull(xi[col]) or pd.isnull(xj[col])]
         
         else:
-            sij=(10)[xi[col]==xj[col]]
+            sij=(1,0)[xi[col]==xj[col]]
             wij=(w[col],0)[pd.isnull(xi[col]) and pd.isnull(xj[col])]
 
         sum_sij+= (wij*sij)
@@ -88,5 +92,7 @@ Xn = normalize_mixed_data_columns(X,dtypes)
 print(Xn)
 ranges=calc_range_mixed_data_columns(Xn,dtypes)
 
-print(squareform(pdist(Xn, gower,V=ranges,VI=dtypes)))
-
+print("Dissimilarities :")
+D=np.tril(squareform(pdist(Xn, gower,V=ranges,VI=dtypes)))
+print(D)
+np.savetxt("/home/lain/Redes-Sociales-con-Enfoque-Difuso/distance_matrix.csv", D, delimiter=",")
