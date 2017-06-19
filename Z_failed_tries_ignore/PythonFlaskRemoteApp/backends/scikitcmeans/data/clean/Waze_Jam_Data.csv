@@ -1,0 +1,643 @@
+,injectDate,street,city,delay,endNode,neighborhood_destination,neighborhood_initial
+22355,04/21/2017 06:30:00 AM,Arborway,"Boston, MA",-1,to South St,Downtown,
+18431,04/20/2017 01:10:00 PM,Bowdoin St,"Boston, MA",83,Adams St,Stony Brook / Cleary Square,
+3196,04/24/2017 03:20:00 PM,Meridian St,"Boston, MA",161,Maverick St,East Boston,
+31820,04/23/2017 04:10:00 AM,Exeter St,"Boston, MA",104,Huntington Ave,,Back Bay
+17577,04/20/2017 11:50:00 AM,Hyde Park Ave,"Boston, MA",340,Washington St,,
+3801,04/24/2017 05:10:00 PM,S Huntington Ave,"Boston, MA",80,Perkins St,Medford Street / The Neck,
+29065,04/22/2017 05:10:00 PM,Charles St,"Boston, MA",137,Geneva Ave,,Dorchester
+5602,04/24/2017 11:00:00 PM,Blue Hill Ave,"Boston, MA",78,American Legion Hwy,,
+13640,04/19/2017 01:30:00 PM,Meridian St,"Boston, MA",215,Maverick St,East Boston,
+20139,04/20/2017 08:50:00 PM,E 1st St,"Boston, MA",339,Farragut Rd,South Boston,South Boston
+6804,04/25/2017 02:40:00 AM,Massachusetts Ave,"Boston, MA",343,Tremont St,,
+706,04/24/2017 02:00:00 AM,Washington St,"Boston, MA",88,Blue Hill Ave,,
+16105,04/19/2017 10:40:00 PM,Hanover St,"Boston, MA",164,Battery St,North End,
+26839,04/22/2017 03:20:00 AM,New Chardon St,"Boston, MA",93,Surface Rd,,
+7145,04/25/2017 04:40:00 AM,Hyde Park Ave,"Boston, MA",98,Destefano Rd,Roslindale,
+32484,04/23/2017 07:50:00 AM,Tremont St,"Boston, MA",218,Herald St,South End,
+32105,04/23/2017 05:40:00 AM,Quincy St,"Boston, MA",64,Warren St,Roxbury,
+29975,04/22/2017 08:50:00 PM,Park St,"Boston, MA",125,Freeport St,Dorchester,
+19304,04/20/2017 06:00:00 PM,Blue Hill Ave,"Boston, MA",75,Geneva Ave,,
+3351,04/24/2017 03:50:00 PM,to Cambridge / Somerville,"Boston, MA",591,Cambridge St,,Assembly Square
+16195,04/19/2017 11:20:00 PM,William T Morrissey Blvd,"Boston, MA",86,to Columbia Road / Boston,,
+29484,04/22/2017 06:20:00 PM,Hanover St,"Boston, MA",140,Cross St,,
+13085,04/19/2017 12:20:00 PM,Park Dr,"Boston, MA",112,Riverway,,Fenway/Kenmore
+4675,04/24/2017 08:10:00 PM,Malcolm 'X' Blvd,"Boston, MA",60,Washington St,,Roxbury
+22045,04/21/2017 04:20:00 AM,Blue Hill Ave,"Boston, MA",76,Seaver St,Roxbury,
+6341,04/25/2017 01:00:00 AM,Quincy St,"Boston, MA",93,Blue Hill Ave,,
+20523,04/20/2017 10:00:00 PM,to I-93 N / Concord NH,"Boston, MA",97,I-93 N,,
+22947,04/21/2017 12:20:00 PM,Huntington Ave,"Boston, MA",94,Forsyth Way,Fenway/Kenmore,
+7964,04/25/2017 12:40:00 PM,Kilsyth Rd,"Boston, MA",103,Lanark Rd,,Brighton
+4584,04/24/2017 07:50:00 PM,Freeport St,"Boston, MA",68,Dorchester Ave,,Dorchester
+22788,04/21/2017 12:10:00 PM,Cummins Hwy,"Boston, MA",238,Washington St,,
+13023,04/19/2017 12:20:00 PM,Columbia Rd,"Boston, MA",103,Dudley St,,
+27195,04/22/2017 04:10:00 AM,Washington St,"Boston, MA",124,Marginal Rd,,
+17614,04/20/2017 12:00:00 PM,to I-93 N Boston / Cambridge,"Boston, MA",150,I-93 N,,
+11240,04/25/2017 11:50:00 PM,Market St,"Boston, MA",80,Washington St,,
+5423,04/24/2017 10:30:00 PM,Melnea Cass Blvd,"Boston, MA",555,Tremont St,,
+9319,04/25/2017 05:20:00 PM,Washington St,"Boston, MA",80,Ukraine Way,Forest Hills / Woodbourne,
+21451,04/21/2017 02:20:00 AM,Washington St,"Boston, MA",97,Massachusetts Ave,,
+29247,04/22/2017 05:30:00 PM,Westland Ave,"Boston, MA",134,Massachusetts Ave,,Fenway/Kenmore
+17219,04/20/2017 05:30:00 AM,Huntington Ave,"Boston, MA",98,Forsyth Way,Fenway/Kenmore,
+29736,04/22/2017 07:40:00 PM,Brighton Ave,"Boston, MA",96,Harvard Ave,Allston,
+29983,04/22/2017 08:50:00 PM,Hanover St,"Boston, MA",70,Cross St,,
+2751,04/24/2017 02:10:00 PM,Shawmut Ave,"Boston, MA",114,Malcolm 'X' Blvd,Roxbury,
+3411,04/24/2017 04:00:00 PM,Dudley St,"Boston, MA",197,Stoughton St,Dorchester,
+7858,04/25/2017 12:30:00 PM,Arborway,"Boston, MA",177,Washington St,,
+4566,04/24/2017 07:50:00 PM,Southampton St,"Boston, MA",85,Mass Ave Connector,,
+31582,04/23/2017 02:50:00 AM,Boylston St,"Boston, MA",60,Dalton St,Back Bay,
+693,04/24/2017 02:00:00 AM,Meridian St,"Boston, MA",95,Maverick St,East Boston,
+9119,04/25/2017 04:20:00 PM,Bowdoin St,"Boston, MA",109,Cambridge St,,
+11609,04/19/2017 01:10:00 AM,Blue Hill Ave,"Boston, MA",81,Quincy St,,
+17491,04/20/2017 11:40:00 AM,Dorchester Ave,"Boston, MA",87,Semont Rd,Dorchester,
+30262,04/22/2017 10:30:00 PM,Columbia Rd,"Boston, MA",159,Bird St,,
+14786,04/19/2017 06:20:00 PM,Huntington Ave,"Boston, MA",66,Gainsborough St,Fenway/Kenmore,
+12794,04/19/2017 11:40:00 AM,Meridian St,"Boston, MA",83,Maverick St,East Boston,
+6402,04/25/2017 01:30:00 AM,Woodrow Ave,"Boston, MA",70,Blue Hill Ave,,
+27118,04/22/2017 04:00:00 AM,Washington St,"Boston, MA",71,Cambridge St,,
+11994,04/19/2017 02:50:00 AM,Blue Hill Ave,"Boston, MA",100,Dudley St,,
+17258,04/20/2017 06:00:00 AM,Chestnut Hill Ave,"Boston, MA",79,Washington St,,Brighton
+24856,04/21/2017 07:00:00 PM,Massachusetts Ave,"Boston, MA",269,Melnea Cass Blvd,,
+5056,04/24/2017 09:10:00 PM,Columbus Ave,"Boston, MA",275,Seaver St,Roxbury,
+29849,04/22/2017 08:10:00 PM,Hanover St,"Boston, MA",187,Congress St,,
+6880,04/25/2017 03:10:00 AM,Talbot Ave,"Boston, MA",104,Brent St,Dorchester,
+22081,04/21/2017 04:30:00 AM,American Legion Hwy,"Boston, MA",78,Walk Hill St,,
+23782,04/21/2017 02:30:00 PM,Blue Hill Ave,"Boston, MA",115,Seaver St,Roxbury,
+16735,04/20/2017 02:40:00 AM,South Boston Bypass Rd,"Boston, MA",72,Haul Rd,South Boston,
+7569,04/25/2017 11:50:00 AM,W Dedham St,"Boston, MA",108,Washington St,,South End
+6532,04/25/2017 01:50:00 AM,Dudley St,"Boston, MA",67,Columbia Rd,,
+32534,04/23/2017 08:20:00 AM,Harrison Ave,"Boston, MA",68,Waltham St,South End,
+28916,04/22/2017 04:30:00 PM,Cummins Hwy,"Boston, MA",66,Harvard St,,
+168,04/24/2017 03:10:00 AM,Columbus Ave,"Boston, MA",126,Melnea Cass Blvd,,
+3526,04/24/2017 04:20:00 PM,W Broadway,"Boston, MA",74,Dorchester St,South Boston,
+32215,04/23/2017 06:40:00 AM,Lansdowne St,"Boston, MA",94,Ipswich St,Fenway/Kenmore,Fenway/Kenmore
+22738,04/21/2017 12:00:00 PM,Arborway,"Boston, MA",-1,to South St,Downtown,
+11779,04/19/2017 02:00:00 AM,Washington St,"Boston, MA",83,Harvard St,,
+27398,04/22/2017 04:40:00 AM,Kneeland St,"Boston, MA",61,Atlantic Ave,,
+10483,04/25/2017 09:50:00 PM,Malcolm 'X' Blvd,"Boston, MA",80,Tremont St,,Roxbury
+2822,04/24/2017 02:20:00 PM,to I-93 N Boston / Cambridge,"Boston, MA",131,I-93 N,,
+5986,04/25/2017 12:10:00 AM,Lincoln St,"Boston, MA",61,Leo M Birmingham Pkwy,,Stony Brook / Cleary Square
+7494,04/25/2017 11:40:00 AM,Brighton Ave,"Boston, MA",97,Cambridge St,,
+33946,04/23/2017 11:30:00 PM,Washington St,"Boston, MA",81,Gallivan Blvd,,
+6512,04/25/2017 01:40:00 AM,Adams St,"Boston, MA",68,Ashmont St,Dorchester,Stony Brook / Cleary Square
+21805,04/21/2017 03:20:00 AM,Talbot Ave,"Boston, MA",63,Norfolk St,,
+12182,04/19/2017 03:40:00 AM,Washington St,"Boston, MA",61,Tremont St,,
+32255,04/23/2017 06:20:00 AM,Talbot Ave,"Boston, MA",183,Norfolk St,,
+17262,04/20/2017 06:10:00 AM,Arborway,"Boston, MA",-1,to South St,Downtown,
+14610,04/19/2017 05:40:00 PM,Magazine St,"Boston, MA",112,Massachusetts Ave,,
+24544,04/21/2017 05:50:00 PM,Congress St,"Boston, MA",74,Sudbury St,Downtown,
+23731,04/21/2017 02:20:00 PM,Seaver St,"Boston, MA",178,Columbus Ave,,Roxbury
+12680,04/19/2017 09:40:00 AM,William T Morrissey Blvd,"Boston, MA",120,Freeport St,Dorchester,
+28716,04/22/2017 04:00:00 PM,Dorchester Ave,"Boston, MA",500,Talbot Ave,,
+24304,04/21/2017 04:50:00 PM,Dudley St,"Boston, MA",109,Stoughton St,Dorchester,
+25346,04/21/2017 09:10:00 PM,William T Morrissey Blvd,"Boston, MA",228,Freeport St,Dorchester,
+11801,04/19/2017 02:00:00 AM,Palace Rd,"Boston, MA",142,Fenway,Fenway/Kenmore,Medical Center Area
+12849,04/19/2017 11:50:00 AM,Hyde Park Ave,"Boston, MA",94,American Legion Hwy,,
+10336,04/25/2017 09:10:00 PM,Columbia Rd,"Boston, MA",115,Hancock St,Charlestown,
+303,04/24/2017 12:40:00 AM,Huntington Ave,"Boston, MA",126,Louis Prang St,Fenway/Kenmore,
+432,04/24/2017 01:00:00 AM,Bowdoin St,"Boston, MA",133,Geneva Ave,,
+18623,04/20/2017 02:20:00 PM,Lamartine St,"Boston, MA",74,Centre St,,
+8532,04/25/2017 06:30:00 PM,Massachusetts Ave,"Boston, MA",278,Columbia Rd,,
+10111,04/25/2017 08:30:00 PM,Massachusetts Ave,"Boston, MA",550,Huntington Ave,,
+5699,04/24/2017 11:20:00 PM,Centre St,"Boston, MA",122,Lagrange St,Theatre District,
+6929,04/25/2017 03:20:00 AM,William T Morrissey Blvd,"Boston, MA",75,Freeport St,Dorchester,
+16365,04/20/2017 12:30:00 AM,Blue Hill Ave,"Boston, MA",188,Dudley St,,
+11074,04/25/2017 11:40:00 PM,to N Harvard St / Harvard Sq,"Boston, MA",208,N Harvard St,,
+21028,04/21/2017 12:00:00 AM,South St,"Boston, MA",133,Centre St,,Downtown
+27627,04/22/2017 06:20:00 AM,Washington St,"Boston, MA",110,Gallivan Blvd,,
+4503,04/24/2017 07:30:00 PM,Summer St,"Boston, MA",109,Dorchester Ave,,
+1225,04/24/2017 04:40:00 AM,Tremont St,"Boston, MA",83,Charles St S,,
+11695,04/19/2017 01:20:00 AM,Cummins Hwy,"Boston, MA",95,Woodhaven St,Mattapan,
+4861,04/24/2017 08:30:00 PM,W Broadway,"Boston, MA",94,E St,D Street / West Broadway,
+12683,04/19/2017 09:40:00 AM,Herald St,"Boston, MA",94,Albany St,,South End
+3775,04/24/2017 05:00:00 PM,Dorchester St,"Boston, MA",105,E 1st St,South Boston,South Boston
+22524,04/21/2017 08:50:00 AM,Columbia Rd,"Boston, MA",99,Massachusetts Ave,,
+1270,04/24/2017 05:00:00 AM,Boylston St,"Boston, MA",77,Park Dr,Fenway/Kenmore,
+26810,04/22/2017 03:10:00 AM,Tremont St,"Boston, MA",262,E Berkeley St,South End,
+17230,04/20/2017 05:40:00 AM,W Broadway,"Boston, MA",128,Dorchester St,South Boston,
+854,04/24/2017 02:40:00 AM,Washington St,"Boston, MA",68,Ashmont St,Dorchester,
+6534,04/25/2017 01:50:00 AM,Morton St,"Boston, MA",83,Harvard St,,
+26751,04/22/2017 02:50:00 AM,Seaport Blvd,"Boston, MA",73,D St,South Boston,
+9306,04/25/2017 05:20:00 PM,Cummins Hwy,"Boston, MA",67,Brown Ave,Roslindale,
+18221,04/20/2017 12:50:00 PM,Bowdoin St,"Boston, MA",94,Topliff St,Dorchester,
+28017,04/22/2017 09:30:00 AM,Southampton St,"Boston, MA",72,Exit 16: Southampton St / Andrew Sq,,
+20565,04/20/2017 10:10:00 PM,Chelsea St,"Boston, MA",168,E Eagle St,East Boston,
+25525,04/21/2017 09:40:00 PM,Baker St,"Boston, MA",333,VFW Pkwy,,West Roxbury
+2703,04/24/2017 02:00:00 PM,Harrison Ave,"Boston, MA",114,Massachusetts Ave,,
+18288,04/20/2017 01:00:00 PM,Poplar St,"Boston, MA",82,Cornell St,Roslindale,
+33316,04/23/2017 05:30:00 PM,Dartmouth St,"Boston, MA",83,Tremont St,,
+30247,04/22/2017 10:30:00 PM,Exit 28: to Rte 99 / Sullivan Sq / Somerville,"Boston, MA",300,Cambridge St,,
+9077,04/25/2017 04:20:00 PM,Massachusetts Ave,"Boston, MA",117,Theodore Glynn Way,Dorchester,
+22611,04/21/2017 11:30:00 AM,I-93 S,"Boston, MA",63,I-93 S,,
+18672,04/20/2017 02:40:00 PM,Exit 18: Brighton / Cambridge,"Boston, MA",375,to Cambridge / Somerville,Assembly Square,
+18823,04/20/2017 03:40:00 PM,Beacon St,"Boston, MA",483,Massachusetts Ave,,
+3648,04/24/2017 04:30:00 PM,Huntington Ave,"Boston, MA",127,Washington St,,
+28798,04/22/2017 04:10:00 PM,Dartmouth St,"Boston, MA",73,Stuart St,,
+32297,04/23/2017 06:50:00 AM,Talbot Ave,"Boston, MA",125,Norfolk St,,
+8569,04/25/2017 02:50:00 PM,Summer St,"Boston, MA",558,Surface Artery,Chinatown,
+19253,04/20/2017 05:40:00 PM,Cambridge St,"Boston, MA",73,Tremont St,,
+20819,04/20/2017 11:20:00 PM,Berkeley St,"Boston, MA",338,to Storrow Dr W,,
+2852,04/24/2017 02:30:00 PM,Atlantic Ave,"Boston, MA",267,High St,Dorchester,
+26456,04/22/2017 02:10:00 AM,Harrison Ave,"Boston, MA",101,Oak St,Medford Street / The Neck,
+22974,04/21/2017 12:20:00 PM,Old Colony Ave,"Boston, MA",100,Columbia Rd,,
+28303,04/22/2017 02:20:00 PM,Massachusetts Ave,"Boston, MA",101,Columbus Ave,,
+5907,04/25/2017 12:00:00 AM,Harrison Ave,"Boston, MA",79,Herald St,South End,
+31270,04/23/2017 02:10:00 AM,Hanover St,"Boston, MA",186,Cross St,,
+7549,04/25/2017 11:50:00 AM,Hallet St,"Boston, MA",127,Gallivan Blvd,,Dorchester
+29947,04/22/2017 08:40:00 PM,Baker St,"Boston, MA",301,VFW Pkwy,,West Roxbury
+5438,04/24/2017 10:30:00 PM,Park St,"Boston, MA",212,Spencer St,Dorchester,
+6506,04/25/2017 01:40:00 AM,Tremont St,"Boston, MA",86,Columbus Ave,,
+15453,04/19/2017 08:20:00 PM,Townsend St,"Boston, MA",60,Quincy St,,Roxbury
+27165,04/22/2017 04:00:00 AM,Bowdoin St,"Boston, MA",157,Quincy St,,
+32879,04/23/2017 03:10:00 PM,Washington St,"Boston, MA",117,Park St,,
+1134,04/24/2017 04:00:00 AM,Centre St,"Boston, MA",113,Hastings St,Brook Farm,
+387,04/24/2017 12:50:00 AM,Newbury St,"Boston, MA",114,Clarendon St,,
+10034,04/25/2017 08:10:00 PM,Massachusetts Ave,"Boston, MA",158,Theodore Glynn Way,Dorchester,
+23101,04/21/2017 12:30:00 PM,Washington St,"Boston, MA",150,Columbus Ave,,
+14678,04/19/2017 05:50:00 PM,William T Morrissey Blvd,"Boston, MA",64,to Columbia Road / Boston,,
+9125,04/25/2017 04:20:00 PM,Atlantic Ave,"Boston, MA",96,Seaport Blvd,,
+28253,04/22/2017 01:50:00 PM,Dorchester Ave,"Boston, MA",113,Adams St,Stony Brook / Cleary Square,
+24010,04/21/2017 03:30:00 PM,Centre St,"Boston, MA",168,Arborway,,
+21090,04/21/2017 12:20:00 AM,Hanover St,"Boston, MA",98,Richmond St,North End,
+33915,04/23/2017 11:10:00 PM,Bowdoin St,"Boston, MA",90,Bullard St,Dorchester,
+26315,04/22/2017 01:40:00 AM,Kneeland St,"Boston, MA",76,Atlantic Ave,,
+22318,04/21/2017 06:10:00 AM,Summer St,"Boston, MA",60,Melcher St,D Street / West Broadway,
+14696,04/19/2017 06:00:00 PM,to South St,"Boston, MA",100,South St,Downtown,Downtown
+21011,04/21/2017 12:00:00 AM,Warren St,"Boston, MA",323,Blue Hill Ave,,Roxbury
+3553,04/24/2017 04:30:00 PM,Heath St,"Boston, MA",97,S Huntington Ave,,
+533,04/24/2017 01:30:00 AM,Talbot Ave,"Boston, MA",94,Blue Hill Ave,,
+24582,04/21/2017 05:50:00 PM,Washington St,"Boston, MA",123,Murray Hill Rd,Roslindale,
+30845,04/23/2017 12:40:00 AM,Blue Hill Ave,"Boston, MA",81,Talbot Ave,,
+964,04/24/2017 03:20:00 AM,Washington St,"Boston, MA",72,Corinth St,Roslindale,
+24869,04/21/2017 07:00:00 PM,Freeport St,"Boston, MA",86,William T Morrissey Blvd,,Dorchester
+27253,04/22/2017 04:20:00 AM,Amory St,"Boston, MA",101,Atherton St,,
+28233,04/22/2017 01:30:00 PM,Dorchester Ave,"Boston, MA",63,Columbia Rd,,
+7125,04/25/2017 04:30:00 AM,Longwood Ave,"Boston, MA",79,to Saint Alphonsus St,,
+29008,04/22/2017 05:00:00 PM,Blue Hill Ave,"Boston, MA",89,Wilcock St,Mattapan,
+11253,04/25/2017 11:50:00 PM,Cummins Hwy,"Boston, MA",324,Blue Hill Ave,,
+31414,04/23/2017 02:30:00 AM,Washington St,"Boston, MA",83,Boylston St,,
+14619,04/19/2017 05:40:00 PM,Blue Hill Ave,"Boston, MA",60,Harvard St,,
+12823,04/19/2017 11:50:00 AM,Washington St,"Boston, MA",298,South St,Downtown,
+22180,04/21/2017 05:10:00 AM,Blue Hill Ave,"Boston, MA",97,Seaver St,Roxbury,
+30069,04/22/2017 09:40:00 PM,Washington St,"Boston, MA",68,Columbus Ave,,
+14222,04/19/2017 03:50:00 PM,Melnea Cass Blvd,"Boston, MA",65,Washington St,,
+21977,04/21/2017 04:00:00 AM,Washington St,"Boston, MA",78,Park St,,
+8260,04/25/2017 01:50:00 PM,Humboldt Ave,"Boston, MA",62,Seaver St,Roxbury,Roxbury
+14996,04/19/2017 07:00:00 PM,Blue Hill Ave,"Boston, MA",182,Dudley St,,
+24986,04/21/2017 07:30:00 PM,Blue Hill Ave,"Boston, MA",106,American Legion Hwy,,
+13724,04/19/2017 01:40:00 PM,Soldiers Field Rd,"Boston, MA",176,Storrow Dr,,
+29643,04/22/2017 07:10:00 PM,William T Morrissey Blvd,"Boston, MA",139,Freeport St,Dorchester,
+22894,04/21/2017 12:20:00 PM,Baker St,"Boston, MA",108,Spring St,Upper Washington / Spring Street,West Roxbury
+621,04/24/2017 01:50:00 AM,Centre St,"Boston, MA",80,Lamartine St,,
+11689,04/19/2017 01:20:00 AM,Massachusetts Ave,"Boston, MA",325,Columbus Ave,,
+3964,04/24/2017 05:40:00 PM,Adams St,"Boston, MA",100,Bowdoin St,,Stony Brook / Cleary Square
+9800,04/25/2017 07:20:00 PM,Chelsea St,"Boston, MA",64,Porter St,East Boston,
+26878,04/22/2017 03:20:00 AM,Harrison Ave,"Boston, MA",77,E Berkeley St,South End,
+2941,04/24/2017 09:00:00 PM,Smith St,"Boston, MA",65,Saint Alphonsus St,,
+9904,04/25/2017 07:40:00 PM,Blue Hill Ave,"Boston, MA",119,Charlotte St,Roxbury,
+18743,04/20/2017 03:00:00 PM,Centre St,"Boston, MA",76,Arborway,,
+16621,04/20/2017 02:00:00 AM,Bowdoin St,"Boston, MA",67,Harvard St,,
+11759,04/19/2017 01:50:00 AM,Huntington Ave,"Boston, MA",195,Francis St,,
+13470,04/19/2017 01:00:00 PM,Hyde Park Ave,"Boston, MA",117,Cummins Hwy,,
+28294,04/22/2017 02:10:00 PM,Massachusetts Ave,"Boston, MA",141,Columbus Ave,,
+33127,04/23/2017 04:50:00 PM,Tremont St,"Boston, MA",121,Temple Pl,Downtown Crossing,
+12437,04/19/2017 05:40:00 AM,Dudley St,"Boston, MA",77,E Cottage St,,
+7318,04/25/2017 06:10:00 AM,Columbus Ave,"Boston, MA",90,Heath St,,
+15419,04/19/2017 08:10:00 PM,Chelsea St,"Boston, MA",72,Terminal St,Charlestown,
+6032,04/25/2017 12:10:00 AM,Clarendon St,"Boston, MA",68,Tremont St,,
+6443,04/25/2017 01:30:00 AM,Norfolk St,"Boston, MA",116,Blue Hill Ave,,
+23041,04/21/2017 12:30:00 PM,Washington St,"Boston, MA",280,Harvard St,,
+5135,04/24/2017 09:20:00 PM,Blue Hill Ave,"Boston, MA",126,American Legion Hwy,,
+18673,04/20/2017 02:40:00 PM,Heath St,"Boston, MA",104,Columbus Ave,,
+10870,04/25/2017 10:50:00 PM,American Legion Hwy,"Boston, MA",429,Mount Hope St,Lower Washington / Mount Hope,
+5291,04/24/2017 09:50:00 PM,Brinsley St,"Boston, MA",82,Washington St,,Roxbury
+25798,04/21/2017 11:10:00 PM,Kneeland St,"Boston, MA",123,Washington St,,
+15842,04/19/2017 09:30:00 PM,to South St,"Boston, MA",455,South St,Downtown,Downtown
+32235,04/23/2017 06:10:00 AM,Talbot Ave,"Boston, MA",171,Norfolk St,,
+21032,04/21/2017 12:00:00 AM,N Harvard St,"Boston, MA",961,JF Kennedy St,Jamaica Plain,
+21241,04/21/2017 01:00:00 AM,Huntington Ave,"Boston, MA",226,Forsyth Way,Fenway/Kenmore,
+5609,04/24/2017 11:00:00 PM,Malcolm 'X' Blvd,"Boston, MA",636,Washington St,,Roxbury
+19921,04/20/2017 08:10:00 PM,Massachusetts Ave,"Boston, MA",68,Commonwealth Ave,,
+6893,04/25/2017 03:10:00 AM,Commercial St,"Boston, MA",150,Hanover St,,
+6342,04/25/2017 01:00:00 AM,Harvard Ave,"Boston, MA",81,Cambridge St,,Allston
+22596,04/21/2017 11:00:00 AM,Commonwealth Ave,"Boston, MA",78,Sutherland Rd,Brighton,
+24624,04/21/2017 06:00:00 PM,Bowdoin St,"Boston, MA",82,Adams St,Stony Brook / Cleary Square,
+27532,04/22/2017 05:30:00 AM,Stuart St,"Boston, MA",82,Washington St,,
+210,04/24/2017 12:30:00 AM,Warren St,"Boston, MA",104,Blue Hill Ave,,Roxbury
+14027,04/19/2017 02:50:00 PM,Parsons St,"Boston, MA",193,Leo M Birmingham Pkwy,,
+32994,04/23/2017 04:00:00 PM,Quincy St,"Boston, MA",121,Warren St,Roxbury,
+30463,04/22/2017 11:30:00 PM,Huntington Ave,"Boston, MA",438,Louis Prang St,Fenway/Kenmore,
+19903,04/20/2017 08:10:00 PM,Chelsea St,"Boston, MA",83,Saratoga St,,
+33293,04/23/2017 05:30:00 PM,Tremont St,"Boston, MA",68,Massachusetts Ave,,
+23627,04/21/2017 02:50:00 PM,S Huntington Ave,"Boston, MA",83,Perkins St,Medford Street / The Neck,
+23010,04/21/2017 12:30:00 PM,Hyde Park Ave,"Boston, MA",109,Eldridge Rd,Forest Hills / Woodbourne,
+4712,04/24/2017 08:10:00 PM,Bowdoin St,"Boston, MA",99,Harvard St,,
+21776,04/21/2017 03:20:00 AM,Dudley St,"Boston, MA",82,E Cottage St,,
+29888,04/22/2017 08:20:00 PM,Blue Hill Ave,"Boston, MA",127,Seaver St,Roxbury,
+7753,04/25/2017 12:20:00 PM,Neponset Ave,"Boston, MA",143,William T Morrissey Blvd,,Hyde Park
+10565,04/25/2017 10:10:00 PM,South Boston Bypass Rd,"Boston, MA",81,Frontage Rd,,
+18667,04/20/2017 02:40:00 PM,Massachusetts Ave,"Boston, MA",67,Magazine St,,
+23489,04/21/2017 01:30:00 PM,Summer St,"Boston, MA",601,Atlantic Ave,,
+33591,04/23/2017 06:50:00 PM,Southampton St,"Boston, MA",74,Dorchester Ave,,
+33664,04/23/2017 07:10:00 PM,Commonwealth Ave,"Boston, MA",149,Harvard Ave,Allston,
+12952,04/19/2017 12:00:00 PM,Cummins Hwy,"Boston, MA",189,Wood Ave,Hyde Park,
+32193,04/23/2017 06:00:00 AM,Dartmouth St,"Boston, MA",201,Commonwealth Ave,,
+32926,04/23/2017 03:20:00 PM,Tremont St,"Boston, MA",84,Huntington Ave,,
+17155,04/20/2017 05:00:00 AM,Howard Ave,"Boston, MA",91,Dudley St,,Roxbury
+3645,04/24/2017 04:30:00 PM,Clarendon St,"Boston, MA",89,Columbus Ave,,
+29292,04/22/2017 05:40:00 PM,American Legion Hwy,"Boston, MA",69,Walk Hill St,,
+16557,04/20/2017 01:40:00 AM,W Broadway,"Boston, MA",76,Dorchester St,South Boston,
+30281,04/22/2017 10:40:00 PM,N Harvard St,"Boston, MA",585,JF Kennedy St,Jamaica Plain,
+18837,04/20/2017 03:40:00 PM,Green St,"Boston, MA",222,Centre St,,Charlestown
+23769,04/21/2017 02:30:00 PM,Cummins Hwy,"Boston, MA",69,Hyde Park Ave,,
+2005,04/24/2017 12:20:00 PM,Washington St,"Boston, MA",69,Herald St,South End,
+1787,04/24/2017 12:00:00 PM,Chestnut Ave,"Boston, MA",95,Centre St,,Jamaica Plain
+25845,04/21/2017 11:40:00 PM,St Botolph St,"Boston, MA",65,W Newton St,,
+27188,04/22/2017 04:00:00 AM,Blue Hill Ave,"Boston, MA",115,Vesta Rd,Roxbury,
+2679,04/24/2017 02:00:00 PM,Hyde Park Ave,"Boston, MA",1447,Washington St,,
+21958,04/21/2017 04:00:00 AM,Pearl St,"Boston, MA",189,Post Office Sq,Financial District,Downtown
+17977,04/20/2017 12:40:00 PM,Huntington Ave,"Boston, MA",122,Louis Prang St,Fenway/Kenmore,
+19683,04/20/2017 07:10:00 PM,St James St,"Boston, MA",94,Washington St,,Roxbury
+10345,04/25/2017 09:20:00 PM,to I-93 N / US-1 N / Tobin Brg,"Boston, MA",197,to I- 93 N / US-1 N / Tobin Brg / Concord NH,,
+27410,04/22/2017 04:50:00 AM,Hammond St,"Boston, MA",60,Shawmut Ave,,South End
+33350,04/23/2017 05:30:00 PM,Terrace St,"Boston, MA",133,New Cedar St,,
+18128,04/20/2017 12:40:00 PM,Hyde Park Ave,"Boston, MA",68,American Legion Hwy,,
+23824,04/21/2017 02:50:00 PM,Charles St,"Boston, MA",82,Beacon St,,Dorchester
+24126,04/21/2017 04:10:00 PM,Marginal Rd,"Boston, MA",74,Arlington St,Hyde Park,
+30901,04/23/2017 12:50:00 AM,Kneeland St,"Boston, MA",76,Washington St,,
+7050,04/25/2017 04:50:00 AM,Massachusetts Ave,"Boston, MA",132,Island St,,
+24933,04/21/2017 07:20:00 PM,Massachusetts Ave,"Boston, MA",63,Washington St,,
+14324,04/19/2017 04:10:00 PM,Washington St,"Boston, MA",244,Harvard St,,
+20189,04/20/2017 09:10:00 PM,Walnut Ave,"Boston, MA",105,Martin Luther King Blvd,Roxbury,
+7741,04/25/2017 12:20:00 PM,Blue Hill Ave,"Boston, MA",107,Geneva Ave,,
+31984,04/23/2017 04:40:00 AM,Commonwealth Ave,"Boston, MA",85,Harvard Ave,Allston,
+1132,04/24/2017 04:00:00 AM,Washington St,"Boston, MA",93,Ashmont St,Dorchester,
+2559,04/24/2017 01:40:00 PM,Park Dr,"Boston, MA",274,Brookline Ave,,Fenway/Kenmore
+32901,04/23/2017 03:20:00 PM,Meridian St,"Boston, MA",70,Maverick St,East Boston,
+4374,04/24/2017 07:10:00 PM,Washington St,"Boston, MA",67,Temple Pl,Downtown Crossing,
+3048,04/24/2017 03:00:00 PM,Meridian St,"Boston, MA",95,Andrew McArdle Brg,,
+33743,04/23/2017 07:50:00 PM,Blue Hill Ave,"Boston, MA",255,Washington St,,
+21585,04/21/2017 02:30:00 AM,Harrison Ave,"Boston, MA",91,W Malden St,South End,
+21830,04/21/2017 03:30:00 AM,Perkins St,"Boston, MA",70,Jamaicaway,,Medford Street / The Neck
+7707,04/25/2017 12:10:00 PM,Huntington Ave,"Boston, MA",340,Longwood Ave,,
+12113,04/19/2017 03:20:00 AM,Massachusetts Ave,"Boston, MA",79,Columbia Rd,,
+28846,04/22/2017 04:20:00 PM,Dorchester Ave,"Boston, MA",225,Adams St,Stony Brook / Cleary Square,
+7584,04/25/2017 12:00:00 PM,Congress St,"Boston, MA",147,Purchase St,,
+11536,04/19/2017 12:50:00 AM,Boylston St,"Boston, MA",101,Hemenway St,Fenway/Kenmore,
+12534,04/19/2017 06:40:00 AM,D St,"Boston, MA",62,W 1st St,South Boston,South Boston
+3909,04/24/2017 05:20:00 PM,Boylston St,"Boston, MA",60,Washington St,,
+24825,04/21/2017 07:00:00 PM,Albany St,"Boston, MA",66,Melnea Cass Blvd,,
+33541,04/23/2017 06:40:00 PM,Washington St,"Boston, MA",143,Temple Pl,Downtown Crossing,
+18549,04/20/2017 01:50:00 PM,Storrow Dr E,"Boston, MA",87,Storrow Dr W,,
+752,04/24/2017 02:10:00 AM,Congress St,"Boston, MA",94,Sudbury St,Downtown,
+7144,04/25/2017 04:40:00 AM,Dorchester Ave,"Boston, MA",153,Freeport St,Dorchester,
+32334,04/23/2017 07:00:00 AM,Portland St,"Boston, MA",182,Causeway St,,Downtown
+14641,04/19/2017 05:50:00 PM,Purchase St,"Boston, MA",88,Surface Artery,Chinatown,
+18287,04/20/2017 01:00:00 PM,Riverway,"Boston, MA",104,Brookline Ave,,
+23139,04/21/2017 12:50:00 PM,Northeast Expy,"Boston, MA",193,City Square Tunl,Theatre District,
+13800,04/19/2017 02:10:00 PM,Arlington St,"Boston, MA",144,Park Plz,Downtown,Hyde Park
+32410,04/23/2017 07:30:00 AM,South Boston Bypass Rd,"Boston, MA",65,Frontage Rd,,
+14993,04/19/2017 07:00:00 PM,Centre St,"Boston, MA",158,Arborway,,
+2993,04/24/2017 02:50:00 PM,W 1st St,"Boston, MA",106,Dorchester St,South Boston,South Boston
+11573,04/19/2017 01:00:00 AM,Hancock St,"Boston, MA",92,Columbia Rd,,Charlestown
+23557,04/21/2017 01:50:00 PM,Harrison Ave,"Boston, MA",86,Monsignor Reynolds Way,South End,
+17494,04/20/2017 11:40:00 AM,Dorchester Ave,"Boston, MA",90,Wrentham St,Dorchester,
+20653,04/20/2017 10:40:00 PM,Marlborough St,"Boston, MA",385,Berkeley St,,
+29587,04/22/2017 06:50:00 PM,Queensberry St,"Boston, MA",80,Park Dr,Fenway/Kenmore,West Fens
+12324,04/19/2017 04:30:00 AM,Huntington Ave,"Boston, MA",102,Opera Pl,Fenway/Kenmore,
+22517,04/21/2017 08:40:00 AM,Huntington Ave,"Boston, MA",88,Longwood Ave,,
+6724,04/25/2017 02:20:00 AM,Spring St,"Boston, MA",89,VFW Pkwy,,Upper Washington / Spring Street
+24414,04/21/2017 05:20:00 PM,Commonwealth Ave,"Boston, MA",116,Chestnut Hill Ave,Brighton,
+23992,04/21/2017 03:30:00 PM,Warren St,"Boston, MA",73,Harrison Ave,,Roxbury
+19940,04/20/2017 08:20:00 PM,Humboldt Ave,"Boston, MA",91,Townsend St,Roxbury,Roxbury
+370,04/24/2017 12:50:00 AM,Huntington Ave,"Boston, MA",99,Louis Prang St,Fenway/Kenmore,
+21699,04/21/2017 03:00:00 AM,Huntington Ave,"Boston, MA",201,Francis St,,
+33240,04/23/2017 05:20:00 PM,VFW Pkwy,"Boston, MA",87,Bridge St,West Roxbury,
+12130,04/19/2017 03:20:00 AM,Congress St,"Boston, MA",72,Sudbury St,Downtown,
+16706,04/20/2017 02:30:00 AM,Amory St,"Boston, MA",134,Williams St,Roxbury,
+13662,04/19/2017 01:30:00 PM,I-93 S,"Boston, MA",204,I-93 S,,
+726,04/24/2017 02:10:00 AM,Harrison Ave,"Boston, MA",62,Warren St,Roxbury,
+28296,04/22/2017 02:20:00 PM,Lincoln St,"Boston, MA",62,Surface Artery,Chinatown,Stony Brook / Cleary Square
+25433,04/21/2017 09:30:00 PM,Blue Hill Ave,"Boston, MA",192,Dudley St,,
+5811,04/24/2017 11:40:00 PM,Chelsea St,"Boston, MA",68,Porter St,East Boston,
+20080,04/20/2017 08:40:00 PM,Market St,"Boston, MA",147,Washington St,,
+18575,04/20/2017 02:10:00 PM,Chelsea St,"Boston, MA",67,Porter St,East Boston,
+17171,04/20/2017 05:10:00 AM,Harrison Ave,"Boston, MA",71,Herald St,South End,
+16560,04/20/2017 01:40:00 AM,Atlantic Ave,"Boston, MA",123,Summer St,,
+13759,04/19/2017 01:50:00 PM,Parsons St,"Boston, MA",288,Leo M Birmingham Pkwy,,
+10824,04/25/2017 10:50:00 PM,Park St,"Boston, MA",159,Adams St,Stony Brook / Cleary Square,
+24415,04/21/2017 05:20:00 PM,Washington St,"Boston, MA",347,South St,Downtown,
+5411,04/24/2017 10:30:00 PM,Martin Luther King Blvd,"Boston, MA",107,Warren St,Roxbury,Roxbury
+23954,04/21/2017 03:20:00 PM,Melnea Cass Blvd,"Boston, MA",109,Washington St,,
+19512,04/20/2017 06:30:00 PM,Massachusetts Ave,"Boston, MA",90,Columbus Ave,,
+22104,04/21/2017 04:40:00 AM,Adams St,"Boston, MA",182,Parkman St,Dorchester,Stony Brook / Cleary Square
+21140,04/21/2017 12:30:00 AM,Corey Rd,"Boston, MA",111,Brainerd Rd,,
+24082,04/21/2017 04:00:00 PM,S Huntington Ave,"Boston, MA",66,Centre St,,
+550,04/24/2017 01:30:00 AM,Warren St,"Boston, MA",68,Quincy St,,Roxbury
+16777,04/20/2017 02:40:00 AM,Dudley St,"Boston, MA",75,E Cottage St,,
+2685,04/24/2017 02:00:00 PM,Boylston St,"Boston, MA",737,Boylston St  / Outbound / Riverway,,
+6759,04/25/2017 02:30:00 AM,Albany St,"Boston, MA",88,Melnea Cass Blvd,,
+30767,04/23/2017 12:20:00 AM,Boylston St,"Boston, MA",260,Massachusetts Ave,,
+3208,04/24/2017 03:20:00 PM,A St,"Boston, MA",113,Congress St,,D Street / West Broadway
+2420,04/24/2017 01:10:00 PM,Seaver St,"Boston, MA",215,Humboldt Ave,Roxbury,Roxbury
+5847,04/24/2017 11:50:00 PM,W Broadway,"Boston, MA",196,Dorchester St,South Boston,
+21640,04/21/2017 02:40:00 AM,Washington St,"Boston, MA",64,Massachusetts Ave,,
+32960,04/23/2017 03:40:00 PM,Blue Hill Ave,"Boston, MA",106,Brookford St,Roxbury,
+29192,04/22/2017 05:30:00 PM,Clarendon St,"Boston, MA",94,Tremont St,,
+7175,04/25/2017 05:00:00 AM,Westland Ave,"Boston, MA",74,Fenway,Fenway/Kenmore,Fenway/Kenmore
+23933,04/21/2017 03:10:00 PM,Park Plz,"Boston, MA",91,Arlington St,Hyde Park,Downtown
+25932,04/22/2017 12:10:00 AM,Lansdowne St,"Boston, MA",119,Ipswich St,Fenway/Kenmore,Fenway/Kenmore
+22303,04/21/2017 06:10:00 AM,South Boston Bypass Rd,"Boston, MA",999,Haul Rd,South Boston,
+15367,04/19/2017 08:00:00 PM,Cambridge St,"Boston, MA",97,Warren St,Roxbury,
+10622,04/25/2017 10:30:00 PM,Hanover St,"Boston, MA",60,Congress St,,
+5538,04/24/2017 10:50:00 PM,Washington St,"Boston, MA",87,Foster St,Brighton,
+6305,04/25/2017 01:00:00 AM,Blue Hill Ave,"Boston, MA",400,Seaver St,Roxbury,
+6566,04/25/2017 01:50:00 AM,Washington St,"Boston, MA",119,Blue Hill Ave,,
+22683,04/21/2017 11:50:00 AM,William T Morrissey Blvd,"Boston, MA",97,Freeport St,Dorchester,
+7768,04/25/2017 12:20:00 PM,Washington St,"Boston, MA",129,Foster St,Brighton,
+19929,04/20/2017 08:20:00 PM,S Huntington Ave,"Boston, MA",102,Perkins St,Medford Street / The Neck,
+20207,04/20/2017 09:10:00 PM,Milton Ave,"Boston, MA",175,Edson St,Hyde Park,
+27270,04/22/2017 04:20:00 AM,Ashmont St,"Boston, MA",105,Burgoyne St,Dorchester,Dorchester
+18459,04/20/2017 01:30:00 PM,Boylston St,"Boston, MA",64,Berkeley St,,
+15393,04/19/2017 08:10:00 PM,Cummins Hwy,"Boston, MA",93,Brown Ave,Roslindale,
+566,04/24/2017 01:30:00 AM,Washington St,"Boston, MA",133,Harvard St,,
+16199,04/19/2017 11:20:00 PM,Humboldt Ave,"Boston, MA",214,Townsend St,Roxbury,Roxbury
+25257,04/21/2017 08:40:00 PM,Storrow Dr E,"Boston, MA",323,Storrow Dr W,,
+33329,04/23/2017 05:30:00 PM,Brighton Ave,"Boston, MA",84,Allston St,Brighton,
+29509,04/22/2017 06:30:00 PM,Massachusetts Ave,"Boston, MA",810,Columbus Ave,,
+24821,04/21/2017 07:00:00 PM,Gloucester St,"Boston, MA",144,Boylston St,,Back Bay
+22718,04/21/2017 12:00:00 PM,L St,"Boston, MA",73,E 1st St,South Boston,South Boston
+16687,04/20/2017 02:30:00 AM,Arborway,"Boston, MA",-1,to South St,Downtown,
+28176,04/22/2017 12:50:00 PM,Massachusetts Ave,"Boston, MA",98,Harrison Ave,,
+28399,04/22/2017 02:50:00 PM,Summer St,"Boston, MA",79,Dorchester Ave,,
+12696,04/19/2017 10:30:00 AM,N Harvard St,"Boston, MA",106,JF Kennedy St,Jamaica Plain,
+1171,04/24/2017 05:10:00 AM,Talbot Ave,"Boston, MA",77,Washington St,,
+8281,04/25/2017 01:50:00 PM,E 1st St,"Boston, MA",62,L St,South Boston,South Boston
+7187,04/25/2017 05:00:00 AM,Dudley St,"Boston, MA",70,Washington St,,
+17842,04/20/2017 12:30:00 PM,Firth Rd,"Boston, MA",61,Washington St,,Roslindale
+17224,04/20/2017 05:40:00 AM,Huntington Ave,"Boston, MA",70,Washington St,,
+7785,04/25/2017 12:20:00 PM,Adams St,"Boston, MA",213,Lonsdale St,Dorchester,Stony Brook / Cleary Square
+29784,04/22/2017 07:50:00 PM,Hancock St,"Boston, MA",135,Dorchester Ave,,Charlestown
+24360,04/21/2017 05:10:00 PM,Cummins Hwy,"Boston, MA",340,Washington St,,
+11277,04/19/2017 12:00:00 AM,Park St,"Boston, MA",63,Adams St,Stony Brook / Cleary Square,
+31564,04/23/2017 02:50:00 AM,Brooks St,"Boston, MA",77,Condor St,Eagle Hill,Oak Square
+21828,04/21/2017 03:30:00 AM,Blue Hill Ave,"Boston, MA",61,Floyd St,Mattapan,
+16400,04/20/2017 12:40:00 AM,Lamartine St,"Boston, MA",81,Paul Gore St,Jamaica Plain,
+21398,04/21/2017 02:10:00 AM,Adams St,"Boston, MA",77,Victory Rd,Dorchester,Stony Brook / Cleary Square
+17694,04/20/2017 12:20:00 PM,South St,"Boston, MA",294,Msgr William Casey Hwy,,Downtown
+22272,04/21/2017 05:50:00 AM,Huntington Ave,"Boston, MA",124,Longwood Ave,,
+13476,04/19/2017 01:00:00 PM,Hyde Park Ave,"Boston, MA",573,Washington St,,
+18885,04/20/2017 04:10:00 PM,W Broadway,"Boston, MA",76,Dorchester Ave,,
+9868,04/25/2017 07:40:00 PM,Amory St,"Boston, MA",131,Boylston St,,
+24188,04/21/2017 04:30:00 PM,Austin St,"Boston, MA",63,Main St,,Hyde Park
+17479,04/20/2017 11:30:00 AM,MA-1A S,"Boston, MA",104,to MA-3 N / Storrow Dr,,
+1871,04/24/2017 12:10:00 PM,South St,"Boston, MA",275,Msgr William Casey Hwy,,Downtown
+22865,04/21/2017 12:10:00 PM,Francis St,"Boston, MA",88,Brookline Ave,,
+21976,04/21/2017 04:00:00 AM,Dorchester Ave,"Boston, MA",148,Adams St,Stony Brook / Cleary Square,
+10517,04/25/2017 10:00:00 PM,Beacon St,"Boston, MA",153,Massachusetts Ave,,
+16808,04/20/2017 02:50:00 AM,Richmond St,"Boston, MA",62,Dorchester Ave,,North End
+29673,04/22/2017 07:20:00 PM,Randolph St,"Boston, MA",166,Albany St,,South End
+19243,04/20/2017 05:40:00 PM,Harrison Ave,"Boston, MA",118,E Berkeley St,South End,
+26284,04/22/2017 01:30:00 AM,Washington St,"Boston, MA",120,Marginal Rd,,
+15594,04/19/2017 08:40:00 PM,Albany St,"Boston, MA",182,E Newton St,South End,
+28547,04/22/2017 03:30:00 PM,Blue Hill Ave,"Boston, MA",131,American Legion Hwy,,
+5747,04/24/2017 11:30:00 PM,Franklin St,"Boston, MA",99,Bromfield St,,
+30952,04/23/2017 01:10:00 AM,Hemenway St,"Boston, MA",78,Boylston St,,Fenway/Kenmore
+7817,04/25/2017 12:20:00 PM,Melnea Cass Blvd,"Boston, MA",150,Washington St,,
+14902,04/19/2017 06:40:00 PM,Faneuil St,"Boston, MA",61,Market St,,Brighton
+33104,04/23/2017 04:50:00 PM,Huntington Ave,"Boston, MA",73,Forsyth Way,Fenway/Kenmore,
+5551,04/24/2017 10:50:00 PM,Congress St,"Boston, MA",232,Sudbury St,Downtown,
+340,04/24/2017 12:50:00 AM,Adams St,"Boston, MA",68,Parkman St,Dorchester,Stony Brook / Cleary Square
+7773,04/25/2017 12:20:00 PM,Wood Ave,"Boston, MA",32,Cummins Hwy,,Hyde Park
+16632,04/20/2017 02:00:00 AM,S Huntington Ave,"Boston, MA",102,Centre St,,
+19175,04/20/2017 05:30:00 PM,Huntington Ave,"Boston, MA",257,Longwood Ave,,
+20390,04/20/2017 09:40:00 PM,Norfolk St,"Boston, MA",146,Blue Hill Ave,,
+22925,04/21/2017 12:20:00 PM,Washington St,"Boston, MA",70,Massachusetts Ave,,
+24938,04/21/2017 07:20:00 PM,Shawmut Ave,"Boston, MA",158,Washington St,,
+31989,04/23/2017 04:40:00 AM,Dorchester Ave,"Boston, MA",83,Mercier Ave,Dorchester,
+7544,04/25/2017 11:50:00 AM,Hyde Park Ave,"Boston, MA",124,Washington St,,
+9394,04/25/2017 05:40:00 PM,Francis St,"Boston, MA",181,Huntington Ave,,
+1059,04/24/2017 03:40:00 AM,Harvard St,"Boston, MA",82,Blue Hill Ave,,
+20044,04/20/2017 08:40:00 PM,Beacon St,"Boston, MA",132,Clarendon St,,
+30368,04/22/2017 11:10:00 PM,Transportation Way,"Boston, MA",78,to I-90 W Mass Pike,,Jeffries Point
+29668,04/22/2017 07:20:00 PM,Green St,"Boston, MA",153,Centre St,,Charlestown
+13631,04/19/2017 01:30:00 PM,Allston St,"Boston, MA",81,Commonwealth Ave,,Brighton
+13028,04/19/2017 12:20:00 PM,Perkins St,"Boston, MA",107,Jamaicaway,,Medford Street / The Neck
+18280,04/20/2017 01:00:00 PM,Huntington Ave,"Boston, MA",93,Longwood Ave,,
+29456,04/22/2017 06:20:00 PM,Burroughs St,"Boston, MA",79,Jamaicaway,,Jamaica Plain
+4035,04/24/2017 05:50:00 PM,Francis St,"Boston, MA",93,Brookline Ave,,
+9465,04/25/2017 06:10:00 PM,Bowdoin St,"Boston, MA",138,Cambridge St,,
+32249,04/23/2017 06:20:00 AM,Savin Hill Ave,"Boston, MA",86,Grampian Way,Dorchester,Dorchester
+19155,04/20/2017 05:20:00 PM,Oliver St,"Boston, MA",276,Franklin St,,
+12796,04/19/2017 11:40:00 AM,Huntington Ave,"Boston, MA",91,Louis Prang St,Fenway/Kenmore,
+32532,04/23/2017 08:20:00 AM,Talbot Ave,"Boston, MA",102,Washington St,,
+14231,04/19/2017 03:50:00 PM,Bowdoin St,"Boston, MA",121,Adams St,Stony Brook / Cleary Square,
+30646,04/23/2017 12:00:00 AM,Heath St,"Boston, MA",135,Columbus Ave,,
+6848,04/25/2017 03:30:00 AM,Washington St,"Boston, MA",214,Melnea Cass Blvd,,
+23561,04/21/2017 01:50:00 PM,Summer St,"Boston, MA",271,Surface Artery,Chinatown,
+26577,04/22/2017 02:20:00 AM,Columbus Ave,"Boston, MA",142,Seaver St,Roxbury,
+16449,04/20/2017 01:00:00 AM,Melnea Cass Blvd,"Boston, MA",145,Massachusetts Ave,,
+18654,04/20/2017 02:40:00 PM,Cummins Hwy,"Boston, MA",137,Washington St,,
+32362,04/23/2017 07:10:00 AM,Warren St,"Boston, MA",84,Quincy St,,Roxbury
+3684,04/24/2017 04:40:00 PM,Summer St,"Boston, MA",180,Surface Artery,Chinatown,
+7632,04/25/2017 12:00:00 PM,Harrison Ave,"Boston, MA",80,Warren St,Roxbury,
+13423,04/19/2017 12:50:00 PM,Frontage Rd,"Boston, MA",94,Boston St,,
+2633,04/24/2017 01:50:00 PM,Jamaicaway,"Boston, MA",148,Washington St,,
+28554,04/22/2017 03:30:00 PM,St Botolph St,"Boston, MA",70,Gainsborough St,Fenway/Kenmore,
+21630,04/21/2017 02:40:00 AM,Dorchester Ave,"Boston, MA",134,Adams St,Stony Brook / Cleary Square,
+33499,04/23/2017 06:30:00 PM,Harrison Ave,"Boston, MA",132,E Berkeley St,South End,
+10796,04/25/2017 10:40:00 PM,Quincy St,"Boston, MA",785,Columbia Rd,,
+25758,04/21/2017 11:00:00 PM,Chiswick Rd,"Boston, MA",96,Chestnut Hill Ave,Brighton,Brighton
+10908,04/25/2017 11:00:00 PM,Fenway,"Boston, MA",416,Westland Ave,Fenway/Kenmore,Fenway/Kenmore
+8624,04/25/2017 03:00:00 PM,Huntington Ave,"Boston, MA",299,Louis Prang St,Fenway/Kenmore,
+8360,04/25/2017 02:10:00 PM,Washington St,"Boston, MA",272,Columbus Ave,,
+15813,04/19/2017 09:20:00 PM,Harrison Ave,"Boston, MA",331,Warren St,Roxbury,
+29306,04/22/2017 05:40:00 PM,Freeport St,"Boston, MA",140,William T Morrissey Blvd,,Dorchester
+32522,04/23/2017 08:10:00 AM,South Boston Bypass Rd,"Boston, MA",70,Haul Rd,South Boston,
+17989,04/20/2017 12:40:00 PM,Transportation Way,"Boston, MA",91,to I-90 W Mass Pike,,Jeffries Point
+10960,04/25/2017 11:10:00 PM,E Berkeley St,"Boston, MA",78,Shawmut Ave,,South End
+9917,04/25/2017 07:50:00 PM,Hanover St,"Boston, MA",66,Cross St,,
+3692,04/24/2017 04:40:00 PM,Columbia Rd,"Boston, MA",64,Quincy St,,
+25321,04/21/2017 09:00:00 PM,Fenway,"Boston, MA",263,Westland Ave,Fenway/Kenmore,Fenway/Kenmore
+19309,04/20/2017 06:00:00 PM,Commonwealth Ave,"Boston, MA",75,Beacon St,,
+7501,04/25/2017 11:40:00 AM,Jamaicaway,"Boston, MA",81,Perkins St,Medford Street / The Neck,
+30765,04/23/2017 12:20:00 AM,W Broadway,"Boston, MA",165,Dorchester Ave,,
+744,04/24/2017 02:10:00 AM,Hancock St,"Boston, MA",63,Columbia Rd,,Charlestown
+18241,04/20/2017 12:50:00 PM,E 1st St,"Boston, MA",102,L St,South Boston,South Boston
+10634,04/25/2017 10:30:00 PM,Francis St,"Boston, MA",236,Brookline Ave,,
+27860,04/22/2017 07:50:00 AM,Clarendon St,"Boston, MA",86,Marlborough St,,
+31253,04/23/2017 02:10:00 AM,Granite Ave,"Boston, MA",78,Gallivan Blvd,,
+14509,04/19/2017 05:20:00 PM,Huntington Ave,"Boston, MA",75,Parker Hill Ave,Mission Hill,
+30846,04/23/2017 12:40:00 AM,Massachusetts Ave,"Boston, MA",103,Huntington Ave,,
+3604,04/24/2017 04:30:00 PM,Bennington St,"Boston, MA",78,Meridian St,,
+12615,04/19/2017 07:50:00 AM,Columbia Rd,"Boston, MA",80,Dudley St,,
+15779,04/19/2017 09:30:00 PM,Blue Hill Ave,"Boston, MA",380,Warren St,Roxbury,
+13956,04/19/2017 02:40:00 PM,American Legion Hwy,"Boston, MA",91,Walk Hill St,,
+33163,04/23/2017 05:00:00 PM,Kneeland St,"Boston, MA",201,Atlantic Ave,,
+18210,04/20/2017 12:50:00 PM,I-90 W Mass Pike,"Boston, MA",87,I-90 W Mass Pike,,
+24216,04/21/2017 04:40:00 PM,Huntington Ave,"Boston, MA",312,Longwood Ave,,
+30758,04/23/2017 12:20:00 AM,Bowdoin St,"Boston, MA",175,Adams St,Stony Brook / Cleary Square,
+33562,04/23/2017 06:50:00 PM,Congress St,"Boston, MA",96,Atlantic Ave,,
+3707,04/24/2017 04:40:00 PM,South St,"Boston, MA",69,Centre St,,Downtown
+23072,04/21/2017 12:30:00 PM,Warren St,"Boston, MA",89,Blue Hill Ave,,Roxbury
+6108,04/25/2017 12:30:00 AM,Main St,"Boston, MA",106,Auburn St,Medford Street / The Neck,
+22224,04/21/2017 05:30:00 AM,Huntington Ave,"Boston, MA",111,Francis St,,
+28324,04/22/2017 02:40:00 PM,Blue Hill Ave,"Boston, MA",115,Dudley St,,
+25061,04/21/2017 08:00:00 PM,William T Morrissey Blvd,"Boston, MA",140,Freeport St,Dorchester,
+27154,04/22/2017 04:00:00 AM,Dorchester Ave,"Boston, MA",91,Adams St,Stony Brook / Cleary Square,
+8991,04/25/2017 04:10:00 PM,Mass Ave Connector,"Boston, MA",190,Massachusetts Ave,,
+11195,04/25/2017 11:40:00 PM,Blue Hill Ave,"Boston, MA",107,American Legion Hwy,,
+3263,04/24/2017 03:30:00 PM,Aspinwall Rd,"Boston, MA",248,Washington St,,Dorchester
+19289,04/20/2017 05:50:00 PM,Massachusetts Ave,"Boston, MA",81,Washington St,,
+20739,04/20/2017 10:50:00 PM,Huntington Ave,"Boston, MA",96,W Newton St,,
+33953,04/23/2017 11:30:00 PM,Hanover St,"Boston, MA",76,Cross St,,
+20825,04/20/2017 11:20:00 PM,Stuart St,"Boston, MA",160,Charles St S,,
+25419,04/21/2017 09:30:00 PM,Ruggles St,"Boston, MA",119,Huntington Ave,,
+20003,04/20/2017 08:30:00 PM,to I-93 S / Quincy,"Boston, MA",115,I-93 S,,Medford Street / The Neck
+1324,04/24/2017 05:30:00 AM,Hanover St,"Boston, MA",66,Cross St,,
+3712,04/24/2017 04:40:00 PM,Columbia Rd,"Boston, MA",92,Massachusetts Ave,,
+6384,04/25/2017 01:10:00 AM,Blue Hill Ave,"Boston, MA",92,Morton St,,
+25190,04/21/2017 08:30:00 PM,Boston St,"Boston, MA",94,Dorchester Ave,,
+18788,04/20/2017 03:20:00 PM,Francis St,"Boston, MA",69,Brookline Ave,,
+32805,04/23/2017 02:50:00 PM,Causeway St,"Boston, MA",108,Commercial St,,
+5944,04/25/2017 12:00:00 AM,Bowdoin St,"Boston, MA",123,Winter St,Downtown,
+15802,04/19/2017 09:20:00 PM,Massachusetts Ave,"Boston, MA",126,Tremont St,,
+5159,04/24/2017 09:30:00 PM,to I-93 N / US-1 N / Tobin Brg,"Boston, MA",103,to I- 93 N / US-1 N / Tobin Brg / Concord NH,,
+30810,04/23/2017 12:30:00 AM,Arlington St,"Boston, MA",128,Herald St,South End,Hyde Park
+20192,04/20/2017 09:10:00 PM,Herald St,"Boston, MA",628,Albany St,,South End
+26993,04/22/2017 03:30:00 AM,Westland Ave,"Boston, MA",91,Massachusetts Ave,,Fenway/Kenmore
+30312,04/22/2017 10:50:00 PM,Morton St,"Boston, MA",72,Norfolk St,,
+733,04/24/2017 02:10:00 AM,Talbot Ave,"Boston, MA",84,Dorchester Ave,,
+32903,04/23/2017 03:20:00 PM,Hyde Park Ave,"Boston, MA",76,Florian St,Roslindale,
+28079,04/22/2017 11:00:00 AM,Brookline Ave,"Boston, MA",61,Commonwealth Ave,,
+18529,04/20/2017 01:50:00 PM,A St,"Boston, MA",183,Congress St,,D Street / West Broadway
+16113,04/19/2017 10:40:00 PM,Williams St,"Boston, MA",125,Washington St,,Roxbury
+6976,04/25/2017 03:50:00 AM,Huntington Ave,"Boston, MA",86,Evans Way,Fenway/Kenmore,
+31472,04/23/2017 02:40:00 AM,Hanover St,"Boston, MA",344,Congress St,,
+15063,04/19/2017 07:30:00 PM,Humboldt Ave,"Boston, MA",64,Walnut Ave,,Roxbury
+19465,04/20/2017 06:20:00 PM,Massachusetts Ave,"Boston, MA",220,Columbia Rd,,
+9463,04/25/2017 06:10:00 PM,N Harvard St,"Boston, MA",181,Gordon Rd,Lower Allston,
+29616,04/22/2017 07:00:00 PM,N Beacon St,"Boston, MA",167,Cambridge St,,
+30200,04/22/2017 10:20:00 PM,Blue Hill Ave,"Boston, MA",108,Harvard St,,
+11746,04/19/2017 01:40:00 AM,Washington St,"Boston, MA",82,Harvard St,,
+2274,04/24/2017 12:50:00 PM,N Beacon St,"Boston, MA",109,Leo M Birmingham Pkwy,,
+2515,04/24/2017 01:30:00 PM,Blue Hill Ave,"Boston, MA",195,Stanwood St,Roxbury,
+27750,04/22/2017 07:10:00 AM,Stuart St,"Boston, MA",144,Washington St,,
+4695,04/24/2017 08:10:00 PM,Warren St,"Boston, MA",276,Harrison Ave,,Roxbury
+33456,04/23/2017 06:10:00 PM,Francis St,"Boston, MA",-1,St Albans Rd,,
+8570,04/25/2017 02:50:00 PM,Harrison Ave,"Boston, MA",115,E Newton St,South End,
+33974,04/24/2017 12:00:00 AM,Washington St,"Boston, MA",94,Melnea Cass Blvd,,
+4658,04/24/2017 08:00:00 PM,Harrison Ave,"Boston, MA",198,E Newton St,South End,
+5841,04/24/2017 11:50:00 PM,W 2nd St,"Boston, MA",87,D St,South Boston,South Boston
+11655,04/19/2017 01:10:00 AM,Essex St,"Boston, MA",187,Atlantic Ave,,
+25935,04/22/2017 12:10:00 AM,Boylston St,"Boston, MA",551,Massachusetts Ave,,
+1249,04/24/2017 04:50:00 AM,Geneva Ave,"Boston, MA",115,Blue Hill Ave,,
+18184,04/20/2017 12:50:00 PM,Cummins Hwy,"Boston, MA",191,Harvard St,,
+18875,04/20/2017 03:50:00 PM,Beacon St,"Boston, MA",749,Commonwealth Ave,,
+26116,04/22/2017 12:50:00 AM,E Cottage St,"Boston, MA",70,Dudley St,,
+28054,04/22/2017 10:10:00 AM,Massachusetts Ave,"Boston, MA",145,Magazine St,,
+17824,04/20/2017 12:30:00 PM,Warren St,"Boston, MA",409,Harrison Ave,,Roxbury
+22141,04/21/2017 04:50:00 AM,Adams St,"Boston, MA",120,Dix St,Dorchester,Stony Brook / Cleary Square
+8508,04/25/2017 02:40:00 PM,Washington St,"Boston, MA",117,Hyde Park Ave,,
+9258,04/25/2017 05:00:00 PM,High St,"Boston, MA",116,Purchase St,,Dorchester
+11888,04/19/2017 02:30:00 AM,Huntington Ave,"Boston, MA",111,Longwood Ave,,
+26850,04/22/2017 03:20:00 AM,Linden St,"Boston, MA",95,Brighton Ave,,Dorchester
+24543,04/21/2017 05:50:00 PM,Commonwealth Ave,"Boston, MA",82,Brighton Ave,,
+29605,04/22/2017 06:50:00 PM,to Cambridge / Somerville,"Boston, MA",123,Cambridge St,,Assembly Square
+10770,04/25/2017 10:40:00 PM,Norfolk St,"Boston, MA",491,Blue Hill Ave,,
+2833,04/24/2017 02:20:00 PM,Massachusetts Ave,"Boston, MA",100,Shawmut Ave,,
+14772,04/19/2017 06:20:00 PM,Harrison Ave,"Boston, MA",141,W Malden St,South End,
+24245,04/21/2017 04:40:00 PM,Boylston St,"Boston, MA",108,Massachusetts Ave,,
+16329,04/20/2017 12:10:00 AM,Dorchester Ave,"Boston, MA",158,Centre Ave,Dorchester,
+13939,04/19/2017 02:40:00 PM,Charles St,"Boston, MA",124,Leverett Cir,West End,Dorchester
+9808,04/25/2017 07:30:00 PM,Adams St,"Boston, MA",89,Parkman St,Dorchester,Stony Brook / Cleary Square
+21962,04/21/2017 04:00:00 AM,Marlborough St,"Boston, MA",77,Dartmouth St,,
+4932,04/24/2017 08:50:00 PM,Adams St,"Boston, MA",179,Ashmont St,Dorchester,Stony Brook / Cleary Square
+2566,04/24/2017 01:40:00 PM,Adams St,"Boston, MA",213,Gallivan Blvd,,Stony Brook / Cleary Square
+19509,04/20/2017 06:30:00 PM,E 1st St,"Boston, MA",77,O St,South Boston,South Boston
+20584,04/20/2017 10:10:00 PM,Berkeley St,"Boston, MA",255,to Storrow Dr W,,
+20253,04/20/2017 09:20:00 PM,Harrison Ave,"Boston, MA",277,Dudley St,,
+19235,04/20/2017 05:40:00 PM,Ruggles St,"Boston, MA",76,Tremont St,,
+32119,04/23/2017 05:40:00 AM,Tremont St,"Boston, MA",70,Columbus Ave,,
+12883,04/19/2017 11:50:00 AM,American Legion Hwy,"Boston, MA",89,Walk Hill St,,
+27242,04/22/2017 04:10:00 AM,Massachusetts Ave,"Boston, MA",588,Commonwealth Ave,,
+403,04/24/2017 01:00:00 AM,Tremont St,"Boston, MA",102,Columbus Ave,,
+15420,04/19/2017 08:10:00 PM,Centre St,"Boston, MA",112,Spring St,Upper Washington / Spring Street,
+25701,04/21/2017 10:40:00 PM,Albany St,"Boston, MA",138,E Brookline St,South End,
+18903,04/20/2017 04:10:00 PM,W Broadway,"Boston, MA",90,Dorchester St,South Boston,
+21110,04/21/2017 12:20:00 AM,W Broadway,"Boston, MA",178,Dorchester Ave,,
+8161,04/25/2017 01:30:00 PM,Warren St,"Boston, MA",91,Wabon St,Roxbury,Roxbury
+18557,04/20/2017 02:00:00 PM,Babson St,"Boston, MA",62,Norfolk St,,Mattapan
+32126,04/23/2017 05:40:00 AM,Lamartine St,"Boston, MA",98,Centre St,,
+8962,04/25/2017 04:10:00 PM,W Broadway,"Boston, MA",128,B St,Medford Street / The Neck,
+8753,04/25/2017 03:30:00 PM,to I-93 N Boston / Cambridge,"Boston, MA",104,I-93 N,,
+8215,04/25/2017 01:40:00 PM,N Harvard St,"Boston, MA",241,Cambridge St,,
+18998,04/20/2017 04:50:00 PM,Bowdoin St,"Boston, MA",218,Cambridge St,,
+18923,04/20/2017 04:10:00 PM,Warren St,"Boston, MA",71,Walnut Ave,,Roxbury
+16780,04/20/2017 02:50:00 AM,Blue Hill Ave,"Boston, MA",66,Washington St,,
+31696,04/23/2017 03:20:00 AM,Huntington Ave,"Boston, MA",126,Tremont St,,
+22748,04/21/2017 12:00:00 PM,Washington St,"Boston, MA",122,Chestnut Hill Ave,Brighton,
+10247,04/25/2017 09:00:00 PM,Huntington Ave,"Boston, MA",155,Frawley St,Mission Hill,
+6377,04/25/2017 01:10:00 AM,Massachusetts Ave,"Boston, MA",502,Commonwealth Ave,,
+19667,04/20/2017 07:10:00 PM,Blue Hill Ave,"Boston, MA",142,Dudley St,,
+625,04/24/2017 01:50:00 AM,Westland Ave,"Boston, MA",83,Fenway,Fenway/Kenmore,Fenway/Kenmore
+23285,04/21/2017 01:00:00 PM,Atlantic Ave,"Boston, MA",189,Summer St,,
+9966,04/25/2017 08:00:00 PM,Hanover St,"Boston, MA",60,Congress St,,
+29545,04/22/2017 06:40:00 PM,Bay State Rd,"Boston, MA",196,Raleigh St,Fenway/Kenmore,
+14366,04/19/2017 04:30:00 PM,Charles St,"Boston, MA",93,Beacon St,,Dorchester
+21641,04/21/2017 02:40:00 AM,Park St,"Boston, MA",62,Washington St,,
+18856,04/20/2017 03:50:00 PM,Bowdoin St,"Boston, MA",86,Cambridge St,,
+9353,04/25/2017 05:30:00 PM,Green St,"Boston, MA",135,Centre St,,Charlestown
+4793,04/24/2017 08:20:00 PM,Frontage Rd,"Boston, MA",177,Mass Ave Connector,,
+33694,04/23/2017 07:30:00 PM,Hancock St,"Boston, MA",192,Dorchester Ave,,Charlestown
+19502,04/20/2017 06:30:00 PM,Park St,"Boston, MA",92,Tremont St,,
+16815,04/20/2017 03:00:00 AM,Atlantic Ave,"Boston, MA",65,Commercial St,,
+30634,04/23/2017 12:00:00 AM,Amory St,"Boston, MA",72,Green St,Charlestown,
+27130,04/22/2017 04:00:00 AM,Boylston St,"Boston, MA",222,Massachusetts Ave,,
+236,04/24/2017 12:30:00 AM,Washington St,"Boston, MA",75,Poplar St,,
+18444,04/20/2017 01:30:00 PM,Seaver St,"Boston, MA",200,Humboldt Ave,Roxbury,Roxbury
+17794,04/20/2017 12:20:00 PM,E 1st St,"Boston, MA",85,L St,South Boston,South Boston
+28404,04/22/2017 02:50:00 PM,W Broadway,"Boston, MA",82,Dorchester Ave,,
+25296,04/21/2017 09:00:00 PM,I-93 N,"Boston, MA",278,I-93 N,,
+9264,04/25/2017 05:10:00 PM,Longwood Ave,"Boston, MA",220,Riverway,,
+10834,04/25/2017 10:50:00 PM,Shawmut Ave,"Boston, MA",209,Herald St,South End,
+16076,04/19/2017 10:30:00 PM,William T Morrissey Blvd,"Boston, MA",212,Freeport St,Dorchester,
+24944,04/21/2017 07:20:00 PM,Columbia Rd,"Boston, MA",87,Blue Hill Ave,,
+19004,04/20/2017 04:50:00 PM,Melnea Cass Blvd,"Boston, MA",159,Massachusetts Ave,,
+16289,04/19/2017 11:50:00 PM,Cummins Hwy,"Boston, MA",376,Washington St,,
+1311,04/24/2017 05:30:00 AM,Washington St,"Boston, MA",101,South St,Downtown,
+11685,04/19/2017 01:20:00 AM,Bowdoin St,"Boston, MA",140,Harvard St,,
+20528,04/20/2017 10:00:00 PM,William T Morrissey Blvd,"Boston, MA",156,Freeport St,Dorchester,
+19394,04/20/2017 06:10:00 PM,N Beacon St,"Boston, MA",62,Cambridge St,,
+17081,04/20/2017 04:20:00 AM,Francis St,"Boston, MA",63,Huntington Ave,,
+22269,04/21/2017 05:50:00 AM,William T Morrissey Blvd,"Boston, MA",60,Freeport St,Dorchester,
+14755,04/19/2017 06:10:00 PM,Cambridge St,"Boston, MA",419,to Storrow Dr E / I-93 / US-1 / MA-3,,
+29257,04/22/2017 05:30:00 PM,Huntington Ave,"Boston, MA",75,Gainsborough St,Fenway/Kenmore,
+23003,04/21/2017 12:30:00 PM,Washington St,"Boston, MA",80,Gallivan Blvd,,
+4551,04/24/2017 07:40:00 PM,American Legion Hwy,"Boston, MA",137,Walk Hill St,,
+15203,04/19/2017 07:40:00 PM,Beacon St,"Boston, MA",124,Tremont St,,
+8087,04/25/2017 01:10:00 PM,Forest Hills St,"Boston, MA",187,Glen Rd,,
+29232,04/22/2017 05:30:00 PM,Washington St,"Boston, MA",130,Malcolm 'X' Blvd,Roxbury,
+26946,04/22/2017 03:30:00 AM,Talbot Ave,"Boston, MA",205,Dorchester Ave,,
+17536,04/20/2017 11:50:00 AM,Essex St,"Boston, MA",80,Atlantic Ave,,
+1452,04/24/2017 06:50:00 AM,Enneking Pkwy,"Boston, MA",109,Washington St,,
+27307,04/22/2017 04:20:00 AM,Amory St,"Boston, MA",61,Williams St,Roxbury,
+1030,04/24/2017 03:30:00 AM,Boylston St,"Boston, MA",169,Berkeley St,,
+14890,04/19/2017 06:40:00 PM,Park St,"Boston, MA",80,Adams St,Stony Brook / Cleary Square,
+15850,04/19/2017 09:30:00 PM,Park St,"Boston, MA",93,Freeport St,Dorchester,
+9857,04/25/2017 07:40:00 PM,Adams St,"Boston, MA",61,Parkman St,Dorchester,Stony Brook / Cleary Square
+30013,04/22/2017 09:00:00 PM,Berkeley St,"Boston, MA",96,to Storrow Dr W,,
+22458,04/21/2017 07:50:00 AM,Harvard Ave,"Boston, MA",62,Cambridge St,,Allston
+1262,04/24/2017 04:50:00 AM,Hyde Park Ave,"Boston, MA",70,Northbourne Rd,Roslindale,
+19587,04/20/2017 06:50:00 PM,Harrison Ave,"Boston, MA",80,Massachusetts Ave,,
+6991,04/25/2017 03:50:00 AM,Adams St,"Boston, MA",89,Parkman St,Dorchester,Stony Brook / Cleary Square
+32784,04/23/2017 02:40:00 PM,Blue Hill Ave,"Boston, MA",67,Geneva Ave,,
+13117,04/19/2017 12:20:00 PM,American Legion Hwy,"Boston, MA",130,Walk Hill St,,
+27358,04/22/2017 04:30:00 AM,Frontage Rd,"Boston, MA",117,Boston St,,
+11921,04/19/2017 02:40:00 AM,Charlesgate,"Boston, MA",152,to Downtown Boston / US-1 N,,
+5612,04/24/2017 11:00:00 PM,Lamartine St,"Boston, MA",80,New Minton St,Jamaica Plain,
+25761,04/21/2017 11:00:00 PM,Beacon St,"Boston, MA",72,Tremont St,,
+28023,04/22/2017 09:40:00 AM,Massachusetts Ave,"Boston, MA",221,Theodore Glynn Way,Dorchester,
+8261,04/25/2017 01:50:00 PM,Blue Hill Ave,"Boston, MA",143,Morton St,,
+30373,04/22/2017 11:10:00 PM,N Harvard St,"Boston, MA",100,Western Ave,,
+8792,04/25/2017 03:40:00 PM,Cummins Hwy,"Boston, MA",197,Washington St,,

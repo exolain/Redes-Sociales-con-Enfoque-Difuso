@@ -1,0 +1,738 @@
+{
+	"nodes": [{
+
+				"id": "Region Central",
+                "type": "parent",
+				"membership": [{
+					"percent": 1
+				}]
+			},
+			{
+				"id": "Region Chorotega",
+                "type": "parent",
+				"membership": [{
+					"percent": 1
+				}]
+			},
+			{
+				"id": "Region Pacifico Central",
+                "type": "parent",
+				"membership": [{
+					"percent": 1
+				}]
+			},
+			{
+				"id": "Region Brunca",
+                "type":"parent",
+				"membership": [{
+					"percent": 1
+				}]
+			},
+			{
+				"id": "Region Huetar Caribe",
+                "type":"parent",
+				"membership": [{
+					"percent": 1
+				}]
+			},
+			{
+				"id": "Region Huetar Norte",
+                "type":"parent",
+				"membership": [{
+					"percent": 1
+				}]
+			},
+            {
+
+			"id": "element_5",
+			"regionDest": 4,
+			"membership": [{
+				"percent": 0.578446625796
+			}, {
+				"percent": 0.297194587725
+			}, {
+				"percent": 0.124358786479
+			}]
+		}, {
+			"id": "element_6",
+			"regionDest": 3,
+			"membership": [{
+				"percent": 0.136626763963
+			}, {
+				"percent": 0.789705589162
+			}, {
+				"percent": 0.0736676468747
+			}]
+		}, {
+			"id": "element_7",
+			"regionDest": 2,
+			"membership": [{
+				"percent": 0.254699696037
+			}, {
+				"percent": 0.24075793855500002
+			}, {
+				"percent": 0.504542365408
+			}]
+		}, {
+			"id": "element_8",
+			"regionDest": 2,
+			"membership": [{
+				"percent": 0.598121604975
+			}, {
+				"percent": 0.282395457773
+			}, {
+				"percent": 0.11948293725199999
+			}]
+		}, {
+			"id": "element_9",
+			"regionDest": 1,
+			"membership": [{
+				"percent": 0.40129103799599997
+			}, {
+				"percent": 0.236829358304
+			}, {
+				"percent": 0.3618796037
+			}]
+		}, {
+			"id": "element_10",
+			"regionDest": 1,
+			"membership": [{
+				"percent": 0.178537848353
+			}, {
+				"percent": 0.715977829145
+			}, {
+				"percent": 0.105484322502
+			}]
+		}, {
+			"id": "element_11",
+			"regionDest": 1,
+			"membership": [{
+				"percent": 0.136100261293
+			}, {
+				"percent": 0.12566772010500002
+			}, {
+				"percent": 0.738232018602
+			}]
+		}, {
+			"id": "element_12",
+			"regionDest": 3,
+			"membership": [{
+				"percent": 0.17853784824000002
+			}, {
+				"percent": 0.715977829297
+			}, {
+				"percent": 0.105484322463
+			}]
+		}, {
+			"id": "element_13",
+			"regionDest": 6,
+			"membership": [{
+				"percent": 0.245973283467
+			}, {
+				"percent": 0.24871632173099997
+			}, {
+				"percent": 0.505310394802
+			}]
+		}, {
+			"id": "element_14",
+			"regionDest": 5,
+			"membership": [{
+				"percent": 0.5981216054
+			}, {
+				"percent": 0.282395457449
+			}, {
+				"percent": 0.11948293715
+			}]
+		}, {
+			"id": "element_15",
+			"regionDest": 2,
+			"membership": [{
+				"percent": 0.113230117958
+			}, {
+				"percent": 0.111959078333
+			}, {
+				"percent": 0.774810803709
+			}]
+		}, {
+			"id": "element_16",
+			"regionDest": 5,
+			"membership": [{
+				"percent": 0.139944576698
+			}, {
+				"percent": 0.140960103049
+			}, {
+				"percent": 0.719095320252
+			}]
+		}, {
+			"id": "element_17",
+			"regionDest": 5,
+			"membership": [{
+				"percent": 0.24216495608600003
+			}, {
+				"percent": 0.368029849094
+			}, {
+				"percent": 0.38980519482000003
+			}]
+		}, {
+			"id": "element_18",
+			"regionDest": 4,
+			"membership": [{
+				"percent": 0.19429672956500002
+			}, {
+				"percent": 0.6963172519390001
+			}, {
+				"percent": 0.109386018496
+			}]
+		}, {
+			"id": "element_19",
+			"regionDest": 6,
+			"membership": [{
+				"percent": 0.13610026124299998
+			}, {
+				"percent": 0.125667720167
+			}, {
+				"percent": 0.73823201859
+			}]
+		}, {
+			"id": "element_20",
+			"regionDest": 5,
+			"membership": [{
+				"percent": 0.44222854163900005
+			}, {
+				"percent": 0.259220713794
+			}, {
+				"percent": 0.298550744567
+			}]
+		}, {
+			"id": "element_21",
+			"regionDest": 1,
+			"membership": [{
+				"percent": 0.275206342018
+			}, {
+				"percent": 0.19813036487500002
+			}, {
+				"percent": 0.526663293107
+			}]
+		}, {
+			"id": "element_22",
+			"regionDest": 3,
+			"membership": [{
+				"percent": 0.139944576587
+			}, {
+				"percent": 0.140960103025
+			}, {
+				"percent": 0.7190953203880001
+			}]
+		}, {
+			"id": "element_23",
+			"regionDest": 2,
+			"membership": [{
+				"percent": 0.136626763923
+			}, {
+				"percent": 0.789705589182
+			}, {
+				"percent": 0.0736676468945
+			}]
+		}, {
+			"id": "element_24",
+			"regionDest": 3,
+			"membership": [{
+				"percent": 0.19429672943300003
+			}, {
+				"percent": 0.6963172521109999
+			}, {
+				"percent": 0.109386018456
+			}]
+		}, {
+			"id": "element_25",
+			"regionDest": 1,
+			"membership": [{
+				"percent": 0.242164955913
+			}, {
+				"percent": 0.368029849108
+			}, {
+				"percent": 0.389805194979
+			}]
+		}, {
+			"id": "element_26",
+			"regionDest": 6,
+			"membership": [{
+				"percent": 0.24216495579300001
+			}, {
+				"percent": 0.36802984914000003
+			}, {
+				"percent": 0.38980519506800004
+			}]
+		}, {
+			"id": "element_27",
+			"regionDest": 6,
+			"membership": [{
+				"percent": 0.136100261195
+			}, {
+				"percent": 0.125667720227
+			}, {
+				"percent": 0.738232018578
+			}]
+		}, {
+			"id": "element_28",
+			"regionDest": 1,
+			"membership": [{
+				"percent": 0.246870595334
+			}, {
+				"percent": 0.23993375475200002
+			}, {
+				"percent": 0.513195649914
+			}]
+		}, {
+			"id": "element_29",
+			"regionDest": 1,
+			"membership": [{
+				"percent": 0.550083923425
+			}, {
+				"percent": 0.25828487874
+			}, {
+				"percent": 0.19163119783500002
+			}]
+		}, {
+			"id": "element_30",
+			"regionDest": 4,
+			"membership": [{
+				"percent": 0.136626763742
+			}, {
+				"percent": 0.789705589363
+			}, {
+				"percent": 0.0736676468952
+			}]
+		}, {
+			"id": "element_31",
+			"regionDest": 6,
+			"membership": [{
+				"percent": 0.138829068379
+			}, {
+				"percent": 0.7847217228100001
+			}, {
+				"percent": 0.0764492088118
+			}]
+		}, {
+			"id": "element_32",
+			"regionDest": 5,
+			"membership": [{
+				"percent": 0.119999285018
+			}, {
+				"percent": 0.816846590304
+			}, {
+				"percent": 0.0631541246786
+			}]
+		}, {
+			"id": "element_33",
+			"regionDest": 1,
+			"membership": [{
+				"percent": 0.590800958029
+			}, {
+				"percent": 0.22631602506200002
+			}, {
+				"percent": 0.18288301690900002
+			}]
+		}, {
+			"id": "element_34",
+			"regionDest": 1,
+			"membership": [{
+				"percent": 0.602289060121
+			}, {
+				"percent": 0.281770914575
+			}, {
+				"percent": 0.11594002530400001
+			}]
+		}, {
+			"id": "element_35",
+			"regionDest": 1,
+			"membership": [{
+				"percent": 0.24352226455200002
+			}, {
+				"percent": 0.344333795705
+			}, {
+				"percent": 0.41214393974299995
+			}]
+		}, {
+			"id": "element_36",
+			"regionDest": 1,
+			"membership": [{
+				"percent": 0.24665219770100003
+			}, {
+				"percent": 0.6090202659749999
+			}, {
+				"percent": 0.144327536324
+			}]
+		}, {
+			"id": "element_37",
+			"regionDest": 1,
+			"membership": [{
+				"percent": 0.401603575935
+			}, {
+				"percent": 0.417118902028
+			}, {
+				"percent": 0.18127752203699998
+			}]
+		}, {
+			"id": "element_38",
+			"regionDest": 1,
+			"membership": [{
+				"percent": 0.27520634182500003
+			}, {
+				"percent": 0.198130364938
+			}, {
+				"percent": 0.526663293237
+			}]
+		}, {
+			"id": "element_39",
+			"regionDest": 1,
+			"membership": [{
+				"percent": 0.136100261039
+			}, {
+				"percent": 0.125667720207
+			}, {
+				"percent": 0.738232018754
+			}]
+		}, {
+			"id": "element_40",
+			"regionDest": 6,
+			"membership": [{
+				"percent": 0.11999928482200001
+			}, {
+				"percent": 0.8168465905079999
+			}, {
+				"percent": 0.0631541246706
+			}]
+		}, {
+			"id": "element_41",
+			"regionDest": 5,
+			"membership": [{
+				"percent": 0.242750607331
+			}, {
+				"percent": 0.240812844331
+			}, {
+				"percent": 0.516436548339
+			}]
+		}, {
+			"id": "element_42",
+			"regionDest": 2,
+			"membership": [{
+				"percent": 0.17853784764299999
+			}, {
+				"percent": 0.715977829819
+			}, {
+				"percent": 0.105484322538
+			}]
+		}, {
+			"id": "element_43",
+			"regionDest": 1,
+			"membership": [{
+				"percent": 0.100248772574
+			}, {
+				"percent": 0.09755428066619999
+			}, {
+				"percent": 0.80219694676
+			}]
+		}, {
+			"id": "element_44",
+			"regionDest": 6,
+			"membership": [{
+				"percent": 0.138829068011
+			}, {
+				"percent": 0.7847217232179999
+			}, {
+				"percent": 0.07644920877139999
+			}]
+		}, {
+			"id": "element_45",
+			"regionDest": 1,
+			"membership": [{
+				"percent": 0.5750282777669999
+			}, {
+				"percent": 0.24345460921300002
+			}, {
+				"percent": 0.18151711302
+			}]
+		}, {
+			"id": "element_46",
+			"regionDest": 1,
+			"membership": [{
+				"percent": 0.136626763384
+			}, {
+				"percent": 0.789705589708
+			}, {
+				"percent": 0.0736676469081
+			}]
+		}, {
+			"id": "element_47",
+			"regionDest": 6,
+			"membership": [{
+				"percent": 0.6219020185899999
+			}, {
+				"percent": 0.217300962036
+			}, {
+				"percent": 0.160797019374
+			}]
+		}, {
+			"id": "element_48",
+			"regionDest": 1,
+			"membership": [{
+				"percent": 0.0964594815955
+			}, {
+				"percent": 0.09344687141550001
+			}, {
+				"percent": 0.810093646989
+			}]
+		}, {
+			"id": "element_49",
+			"regionDest": 5,
+			"membership": [{
+				"percent": 0.096459481577
+			}, {
+				"percent": 0.0934468714015
+			}, {
+				"percent": 0.8100936470219999
+			}]
+		}, {
+			"id": "element_50",
+			"regionDest": 1,
+			"membership": [{
+				"percent": 0.34522345348899997
+			}, {
+				"percent": 0.311740557402
+			}, {
+				"percent": 0.34303598910899996
+			}]
+		}, {
+			"id": "element_51",
+			"regionDest": 2,
+			"membership": [{
+				"percent": 0.544763870778
+			}, {
+				"percent": 0.251628385138
+			}, {
+				"percent": 0.20360774408399998
+			}]
+		}, {
+			"id": "element_52",
+			"regionDest": 2,
+			"membership": [{
+				"percent": 0.17853784731300001
+			}, {
+				"percent": 0.715977830185
+			}, {
+				"percent": 0.105484322501
+			}]
+		}, {
+			"id": "element_53",
+			"regionDest": 1,
+			"membership": [{
+				"percent": 0.13662676321699999
+			}, {
+				"percent": 0.789705589871
+			}, {
+				"percent": 0.0736676469119
+			}]
+		}, {
+			"id": "element_54",
+			"regionDest": 6,
+			"membership": [{
+				"percent": 0.250891721519
+			}, {
+				"percent": 0.25789254856800004
+			}, {
+				"percent": 0.491215729913
+			}]
+		}, {
+			"id": "element_55",
+			"regionDest": 1,
+			"membership": [{
+				"percent": 0.25404500291
+			}, {
+				"percent": 0.333059998272
+			}, {
+				"percent": 0.412894998818
+			}]
+		}, {
+			"id": "element_56",
+			"regionDest": 1,
+			"membership": [{
+				"percent": 0.34552698118299996
+			}, {
+				"percent": 0.41101733164399995
+			}, {
+				"percent": 0.243455687173
+			}]
+		}, {
+			"id": "element_57",
+			"regionDest": 4,
+			"membership": [{
+				"percent": 0.13882906764699998
+			}, {
+				"percent": 0.784721723601
+			}, {
+				"percent": 0.076449208752
+			}]
+		}, {
+			"id": "element_58",
+			"regionDest": 1,
+			"membership": [{
+				"percent": 0.242164954898
+			}, {
+				"percent": 0.368029849582
+			}, {
+				"percent": 0.389805195521
+			}]
+		}, {
+			"id": "element_59",
+			"regionDest": 1,
+			"membership": [{
+				"percent": 0.24665219720400003
+			}, {
+				"percent": 0.6090202663409999
+			}, {
+				"percent": 0.14432753645500002
+			}]
+		}, {
+			"id": "element_60",
+			"regionDest": 1,
+			"membership": [{
+				"percent": 0.242164954802
+			}, {
+				"percent": 0.368029849595
+			}, {
+				"percent": 0.389805195603
+			}]
+		}, {
+			"id": "element_61",
+			"regionDest": 1,
+			"membership": [{
+				"percent": 0.11999928438100001
+			}, {
+				"percent": 0.816846590944
+			}, {
+				"percent": 0.0631541246749
+			}]
+		}, {
+			"id": "element_62",
+			"regionDest": 6,
+			"membership": [{
+				"percent": 0.178537847051
+			}, {
+				"percent": 0.715977830414
+			}, {
+				"percent": 0.105484322535
+			}]
+		}, {
+			"id": "element_63",
+			"regionDest": 4,
+			"membership": [{
+				"percent": 0.261227621775
+			}, {
+				"percent": 0.257008164221
+			}, {
+				"percent": 0.481764214004
+			}]
+		}, {
+			"id": "element_64",
+			"regionDest": 1,
+			"membership": [{
+				"percent": 0.336546641376
+			}, {
+				"percent": 0.41126447478699996
+			}, {
+				"percent": 0.252188883837
+			}]
+		}, {
+			"id": "element_65",
+			"regionDest": 5,
+			"membership": [{
+				"percent": 0.194296728545
+			}, {
+				"percent": 0.696317252808
+			}, {
+				"percent": 0.10938601864700001
+			}]
+		}, {
+			"id": "element_66",
+			"regionDest": 4,
+			"membership": [{
+				"percent": 0.113230117368
+			}, {
+				"percent": 0.111959078314
+			}, {
+				"percent": 0.774810804318
+			}]
+		}, {
+			"id": "element_67",
+			"regionDest": 2,
+			"membership": [{
+				"percent": 0.544763871365
+			}, {
+				"percent": 0.251628384798
+			}, {
+				"percent": 0.20360774383699998
+			}]
+		}, {
+			"id": "element_68",
+			"regionDest": 3,
+			"membership": [{
+				"percent": 0.590800959895
+			}, {
+				"percent": 0.22631602399999998
+			}, {
+				"percent": 0.182883016106
+			}]
+		}, {
+			"id": "element_69",
+			"regionDest": 1,
+			"membership": [{
+				"percent": 0.17853784674800002
+			}, {
+				"percent": 0.715977830729
+			}, {
+				"percent": 0.105484322523
+			}]
+		}, {
+			"id": "element_70",
+			"regionDest": 4,
+			"membership": [{
+				"percent": 0.246652197071
+			}, {
+				"percent": 0.609020266433
+			}, {
+				"percent": 0.144327536496
+			}]
+		}, {
+			"id": "element_71",
+			"regionDest": 6,
+			"membership": [{
+				"percent": 0.62190201991
+			}, {
+				"percent": 0.217300961254
+			}, {
+				"percent": 0.160797018836
+			}]
+		}, {
+			"id": "element_72",
+			"regionDest": 1,
+			"membership": [{
+				"percent": 0.34522345286899997
+			}, {
+				"percent": 0.311740557638
+			}, {
+				"percent": 0.343035989492
+			}]
+		}, {
+			"id": "element_73",
+			"regionDest": 4,
+			"membership": [{
+				"percent": 0.24665219688099999
+			}, {
+				"percent": 0.609020266612
+			}, {
+				"percent": 0.144327536507
+			}]
+
+    }]
+}
