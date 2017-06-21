@@ -1,4 +1,4 @@
-##Redes Sociales con Enfoque Difuso
+## Redes Sociales con Enfoque Difuso
 
 En esta tesis se estan utilizando las siguientes herramientas:
 * INEC fuente de datos migratorios
