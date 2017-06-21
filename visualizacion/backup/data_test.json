@@ -1,0 +1,135 @@
+{
+	"nodes": [{
+			"id": "Region Central",
+			"group": 1,
+			"Y2014": [{
+					"element_id": 1,
+					"size": 500,
+					"regionDest": 2,
+					"membership": [{
+							"color": 1,
+							"percent": 40
+						},
+						{
+							"color": 2,
+							"percent": 20
+						},
+						{
+							"color": 3,
+							"percent": 40
+						}
+					]
+				},
+				{
+					"element_id": 2,
+					"regionDest": 2,
+					"size": 200,
+					"membership": [{
+							"color": 1,
+							"percent": 40
+						},
+						{
+							"color": 2,
+							"percent": 20
+						},
+						{
+							"color": 3,
+							"percent": 40
+						}
+					]
+				},
+				{
+					"element_id": 3,
+					"regionDest": 2,
+					"size": 800,
+					"membership": [{
+							"color": 1,
+							"percent": 20
+						},
+						{
+							"color": 2,
+							"percent": 30
+						},
+						{
+							"color": 3,
+							"percent": 50
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "Region Chorotega",
+			"group": 2,
+			"Y2014": [{
+				"element_id": 1,
+				"size": 1000,
+				"regionDest": 1,
+				"membership": [{
+						"color": 1,
+						"percent": 30
+					},
+					{
+						"color": 2,
+						"percent": 30
+					},
+					{
+						"color": 3,
+						"percent": 40
+					}
+				]
+			}]
+		},
+		{
+			"id": "Region Atlantica",
+			"group": 3,
+			"size": 1200,
+			"Y2014": [{
+				"element_id": 1,
+				"regionDest": 4,
+				"membership": [{
+						"color": 1,
+						"percent": 25
+					},
+					{
+						"color": 2,
+						"percent": 25
+					},
+					{
+						"color": 3,
+						"percent": 50
+					}
+				]
+			}]
+		},
+		{
+			"id": "Region Huetar Norte",
+			"group": 4,
+			"Y2014": [{
+				"element_id": 1,
+				"regionDest": 3,
+				"size": 500,
+				"membership": [{
+						"color": 1,
+						"percent": 35
+					},
+					{
+						"color": 3,
+						"percent": 35
+					},
+					{
+						"color": 4,
+						"percent": 30
+					}
+				]
+			}]
+		}
+	],
+	  "links": [
+    {"source": "Region Central", "target": "Region Chorotega", "value": 5},
+    {"source": "Region Central", "target": "Region Atlantica", "value": 5},
+    {"source": "Region Central", "target": "Region Huetar Norte", "value": 5},
+    {"source": "Region Chorotega", "target": "Region Atlantica", "value": 5},
+    {"source": "Region Atlantica", "target": "Region Huetar Norte", "value": 5}
+  ]
+}

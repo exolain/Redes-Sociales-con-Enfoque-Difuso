@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script type="text/javascript" src="http://d3js.org/d3.v3.min.js"></script>
+
+    <style>
+
+        .node {
+            stroke:"black";
+            stroke-width: 1.5px;
+        }
+
+        .link {
+            stroke: #808080;
+            stroke-opacity: .6;
+        }
+
+    </style>
+</head>
+<body>
+<script src="node-pie.js"></script>
+<script type="text/javascript">
+
+   /* graph2 = { "nodes":[
+                    {   "region": "Region Central",
+                        "regionColor": 1,
+                    "proportions": [{"cluster": 1, "percentage": 100}]},
+                    {   "region": "Region Chorotega",
+                        "regionColor": 2,
+                    "proportions": [{"cluster": 1, "percentage": 100}]},
+                    {   "region": "Region Atlantica",
+                        "regionColor": 3,
+                        "proportions": [{"cluster": 1, "percentage": 100}]},
+                    {   "region": "Region Huetar Norte",
+                        "regionColor": 4,
+                        "proportions": [{"cluster": 1, "percentage": 100}]}
+                    ],
+              "links":[{"source": 0, "target": 1, "length": 500, "width": 6},
+                        {"source": 2, "target": 1, "length": 500, "width": 6},
+                        {"source": 3, "target": 2, "length": 500, "width": 6},
+                        {"source": 2, "target": 3, "length": 500, "width": 6}]
+    }
+
+*/
+d3.json("2014_links.json", function (error, graph) {
+        if (error) throw error;
+    var width = 960,
+    height = 900,
+    radius = 85,
+    color = d3.scale.category10();
+    colorx = d3.scale.category20c();
+
+    var pie = d3.layout.pie()
+        .sort(null)
+        .value(function(d) { return 100; });
+
+
+
+
+    var arc = d3.svg.arc()
+        .outerRadius(radius)
+        .innerRadius(0);
+
+    var svg = d3.select("body").append("svg")
+        .attr("width", width)
+        .attr("height", height);
+
+    var force = d3.layout.force()
+        .charge(-2670)
+        .linkDistance(4 * radius)
+        .size([width, height]);
+
+        
+    force.nodes(graph.nodes)
+         .links(graph.links)
+         .start();
+
+    var link = svg.selectAll(".link")
+        .data(graph.links)
+        .enter().append("line")
+        .attr("class", "link");
+
+    var node = svg.selectAll(".node")
+        .data(graph.nodes)
+        .enter().append("g")
+        .attr("class", "node")
+        .attr("r", radius)
+        .style("fill", function (d) { return "#c7dde8"; });
+
+
+   node.selectAll("path")
+        .data(function(d, i) {return pie(d.proportions); })
+        .enter()
+        .append("path")
+        .attr("d", arc)
+        .attr("fill", function(d, i) { return "#c7dde8"; });
+        
+
+    d3.selectAll(".node")
+    .append("text")
+      .attr("dy", radius * 1.5)
+      .text(function(d, i) { return d.region; })
+       .style('fill', function(d, i) { return color(d.element_id); });
+
+
+
+centers = [];
+   d3.json("2014_data.json", function (error, graphChildren) {
+        if (error) throw error;
+
+    var nodeChildren = svg.append("g")
+            .attr("class", "nodeChildren")
+            .selectAll("g")
+            .data(graphChildren.nodes)//.data(graphChildren.nodes)
+            .enter()
+            .append("g");
+
+node.each(function(d) {
+        for(var i = 0; i < graphChildren.nodes.length; i++){
+            var diameter = radius*2,
+            format = d3.format(",d");
+            for(var j=0; j<graphChildren.nodes[i].Y2014.length; j++){
+            if( graphChildren.nodes[i].regionName == d.region){
+                
+                NodePieBuilder.drawNodePie(d3.select(this), graphChildren.nodes[i].Y2014[j].membership, {
+                    // parentNodeColor: colorx(d.proportions[0].cluster),  
+                    radius: 15,
+                    outerStrokeWidth: 5,
+                    showLabelText: false,
+                    pieChartBorderColor: false, 
+                    pieChartChildBorderColor: color(graphChildren.nodes[i].Y2014[j].regionDest),
+                    cx: radius/20 - j*30,
+                    cy: radius/6 - j*30
+            });                    
+   
+            }           
+
+        }
+
+        var pack = d3.layout.pack()
+        .size([diameter - 4, diameter - 4])
+        .value(function(d) { return 100; });
+        pack.nodes(graphChildren.nodes[i].Y2014);
+        }
+});
+
+updateVis();
+
+function updateVis() {
+
+    node.transition()
+        .duration(5000)
+        .attr("cx", function(d) { return d.x; })
+        .attr("cy", function(d) { return d.y; })
+        .attr("r", function(d) { return d.r; });
+}
+
+
+   d3.selectAll("circle").on("mouseover", function(h){
+        d3.selectAll(".link")
+       /* .filter(function(d) {
+        console.log(d.source.region);
+        console.log(h.region); 
+        return (d.source.region === h.region); //|| (d.target.region === h.region);
+        })*/
+        .style("stroke", "red")
+          .style("stroke",function(d) {
+             return d.source.region === h.region? "red" : "#888888";
+          });
+        
+    });
+
+   });
+
+
+
+    force.on("tick", function() {
+        link.attr("x1", function(d) { return d.source.x; })
+        .attr("y1", function(d) { return d.source.y; })
+        .attr("x2", function(d) { return d.target.x; })
+        .attr("y2", function(d) { return d.target.y; });
+
+        node.attr("x", function(d) { return d.x; })
+            .attr("y", function(d) { return d.y; })
+            .attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"});
+
+    
+    });
+
+ });
+
+</script>
+</body>
+</html>

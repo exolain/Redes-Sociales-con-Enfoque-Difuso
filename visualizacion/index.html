@@ -18,23 +18,43 @@
         stroke:black;
         font-size: 12px;
         }
+    #slider{
+        width: 435px;
+    }
+
+    #sliderdiv{
+        padding-left: 40px;
+        
+    }
+
+    #slider3text{
+        padding-top: 40px;
+        
+    }
+
 </style>
 
-    <form>
+    <!--<form>
         <select name="year" id="year">
             <option value="2014" selected>2014</option>
             <option value="2015" selected>2015</option>
             <option value="2016" selected>2016</option>
         </select>
-    </form>
+    </form>-->
+<div id="slider3text"></div>
+    <div id="sliderdiv"> <input id="slider" type="range" min="2014" max="2016" step="1" value="2014" data-ng-show="true"/></div>
+    <button type="button" id="start">start</button>
+    <button type="button" id="stop">stop</button>
+
 </head>
-<svg width="1960" height="1600"></svg>
+<svg width="2560" height="2000"></svg>
 <body>
 
 <script src="//d3js.org/d3.v4.min.js"></script>
-<script src="node-pie.js"></script>
+<script src="js/node-pie.js"></script>
 
 <script>
+
 
 function update(year) {
     var svg = d3.select("svg"),
@@ -85,7 +105,7 @@ function update(year) {
     var color = d3.scaleOrdinal(d3.schemeCategory10);
 
 
-    d3.json("data_"+year+".json", function (error, graph) {
+    d3.json("datos/data_"+year+".json", function (error, graph) {
         if (error) throw error;
         var link = svg.append("g")
                 .attr("class", "links")
@@ -171,7 +191,7 @@ d3.selectAll("circle").on("mouseover", function(h){
         simulation.force("link")
                 .links(graph.links);
 
-
+            
 
         function ticked() {
             link
@@ -221,14 +241,46 @@ d3.selectAll("circle").on("mouseover", function(h){
         d.fy = null;
     }
 }
-var select = d3.select('#year');
+
+
+d3.select("#slider").on("input", function(d){
+
+     d3.select('#slider3text').text(this.value);  
+    d3.selectAll("g > *").remove();
+    console.log(this.value);
+    update(this.value);
+});
+
+var myTimer;
+d3.select("#start").on("click", function() {
+    clearInterval (myTimer);
+    d3.selectAll("g > *").remove();
+    myTimer = setInterval (function() {
+    
+    var b= d3.select("#slider");
+      var t = (+b.property("value") + 1) % (+b.property("max") + 1);
+      if (t == 0) { t = +b.property("min"); }
+      d3.select('#slider3text').text(t); 
+      b.property("value", t);
+      update (t);
+      d3.selectAll("g > *").remove();
+    }, 4000);
+});
+
+d3.select("#stop").on("click", function() {
+    clearInterval (myTimer);
+    d3.selectAll("g > *").remove();
+    update(this.value);
+});
+/*var select = d3.select('#year');
 select.on('change', function() {
     d3.selectAll("g > *").remove()
     console.log(this.value);
     update(this.value);
-})
+})*/
 
-update('2016');
+update('2014');
+d3.select('#slider3text').text("2014"); 
 
 </script>
 </body>
