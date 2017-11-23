@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<head>
+<style>
+    .links line {
+        stroke: #999;
+        stroke-opacity: 0.6;
+    }
+
+    text {
+        font-size: 1em;
+        font-weight: bold;
+        -webkit-font-smoothing: antialiased;
+    }
+
+   .legend rect {
+        fill:white;
+        stroke:black;
+        font-size: 12px;
+        }
+    #slider{
+        width: 435px;
+    }
+
+    #sliderdiv{
+        padding-left: 40px;
+        
+    }
+
+    #slider3text{
+        padding-top: 40px;
+        
+    }
+
+   #tipContainer {  font-size:16px;position:absolute;width:180px;z-index:100;background-repeat:no-repeat;text-align:left;line-height:20px;}
+
+   #tipLocation {font-weight:normal;font-family:Georgia; font-style: Italic; color:white;margin:0px;padding:10px 10px;background:#333;font-size:14px;}
+
+   #tipCount {font-weight:bold;font-size:32px;letter-spacing:-1px;margin:0px;padding:0px 10px 10px 10px;color:#333;}
+
+   #tipKey {font-weight:normal;font-size:10px;color:#333;margin:0px;padding:5px 0px 5px 10px;background:lightgray;}
+
+
+</style>
+
+    <!--<form>
+        :rgba(218,218,218,0.5);
+        <select name="year" id="year">
+            <option value="2014" selected>2014</option>
+            <option value="2015" selected>2015</option>
+            <option value="2016" selected>2016</option>
+        </select>
+    </form>-->
+<div id="slider3text"></div>
+    <div id="sliderdiv"> <input id="slider" type="range" min="2014" max="2016" step="1" value="2014" data-ng-show="true"/></div>
+    <button type="button" id="start">start</button>
+    <button type="button" id="stop">stop</button>
+
+<div id = "maincontainer" style="position:absolute;">
+</head>
+<svg width="2560" height="2000"></svg>
+<body>
+
+<script src="//d3js.org/d3.v4.min.js"></script>
+<!--<script src="http://d3js.org/d3-selection-multi.v1.js"></script>-->
+<script src="js/node-pie.js"></script>
+
+<script>
+
+
+        
+
+function update(year) {
+    var svg = d3.select("svg"),
+        width = +svg.attr("width"),
+        height = +svg.attr("height");
+        var legendRectSize = 28; 
+        var legendSpacing = 50; 
+
+    // svg.append('defs').append('marker')
+    //     .attrs({'id':'arrowhead',
+    //         'viewBox':'-0 -5 10 10',
+    //         'refX':13,
+    //         'refY':0,
+    //         'orient':'auto',
+    //         'markerWidth':13,
+    //         'markerHeight':13,
+    //         'xoverflow':'visible'})
+    //     .append('svg:path')
+    //     .attr('d', 'M 0,-5 L 10 ,0 L 0,5')
+    //     .attr('fill', '#999')
+    //     .style('stroke','none');
+
+
+    var colorx = d3.scaleOrdinal()
+// .domain(["1450"])
+    .range(["#bcbddc", "#9e9ac8", "#756bb1", "#54278f"]);//["#1a9850", "#66bd63", "#a6d96a","#d9ef8b"]); //,"#ffffbf","#fee08b","#fdae61","#f46d43","#d73027"]);}
+
+
+ var tooltip = d3.select("#maincontainer")
+	.append("div")
+	.attr("id", "tt")
+	.style("z-index", "10")
+	.style("position", "absolute")
+	.style("visibility", "hidden");
+
+  var formatC = d3.format(",.0f");
+  var formatD = d3.format("+,.0f");
+
+   var legendSvg = svg.append('g')
+         .attr('class', 'legend')
+        .attr("transform","translate("+ (width - 40) + ",20)");
+
+    var legend = d3.select('svg')
+        .append("g")
+        .selectAll("g")
+        .data(colorx.range())
+        .enter()
+        .append('g')
+        .attr('class', 'legend')
+        .attr('transform', function(d, i) {
+            var height = legendRectSize;
+            var x = 100;
+            var y = (i+10) * height;
+            return 'translate(' + x + ',' + y + ')';
+        });
+
+    legend.append('rect')                                     
+        .attr('width', legendRectSize)                          
+        .attr('height', legendRectSize)                         
+        .style('fill', colorx)                                   
+        .style('stroke', colorx);
+
+
+    var simulation = d3.forceSimulation()
+            .force("link", d3.forceLink().id(function (d) {
+                return d.id;
+            }).distance(function(d){
+                    if (d.linkDistance == "strong")
+                        return 30;
+                    else
+                        return 40;
+                }
+                )
+            )
+            .force("charge", d3.forceManyBody().strength(-900))
+            .force("center", d3.forceCenter(width / 2, height / 2));
+
+    var color = d3.scaleOrdinal(d3.schemeCategory10);
+
+
+    d3.json("datos/data_"+year+".json", function (error, graph) {
+        if (error) throw error;
+
+
+
+        var link = svg.append("g")
+                .attr("class", "links")
+                .selectAll("line")
+                .data(graph.links)
+                .enter().append("line")
+                .attr("stroke-width", function (d) {
+                    return Math.sqrt(d.value);
+                });
+                //.attr("marker-end", "url(#arrowhead)");
+
+        
+        var node = svg.append("g")
+                .attr("class", "nodes")
+                .selectAll("g")
+                .data(graph.nodes)
+                .enter()
+                .append("g")
+                .call(d3.drag()
+                        .on("start", dragstarted)
+                        .on("drag", dragged)
+                        .on("end", dragended));
+
+                   
+
+
+        /* Draw the respective pie chart for each node */
+        var colorL = 1;
+        var type = "";
+        var colorLabel = 1;
+        var rad = 20;
+        var radC = 16;
+        var r = 0;
+        node.each(function (d) {
+            var label = "";
+            if ( d.type ){
+                type = "parent";
+                radius = d.total_imm - d.total_emm+10;
+                console.log(radius);
+                if(radius > 20){
+                    r = radius;
+                }
+                else{
+                    r = rad;
+                }
+                colorLabel = colorL;
+                colorL++;
+            }
+            else{
+                type = "children";
+                r = radC;
+                colorLabel = d.regionDest
+                
+            }
+            if( String(d.id).startsWith("Region")){
+                label = d.id;
+            }
+
+            NodePieBuilder.drawNodePie(d3.select(this), d.membership, {
+                parentNodeColor: color(colorLabel),
+                outerStrokeWidth: 12,
+                radius: r,
+                classo: type,
+                showLabelText: true,
+                labelText: label,
+                labelColor: color(colorLabel)
+            });
+        });
+
+    d3.selectAll("circle").on("mouseover", function (d) {
+
+      //  if( String(d.id).startsWith("Region")){
+            return toolOver(d, this);
+      //}
+		});
+		d3.selectAll("circle").on("mousemove", function (d) {
+         var m = d3.mouse(this);
+		  mx = m[0];
+		  my = m[1];
+        if( String(d.id).startsWith("Region")){
+            return toolMove(mx, my, d);
+        }
+        else{
+            return toolMoveC(mx, my, d);
+        }
+		});
+		d3.selectAll("circle").on("mouseout", function (d) {
+       //     if( String(d.id).startsWith("Region")){
+		  return toolOut(d, this);
+        //    }
+		});
+
+		  
+function toolOver(v, thepath) {
+
+	d3.select(thepath).style({
+		"fill-opacity": "0.7",
+		"cursor":"pointer"
+	});
+	return tooltip.style("visibility", "visible");
+};
+
+function toolOut(m, thepath) {
+	d3.select(thepath).style({
+		"fill-opacity": "0.5",
+		"cursor":""
+	});
+	return tooltip.style("visibility", "hidden");
+};
+
+
+function toolMove(mx, my, data) {
+
+	if (mx < 120) {
+		mx = 120
+	};
+	
+		if (my < 40) {
+		my = 40
+	};
+	return tooltip.style("top", my + -140 + "px").style("left", mx - 120 + "px").html(
+        "<div id='tipContainer'><div id='tipLocation'><b>" + data.id + "</b></div><div id='tipKey'>Migration in: <b>" + formatC(data.total_imm) + "</b><br>Migration out: <b>" + formatC(data.total_emm) + "</b><br>Net migration: <b>" + formatC((data.total_imm - data.total_emm)) + "</b></div><div class='tipClear'></div> </div>");
+};
+
+function toolMoveC(mx, my, data) {
+
+	if (mx < 120) {
+		mx = 120
+	};
+	
+		if (my < 40) {
+		my = 40
+	};
+	return tooltip.style("top", my + -140 + "px").style("left", mx - 120 + "px").html(
+        "<div id='tipContainer'><div id='tipLocation'><b>" + data.id + 
+        "</b></div><div id='tipKey'>Educacion: <b>" + data.titulo + 
+        "</b><br>Situacion laboral: <b>" + data.condicion_laboral+ 
+        "</b><br>Mantiene familia: <b>" + data.mantiene_familia+ 
+        "</b><br>Ocupacion Laboral: <b>" + data.ocupacion+ 
+        "</b><br>Ingreso salarial: <b>" + data.ingreso_por_persona + "</b></div><div ></div> </div>");
+};
+
+
+    legend.append('text')                                     
+        .attr('x', legendRectSize + legendSpacing )              
+        .attr('y', legendRectSize - legendSpacing)     
+        .attr('transform', function(d, i) {
+            var x = legendRectSize+10;
+            var y = i+20;
+            return 'translate(' + x + ',' + y + ')';
+        })         
+        .text(function(d, i) { if(year == 2014) {var clusters = ["Nivel socioeconomico bajo", "Nivel socioeconomico  (moderadamente) alto","Nivel socioeconomico medio-bajo", "Nivel socioeconomico medio-alto"];} else {clusters = ["Nivel socioeconomico medio bajo", "Nivel socioeconomico bajo","Nivel socioeconomico medio-alto", "Nivel socioeconomico (moderadamente) alto"];} return clusters[i]; });    
+  
+d3.selectAll("circle").on("click", function(h){
+     if("parent" ==  h.type){
+        d3.selectAll("line")          
+         /* .filter(function(d) {
+            return (d.source === h) || (d.target === h);
+            })
+            .style("stroke", "red")*/
+          .style("stroke-width", function(d){
+              return d.width;
+          })
+          .style("stroke",function(d) {
+             return d.target === h? "red" : "#888888";
+          });
+          }
+        });
+        simulation
+                .nodes(graph.nodes)
+                .on("tick", ticked);
+
+        simulation.force("link")
+                .links(graph.links);
+
+            
+
+        function ticked() {
+            link
+                    .attr("x1", function (d) {
+                        return d.source.x;
+                    })
+                    .attr("y1", function (d) {
+                        return d.source.y;
+                    })
+                    .attr("x2", function (d) {
+                        return d.target.x;
+                    })
+                    .attr("y2", function (d) {
+                        return d.target.y;
+                    });
+
+            d3.selectAll("circle").attr("cx", function (d) {
+                        return d.x;
+                    })
+                    .attr("cy", function (d) {
+                        return d.y;
+                    });
+
+            d3.selectAll("text").attr("x", function (d) {
+                        return d.x;
+                    })
+                    .attr("y", function (d) {
+                        return d.y;
+                    });
+        }
+    });
+
+    function dragstarted(d) {
+        if (!d3.event.active) simulation.alphaTarget(0.3).restart();
+        d.fx = d.x;
+        d.fy = d.y;
+    }
+
+    function dragged(d) {
+        d.fx = d3.event.x;
+        d.fy = d3.event.y;
+    }
+
+    function dragended(d) {
+        if (!d3.event.active) simulation.alphaTarget(0);
+        d.fx = null;
+        d.fy = null;
+    }
+}
+
+
+d3.select("#slider").on("input", function(d){
+
+     d3.select('#slider3text').text(this.value);  
+    d3.selectAll("g > *").remove();
+    console.log(this.value);
+    update(this.value);
+});
+
+var myTimer;
+d3.select("#start").on("click", function() {
+    clearInterval (myTimer);
+    d3.selectAll("g > *").remove();
+    myTimer = setInterval (function() {
+    
+    var b= d3.select("#slider");
+      var t = (+b.property("value") + 1) % (+b.property("max") + 1);
+      if (t == 0) { t = +b.property("min"); }
+      d3.select('#slider3text').text(t); 
+      b.property("value", t);
+      update (t);
+      d3.selectAll("g > *").remove();
+    }, 2000);
+});
+
+d3.select("#stop").on("click", function() {
+    clearInterval (myTimer);
+    d3.selectAll("g > *").remove();
+    update("2014");
+});
+/*var select = d3.select('#year');
+select.on('change', function() {
+    d3.selectAll("g > *").remove()
+    console.log(this.value);
+    update(this.value);
+})*/
+
+update('2014');
+d3.select('#slider3text').text("2014"); 
+
+</script>
+</body>
+

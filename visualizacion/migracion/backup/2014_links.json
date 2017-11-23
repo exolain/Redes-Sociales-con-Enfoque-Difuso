@@ -1,0 +1,122 @@
+{
+"nodes":[
+		{   "region": "Region Central",
+		"proportions": [{"cluster": 1, "percentage": 100}]},
+		{   "region": "Region Chorotega",
+		"proportions": [{"cluster": 1, "percentage": 100}]},
+		{   "region": "Region Pacifico Central",
+			"proportions": [{"cluster": 1, "percentage": 100}]},
+		{   "region": "Region Brunca",
+			"proportions": [{"cluster": 1, "percentage": 100}]},
+		{   "region": "Region Huetar Caribe",
+			"proportions": [{"cluster": 1, "percentage": 100}]},
+		{   "region": "Region Huetar Norte",
+			"proportions": [{"cluster": 1, "percentage": 100}]}
+		],
+"links": [{
+	"source": 1,
+	"length": 500,
+	"target": 0,
+	"width": 4
+}, {
+	"source": 2,
+	"length": 500,
+	"target": 0,
+	"width": 2
+}, {
+	"source": 3,
+	"length": 500,
+	"target": 0,
+	"width": 4
+}, {
+	"source": 4,
+	"length": 500,
+	"target": 0,
+	"width": 2
+}, {
+	"source": 5,
+	"length": 500,
+	"target": 0,
+	"width": 6
+}, {
+	"source": 0,
+	"length": 500,
+	"target": 1,
+	"width": 11
+}, {
+	"source": 2,
+	"length": 500,
+	"target": 1,
+	"width": 2
+}, {
+	"source": 4,
+	"length": 500,
+	"target": 1,
+	"width": 1
+}, {
+	"source": 0,
+	"length": 500,
+	"target": 2,
+	"width": 3
+}, {
+	"source": 3,
+	"length": 500,
+	"target": 2,
+	"width": 4
+}, {
+	"source": 5,
+	"length": 500,
+	"target": 2,
+	"width": 2
+}, {
+	"source": 0,
+	"length": 500,
+	"target": 3,
+	"width": 6
+}, {
+	"source": 2,
+	"length": 500,
+	"target": 3,
+	"width": 1
+}, {
+	"source": 4,
+	"length": 500,
+	"target": 3,
+	"width": 1
+}, {
+	"source": 5,
+	"length": 500,
+	"target": 3,
+	"width": 1
+}, {
+	"source": 0,
+	"length": 500,
+	"target": 4,
+	"width": 3
+}, {
+	"source": 1,
+	"length": 500,
+	"target": 4,
+	"width": 1
+}, {
+	"source": 5,
+	"length": 500,
+	"target": 4,
+	"width": 2
+}, {
+	"source": 0,
+	"length": 500,
+	"target": 5,
+	"width": 6
+}, {
+	"source": 1,
+	"length": 500,
+	"target": 5,
+	"width": 3
+}, {
+	"source": 4,
+	"length": 500,
+	"target": 5,
+	"width": 4
+}]
+}

@@ -1,0 +1,39 @@
+{
+
+ "children": [
+  {
+   "name": "physics",
+   "id":"Region Central",
+   "children": [
+    {"id":"Region Central","name": "DragForce", "size": 18},
+    {"id":"Region Central", "name": "GravityForce", "size": 13},
+    {"id":"Region Central", "name": "IForce", "size": 31},
+    {"id":"Region Central", "name": "NBodyForce", "size": 104},
+    {"id":"Region Central", "name": "Particle", "size": 28},
+    {"id":"Region Central", "name": "Simulation", "size": 99},
+    {"id":"Region Central", "name": "Spring", "size": 22},
+    {"id":"Region Central", "name": "SpringForce", "size": 16}
+   ]
+  },
+  {
+   "name": "scale",
+   "id":"Region Chorotega",
+   "children": [
+    {"id":"Region Chorotega", "name": "IScaleMap", "size": 21},
+    {"id":"Region Chorotega","name": "LinearScale", "size": 13},
+    {"id":"Region Chorotega","name": "LogScale", "size": 31},
+    {"id":"Region Chorotega","name": "OrdinalScale", "size": 37},
+    {"id":"Region Chorotega","name": "QuantileScale", "size": 24},
+    {"id":"Region Chorotega","name": "QuantitativeScale", "size": 48},
+    {"id":"Region Chorotega","name": "RootScale", "size": 17},
+    {"id":"Region Chorotega","name": "Scale", "size": 42},
+    {"id":"Region Chorotega","name": "ScaleType", "size": 18},
+    {"id":"Region Chorotega","name": "TimeScale", "size": 58}
+   ]
+  }
+ ],
+
+ "links": [
+    {"source": "Region Central", "target": "Region Chorotega", "value": 5}
+  ]
+}

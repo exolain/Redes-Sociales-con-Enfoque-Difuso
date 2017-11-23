@@ -1,0 +1,4076 @@
+{
+	"nodes": [{
+
+			"id": "Region Central",
+			"type": "parent",
+			"total_imm": 70,
+			"total_emm": 86,
+			"membership": [{
+				"percent": 1
+			}]
+		},
+		{
+			"id": "Region Chorotega",
+			"type": "parent",
+			"total_imm": 30,
+			"total_emm": 26,
+			"membership": [{
+				"percent": 1
+			}]
+		},
+		{
+			"id": "Region Pacifico Central",
+			"type": "parent",
+			"total_imm": 35,
+			"total_emm": 31,
+			"membership": [{
+				"percent": 1
+			}]
+		},
+		{
+			"id": "Region Brunca",
+			"type": "parent",
+			"total_imm": 22,
+			"total_emm": 25,
+			"membership": [{
+				"percent": 1
+			}]
+		},
+		{
+			"id": "Region Huetar Caribe",
+			"type": "parent",
+			"total_imm": 28,
+			"total_emm": 14,
+			"membership": [{
+				"percent": 1
+			}]
+		},
+		{
+			"id": "Region Huetar Norte",
+			"type": "parent",
+			"total_imm": 19,
+			"total_emm": 22,
+			"membership": [{
+				"percent": 1
+			}]
+		}, {
+			"id": "element_5",
+			"regionDest": 2,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio bajo",
+			"membership": [ {
+				"percent": 0.872040594156
+			}, {
+				"percent": 0.037696692657699996
+			}, {
+				"percent": 0.0902627131867
+			}]
+		}, {
+			"id": "element_6",
+			"regionDest": 2,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "No mantiene familia o mantiene familia con salario alto",
+			"membership": [ {
+				"percent": 0.0392268412147
+			}, {
+				"percent": 0.9283525781399999
+			}, {
+				"percent": 0.0324205806454
+			}]
+		}, {
+			"id": "element_7",
+			"regionDest": 5,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio bajo",
+			"membership": [ {
+				"percent": 0.872040594135
+			}, {
+				"percent": 0.0376966926634
+			}, {
+				"percent": 0.0902627132013
+			}]
+		}, {
+			"id": "element_8",
+			"regionDest": 3,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio bajo",
+			"membership": [ {
+				"percent": 0.8720405941150001
+			}, {
+				"percent": 0.0376966926689
+			}, {
+				"percent": 0.0902627132157
+			}]
+		}, {
+			"id": "element_9",
+			"regionDest": 4,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "No mantiene familia o mantiene familia con salario alto",
+			"membership": [ {
+				"percent": 0.0392268412131
+			}, {
+				"percent": 0.928352578143
+			}, {
+				"percent": 0.0324205806444
+			}]
+		}, {
+			"id": "element_10",
+			"regionDest": 2,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio bajo",
+			"membership": [ {
+				"percent": 0.8720405940960001
+			}, {
+				"percent": 0.0376966926743
+			}, {
+				"percent": 0.09026271322999999
+			}]
+		}, {
+			"id": "element_11",
+			"regionDest": 5,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "No mantiene familia o mantiene familia con salario alto",
+			"membership": [ {
+				"percent": 0.0392268412115
+			}, {
+				"percent": 0.928352578145
+			}, {
+				"percent": 0.0324205806433
+			}]
+		}, {
+			"id": "element_12",
+			"regionDest": 2,
+			"titulo": "Educacion superior",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio",
+			"membership": [ {
+				"percent": 0.37088382841
+			}, {
+				"percent": 0.330164553871
+			}, {
+				"percent": 0.298951617719
+			}]
+		}, {
+			"id": "element_13",
+			"regionDest": 2,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "No mantiene familia o mantiene familia con salario alto",
+			"membership": [ {
+				"percent": 0.0392268412096
+			}, {
+				"percent": 0.928352578148
+			}, {
+				"percent": 0.0324205806421
+			}]
+		}, {
+			"id": "element_14",
+			"regionDest": 4,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario medio bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio bajo",
+			"membership": [ {
+				"percent": 0.0585679544708
+			}, {
+				"percent": 0.0206804279462
+			}, {
+				"percent": 0.9207516175830001
+			}]
+		}, {
+			"id": "element_15",
+			"regionDest": 4,
+			"titulo": "Educacion superior",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario medio bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio",
+			"membership": [ {
+				"percent": 0.24520063359400002
+			}, {
+				"percent": 0.251363333782
+			}, {
+				"percent": 0.503436032624
+			}]
+		}, {
+			"id": "element_16",
+			"regionDest": 3,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "No mantiene familia o mantiene familia con salario alto",
+			"membership": [ {
+				"percent": 0.039226841206699996
+			}, {
+				"percent": 0.928352578153
+			}, {
+				"percent": 0.032420580639999995
+			}]
+		}, {
+			"id": "element_17",
+			"regionDest": 3,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "Mantiene familia con salario minimo",
+			"membership": [ {
+				"percent": 0.796047776778
+			}, {
+				"percent": 0.07110226983960001
+			}, {
+				"percent": 0.13284995338199998
+			}]
+		}, {
+			"id": "element_18",
+			"regionDest": 3,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "Mantiene familia con salario minimo",
+			"membership": [ {
+				"percent": 0.796047776804
+			}, {
+				"percent": 0.0711022698311
+			}, {
+				"percent": 0.13284995336400002
+			}]
+		}, {
+			"id": "element_19",
+			"regionDest": 2,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "Mantiene familia con salario minimo",
+			"membership": [ {
+				"percent": 0.7960477768299999
+			}, {
+				"percent": 0.0711022698227
+			}, {
+				"percent": 0.132849953347
+			}]
+		}, {
+			"id": "element_20",
+			"regionDest": 6,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario medio bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio bajo",
+			"membership": [ {
+				"percent": 0.0585679544747
+			}, {
+				"percent": 0.0206804279487
+			}, {
+				"percent": 0.920751617577
+			}]
+		}, {
+			"id": "element_21",
+			"regionDest": 5,
+			"titulo": "Educacion superior",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario medio bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio bajo",
+			"membership": [ {
+				"percent": 0.25307605088
+			}, {
+				"percent": 0.137845147566
+			}, {
+				"percent": 0.609078801554
+			}]
+		}, {
+			"id": "element_22",
+			"regionDest": 2,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio bajo",
+			"membership": [ {
+				"percent": 0.8720405940170001
+			}, {
+				"percent": 0.0376966926984
+			}, {
+				"percent": 0.0902627132848
+			}]
+		}, {
+			"id": "element_23",
+			"regionDest": 5,
+			"titulo": "Educacion superior",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario medio bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio bajo",
+			"membership": [ {
+				"percent": 0.25307605087499996
+			}, {
+				"percent": 0.13784514756400001
+			}, {
+				"percent": 0.609078801561
+			}]
+		}, {
+			"id": "element_24",
+			"regionDest": 5,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "Mantiene familia con salario minimo",
+			"membership": [ {
+				"percent": 0.79604777687
+			}, {
+				"percent": 0.07110226980930001
+			}, {
+				"percent": 0.13284995332
+			}]
+		}, {
+			"id": "element_25",
+			"regionDest": 3,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "Mantiene familia con salario minimo",
+			"membership": [ {
+				"percent": 0.7960477768950001
+			}, {
+				"percent": 0.0711022698014
+			}, {
+				"percent": 0.13284995330399998
+			}]
+		}, {
+			"id": "element_26",
+			"regionDest": 3,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario medio",
+			"mantieneFamilia": "No mantiene familia o mantiene familia con salario alto",
+			"membership": [ {
+				"percent": 0.191121230855
+			}, {
+				"percent": 0.529015635449
+			}, {
+				"percent": 0.279863133696
+			}]
+		}, {
+			"id": "element_27",
+			"regionDest": 2,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio bajo",
+			"membership": [ {
+				"percent": 0.872040593961
+			}, {
+				"percent": 0.0376966927155
+			}, {
+				"percent": 0.0902627133237
+			}]
+		}, {
+			"id": "element_28",
+			"regionDest": 3,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario medio bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio bajo",
+			"membership": [ {
+				"percent": 0.0585679544767
+			}, {
+				"percent": 0.0206804279507
+			}, {
+				"percent": 0.9207516175730001
+			}]
+		}, {
+			"id": "element_29",
+			"regionDest": 3,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario medio bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio bajo",
+			"membership": [ {
+				"percent": 0.058567954478699995
+			}, {
+				"percent": 0.0206804279514
+			}, {
+				"percent": 0.9207516175700001
+			}]
+		}, {
+			"id": "element_30",
+			"regionDest": 3,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario medio bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio bajo",
+			"membership": [ {
+				"percent": 0.0585679544807
+			}, {
+				"percent": 0.020680427952099997
+			}, {
+				"percent": 0.920751617567
+			}]
+		}, {
+			"id": "element_31",
+			"regionDest": 4,
+			"titulo": "Educacion superior",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario medio bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio bajo",
+			"membership": [ {
+				"percent": 0.25307605086199997
+			}, {
+				"percent": 0.137845147562
+			}, {
+				"percent": 0.609078801577
+			}]
+		}, {
+			"id": "element_32",
+			"regionDest": 4,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "Mantiene familia con salario minimo",
+			"membership": [ {
+				"percent": 0.796047776931
+			}, {
+				"percent": 0.07110226978919999
+			}, {
+				"percent": 0.132849953279
+			}]
+		}, {
+			"id": "element_33",
+			"regionDest": 5,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario medio bajo",
+			"mantieneFamilia": "No mantiene familia o mantiene familia con salario alto",
+			"membership": [ {
+				"percent": 0.141119781324
+			}, {
+				"percent": 0.6244149060840001
+			}, {
+				"percent": 0.23446531259300002
+			}]
+		}, {
+			"id": "element_34",
+			"regionDest": 6,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario medio bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio bajo",
+			"membership": [ {
+				"percent": 0.0585679544833
+			}, {
+				"percent": 0.020680427953400003
+			}, {
+				"percent": 0.9207516175630001
+			}]
+		}, {
+			"id": "element_35",
+			"regionDest": 6,
+			"titulo": "Educacion superior",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario medio bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio",
+			"membership": [ {
+				"percent": 0.24520063356199998
+			}, {
+				"percent": 0.251363333765
+			}, {
+				"percent": 0.503436032674
+			}]
+		}, {
+			"id": "element_36",
+			"regionDest": 5,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario medio bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio bajo",
+			"membership": [ {
+				"percent": 0.0585679544909
+			}, {
+				"percent": 0.020680427956
+			}, {
+				"percent": 0.9207516175530001
+			}]
+		}, {
+			"id": "element_37",
+			"regionDest": 5,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario medio",
+			"mantieneFamilia": "No mantiene familia o mantiene familia con salario alto",
+			"membership": [ {
+				"percent": 0.191121230854
+			}, {
+				"percent": 0.529015635442
+			}, {
+				"percent": 0.279863133704
+			}]
+		}, {
+			"id": "element_38",
+			"regionDest": 4,
+			"titulo": "Educacion superior",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "No mantiene familia o mantiene familia con salario alto",
+			"membership": [ {
+				"percent": 0.147293650152
+			}, {
+				"percent": 0.719967482045
+			}, {
+				"percent": 0.132738867803
+			}]
+		}, {
+			"id": "element_39",
+			"regionDest": 4,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "No mantiene familia o mantiene familia con salario alto",
+			"membership": [ {
+				"percent": 0.0392268411977
+			}, {
+				"percent": 0.928352578167
+			}, {
+				"percent": 0.0324205806351
+			}]
+		}, {
+			"id": "element_40",
+			"regionDest": 5,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio bajo",
+			"membership": [ {
+				"percent": 0.8720405939270001
+			}, {
+				"percent": 0.037696692725900004
+			}, {
+				"percent": 0.0902627133471
+			}]
+		}, {
+			"id": "element_41",
+			"regionDest": 5,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio bajo",
+			"membership": [ {
+				"percent": 0.87204059391
+			}, {
+				"percent": 0.0376966927306
+			}, {
+				"percent": 0.09026271335939999
+			}]
+		}, {
+			"id": "element_42",
+			"regionDest": 4,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "Mantiene familia con salario minimo",
+			"membership": [ {
+				"percent": 0.796047776979
+			}, {
+				"percent": 0.07110226977310001
+			}, {
+				"percent": 0.132849953248
+			}]
+		}, {
+			"id": "element_43",
+			"regionDest": 3,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "Mantiene familia con salario minimo",
+			"membership": [ {
+				"percent": 0.796047777001
+			}, {
+				"percent": 0.0711022697658
+			}, {
+				"percent": 0.132849953233
+			}]
+		}, {
+			"id": "element_44",
+			"regionDest": 2,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Desempleado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "Mantiene familia con salario minimo",
+			"membership": [ {
+				"percent": 0.796047777023
+			}, {
+				"percent": 0.07110226975869999
+			}, {
+				"percent": 0.132849953218
+			}]
+		}, {
+			"id": "element_45",
+			"regionDest": 5,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Desempleado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "Mantiene familia con salario minimo",
+			"membership": [ {
+				"percent": 0.7960477770450001
+			}, {
+				"percent": 0.0711022697518
+			}, {
+				"percent": 0.132849953203
+			}]
+		}, {
+			"id": "element_46",
+			"regionDest": 3,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario medio bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio bajo",
+			"membership": [ {
+				"percent": 0.05856795448800001
+			}, {
+				"percent": 0.0206804279567
+			}, {
+				"percent": 0.920751617555
+			}]
+		}, {
+			"id": "element_47",
+			"regionDest": 3,
+			"titulo": "Educacion superior",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio bajo",
+			"membership": [ {
+				"percent": 0.52168500812
+			}, {
+				"percent": 0.17740976361400002
+			}, {
+				"percent": 0.300905228267
+			}]
+		}, {
+			"id": "element_48",
+			"regionDest": 3,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "Mantiene familia con salario minimo",
+			"membership": [ {
+				"percent": 0.7960477770669999
+			}, {
+				"percent": 0.0711022697442
+			}, {
+				"percent": 0.132849953188
+			}]
+		}, {
+			"id": "element_49",
+			"regionDest": 2,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario medio bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio bajo",
+			"membership": [ {
+				"percent": 0.0585679544898
+			}, {
+				"percent": 0.0206804279577
+			}, {
+				"percent": 0.920751617552
+			}]
+		}, {
+			"id": "element_50",
+			"regionDest": 2,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario medio bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio bajo",
+			"membership": [ {
+				"percent": 0.0585679544916
+			}, {
+				"percent": 0.0206804279583
+			}, {
+				"percent": 0.9207516175499999
+			}]
+		}, {
+			"id": "element_51",
+			"regionDest": 2,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario medio bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio",
+			"membership": [ {
+				"percent": 0.20100039641800002
+			}, {
+				"percent": 0.17811435516600002
+			}, {
+				"percent": 0.620885248416
+			}]
+		}, {
+			"id": "element_52",
+			"regionDest": 2,
+			"titulo": "Educacion superior",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio bajo",
+			"membership": [ {
+				"percent": 0.521685008109
+			}, {
+				"percent": 0.17740976361699998
+			}, {
+				"percent": 0.300905228274
+			}]
+		}, {
+			"id": "element_53",
+			"regionDest": 3,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario medio bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio bajo",
+			"membership": [ {
+				"percent": 0.0585679544975
+			}, {
+				"percent": 0.0206804279604
+			}, {
+				"percent": 0.920751617542
+			}]
+		}, {
+			"id": "element_54",
+			"regionDest": 5,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio bajo",
+			"membership": [ {
+				"percent": 0.872040593807
+			}, {
+				"percent": 0.037696692762
+			}, {
+				"percent": 0.0902627134313
+			}]
+		}, {
+			"id": "element_55",
+			"regionDest": 3,
+			"titulo": "Educacion superior",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "Mantiene familia con salario minimo",
+			"membership": [ {
+				"percent": 0.549025083239
+			}, {
+				"percent": 0.178871212658
+			}, {
+				"percent": 0.272103704103
+			}]
+		}, {
+			"id": "element_56",
+			"regionDest": 6,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario medio bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio bajo",
+			"membership": [ {
+				"percent": 0.0585679544969
+			}, {
+				"percent": 0.0206804279604
+			}, {
+				"percent": 0.920751617543
+			}]
+		}, {
+			"id": "element_57",
+			"regionDest": 4,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio bajo",
+			"membership": [ {
+				"percent": 0.872040593786
+			}, {
+				"percent": 0.0376966927681
+			}, {
+				"percent": 0.0902627134464
+			}]
+		}, {
+			"id": "element_58",
+			"regionDest": 3,
+			"titulo": "Educacion superior",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio bajo",
+			"membership": [ {
+				"percent": 0.5216850081059999
+			}, {
+				"percent": 0.177409763616
+			}, {
+				"percent": 0.300905228278
+			}]
+		}, {
+			"id": "element_59",
+			"regionDest": 2,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario medio bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio",
+			"membership": [ {
+				"percent": 0.201000396413
+			}, {
+				"percent": 0.178114355162
+			}, {
+				"percent": 0.620885248425
+			}]
+		}, {
+			"id": "element_60",
+			"regionDest": 6,
+			"titulo": "Educacion superior",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio bajo",
+			"membership": [ {
+				"percent": 0.5216850081009999
+			}, {
+				"percent": 0.17740976361699998
+			}, {
+				"percent": 0.30090522828099997
+			}]
+		}, {
+			"id": "element_61",
+			"regionDest": 5,
+			"titulo": "Educacion superior",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "No mantiene familia o mantiene familia con salario alto",
+			"membership": [ {
+				"percent": 0.147293650144
+			}, {
+				"percent": 0.7199674820469999
+			}, {
+				"percent": 0.132738867809
+			}]
+		}, {
+			"id": "element_62",
+			"regionDest": 5,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "No mantiene familia o mantiene familia con salario alto",
+			"membership": [ {
+				"percent": 0.039226841192800004
+			}, {
+				"percent": 0.9283525781730001
+			}, {
+				"percent": 0.032420580633799996
+			}]
+		}, {
+			"id": "element_63",
+			"regionDest": 2,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "No mantiene familia o mantiene familia con salario alto",
+			"membership": [ {
+				"percent": 0.0392268411915
+			}, {
+				"percent": 0.9283525781759999
+			}, {
+				"percent": 0.0324205806328
+			}]
+		}, {
+			"id": "element_64",
+			"regionDest": 2,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio bajo",
+			"membership": [ {
+				"percent": 0.872040593768
+			}, {
+				"percent": 0.0376966927726
+			}, {
+				"percent": 0.09026271345899999
+			}]
+		}, {
+			"id": "element_65",
+			"regionDest": 6,
+			"titulo": "Educacion superior",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario medio bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio",
+			"membership": [ {
+				"percent": 0.245200633536
+			}, {
+				"percent": 0.251363333747
+			}, {
+				"percent": 0.503436032717
+			}]
+		}, {
+			"id": "element_66",
+			"regionDest": 3,
+			"titulo": "Educacion superior",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario medio bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio bajo",
+			"membership": [ {
+				"percent": 0.253076050823
+			}, {
+				"percent": 0.137845147552
+			}, {
+				"percent": 0.609078801625
+			}]
+		}, {
+			"id": "element_67",
+			"regionDest": 4,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio bajo",
+			"membership": [ {
+				"percent": 0.872040593755
+			}, {
+				"percent": 0.0376966927764
+			}, {
+				"percent": 0.0902627134685
+			}]
+		}, {
+			"id": "element_68",
+			"regionDest": 2,
+			"titulo": "Educacion superior",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario medio",
+			"mantieneFamilia": "No mantiene familia o mantiene familia con salario alto",
+			"membership": [ {
+				"percent": 0.206077113473
+			}, {
+				"percent": 0.502988858878
+			}, {
+				"percent": 0.290934027649
+			}]
+		}, {
+			"id": "element_69",
+			"regionDest": 5,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio bajo",
+			"membership": [ {
+				"percent": 0.872040593741
+			}, {
+				"percent": 0.0376966927806
+			}, {
+				"percent": 0.09026271347869999
+			}]
+		}, {
+			"id": "element_70",
+			"regionDest": 5,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Desempleado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "No mantiene familia o mantiene familia con salario alto",
+			"membership": [ {
+				"percent": 0.0392268411865
+			}, {
+				"percent": 0.928352578184
+			}, {
+				"percent": 0.0324205806294
+			}]
+		}, {
+			"id": "element_71",
+			"regionDest": 3,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario medio bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio",
+			"membership": [ {
+				"percent": 0.20100039640700001
+			}, {
+				"percent": 0.17811435515700003
+			}, {
+				"percent": 0.620885248436
+			}]
+		}, {
+			"id": "element_72",
+			"regionDest": 5,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario medio bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio",
+			"membership": [ {
+				"percent": 0.201000396403
+			}, {
+				"percent": 0.178114355154
+			}, {
+				"percent": 0.6208852484440001
+			}]
+		}, {
+			"id": "element_73",
+			"regionDest": 4,
+			"titulo": "Educacion superior",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "No mantiene familia o mantiene familia con salario alto",
+			"membership": [ {
+				"percent": 0.147293650148
+			}, {
+				"percent": 0.719967482036
+			}, {
+				"percent": 0.132738867816
+			}]
+		}, {
+			"id": "element_74",
+			"regionDest": 5,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "No mantiene familia o mantiene familia con salario alto",
+			"membership": [ {
+				"percent": 0.039226841184300004
+			}, {
+				"percent": 0.928352578188
+			}, {
+				"percent": 0.032420580628
+			}]
+		}, {
+			"id": "element_75",
+			"regionDest": 5,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "No mantiene familia o mantiene familia con salario alto",
+			"membership": [ {
+				"percent": 0.0392268411832
+			}, {
+				"percent": 0.9283525781899999
+			}, {
+				"percent": 0.032420580627099994
+			}]
+		}, {
+			"id": "element_76",
+			"regionDest": 4,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario medio bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio bajo",
+			"membership": [ {
+				"percent": 0.058567954516400005
+			}, {
+				"percent": 0.020680427967999997
+			}, {
+				"percent": 0.920751617516
+			}]
+		}, {
+			"id": "element_77",
+			"regionDest": 4,
+			"titulo": "Educacion superior",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario medio bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio bajo",
+			"membership": [ {
+				"percent": 0.25307605082199996
+			}, {
+				"percent": 0.13784514755000002
+			}, {
+				"percent": 0.609078801629
+			}]
+		}, {
+			"id": "element_78",
+			"regionDest": 3,
+			"titulo": "Educacion superior",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario medio",
+			"mantieneFamilia": "No mantiene familia o mantiene familia con salario alto",
+			"membership": [ {
+				"percent": 0.206077113475
+			}, {
+				"percent": 0.502988858867
+			}, {
+				"percent": 0.290934027659
+			}]
+		}, {
+			"id": "element_79",
+			"regionDest": 2,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "No mantiene familia o mantiene familia con salario alto",
+			"membership": [ {
+				"percent": 0.0392268411799
+			}, {
+				"percent": 0.928352578196
+			}, {
+				"percent": 0.0324205806245
+			}]
+		}, {
+			"id": "element_80",
+			"regionDest": 6,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "No mantiene familia o mantiene familia con salario alto",
+			"membership": [ {
+				"percent": 0.0392268411788
+			}, {
+				"percent": 0.928352578198
+			}, {
+				"percent": 0.032420580623599995
+			}]
+		}, {
+			"id": "element_81",
+			"regionDest": 6,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "No mantiene familia o mantiene familia con salario alto",
+			"membership": [ {
+				"percent": 0.0392268411778
+			}, {
+				"percent": 0.9283525781990001
+			}, {
+				"percent": 0.032420580622799997
+			}]
+		}, {
+			"id": "element_82",
+			"regionDest": 4,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario medio bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio bajo",
+			"membership": [ {
+				"percent": 0.0585679545206
+			}, {
+				"percent": 0.020680427969400002
+			}, {
+				"percent": 0.92075161751
+			}]
+		}, {
+			"id": "element_83",
+			"regionDest": 4,
+			"titulo": "Educacion superior",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario medio bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio",
+			"membership": [ {
+				"percent": 0.245200633527
+			}, {
+				"percent": 0.251363333728
+			}, {
+				"percent": 0.5034360327449999
+			}]
+		}, {
+			"id": "element_84",
+			"regionDest": 6,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "No mantiene familia o mantiene familia con salario alto",
+			"membership": [ {
+				"percent": 0.039226841175800005
+			}, {
+				"percent": 0.928352578203
+			}, {
+				"percent": 0.0324205806214
+			}]
+		}, {
+			"id": "element_85",
+			"regionDest": 4,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario medio bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio bajo",
+			"membership": [ {
+				"percent": 0.0585679545261
+			}, {
+				"percent": 0.0206804279713
+			}, {
+				"percent": 0.920751617503
+			}]
+		}, {
+			"id": "element_86",
+			"regionDest": 5,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "Mantiene familia con salario minimo",
+			"membership": [ {
+				"percent": 0.796047777155
+			}, {
+				"percent": 0.0711022697137
+			}, {
+				"percent": 0.132849953131
+			}]
+		}, {
+			"id": "element_87",
+			"regionDest": 2,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario medio bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio bajo",
+			"membership": [ {
+				"percent": 0.0585679545262
+			}, {
+				"percent": 0.0206804279716
+			}, {
+				"percent": 0.9207516175020001
+			}]
+		}, {
+			"id": "element_88",
+			"regionDest": 6,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio bajo",
+			"membership": [ {
+				"percent": 0.872040593714
+			}, {
+				"percent": 0.0376966927891
+			}, {
+				"percent": 0.090262713497
+			}]
+		}, {
+			"id": "element_89",
+			"regionDest": 3,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "Mantiene familia con salario minimo",
+			"membership": [ {
+				"percent": 0.796047777183
+			}, {
+				"percent": 0.0711022697042
+			}, {
+				"percent": 0.132849953113
+			}]
+		}, {
+			"id": "element_90",
+			"regionDest": 6,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario medio bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio bajo",
+			"membership": [ {
+				"percent": 0.058567954525899996
+			}, {
+				"percent": 0.0206804279719
+			}, {
+				"percent": 0.9207516175020001
+			}]
+		}, {
+			"id": "element_91",
+			"regionDest": 5,
+			"titulo": "Educacion superior",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario alto",
+			"mantieneFamilia": "No mantiene familia o mantiene familia con salario alto",
+			"membership": [ {
+				"percent": 0.23183738125999998
+			}, {
+				"percent": 0.461136527195
+			}, {
+				"percent": 0.307026091545
+			}]
+		}, {
+			"id": "element_92",
+			"regionDest": 1,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "Mantiene familia con salario minimo",
+			"membership": [ {
+				"percent": 0.796047777201
+			}, {
+				"percent": 0.0711022696984
+			}, {
+				"percent": 0.1328499531
+			}]
+		}, {
+			"id": "element_93",
+			"regionDest": 3,
+			"titulo": "Educacion superior",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario medio",
+			"mantieneFamilia": "No mantiene familia o mantiene familia con salario alto",
+			"membership": [ {
+				"percent": 0.20607711347399998
+			}, {
+				"percent": 0.502988858853
+			}, {
+				"percent": 0.290934027673
+			}]
+		}, {
+			"id": "element_94",
+			"regionDest": 4,
+			"titulo": "Educacion superior",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario alto",
+			"mantieneFamilia": "No mantiene familia o mantiene familia con salario alto",
+			"membership": [ {
+				"percent": 0.23183738125999998
+			}, {
+				"percent": 0.46113652719
+			}, {
+				"percent": 0.30702609155
+			}]
+		}, {
+			"id": "element_95",
+			"regionDest": 1,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "No mantiene familia o mantiene familia con salario alto",
+			"membership": [ {
+				"percent": 0.0392268411696
+			}, {
+				"percent": 0.928352578213
+			}, {
+				"percent": 0.0324205806173
+			}]
+		}, {
+			"id": "element_96",
+			"regionDest": 1,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario medio bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio bajo",
+			"membership": [ {
+				"percent": 0.0585679545306
+			}, {
+				"percent": 0.0206804279738
+			}, {
+				"percent": 0.920751617496
+			}]
+		}, {
+			"id": "element_97",
+			"regionDest": 6,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "Mantiene familia con salario minimo",
+			"membership": [ {
+				"percent": 0.79604777722
+			}, {
+				"percent": 0.0711022696928
+			}, {
+				"percent": 0.13284995308800002
+			}]
+		}, {
+			"id": "element_98",
+			"regionDest": 3,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio bajo",
+			"membership": [ {
+				"percent": 0.8720405936579999
+			}, {
+				"percent": 0.0376966928064
+			}, {
+				"percent": 0.0902627135355
+			}]
+		}, {
+			"id": "element_99",
+			"regionDest": 3,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio",
+			"membership": [ {
+				"percent": 0.44449324123899997
+			}, {
+				"percent": 0.282378818822
+			}, {
+				"percent": 0.27312793993900003
+			}]
+		}, {
+			"id": "element_100",
+			"regionDest": 1,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario medio bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio bajo",
+			"membership": [ {
+				"percent": 0.0585679545316
+			}, {
+				"percent": 0.0206804279746
+			}, {
+				"percent": 0.920751617494
+			}]
+		}, {
+			"id": "element_101",
+			"regionDest": 6,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario medio bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio bajo",
+			"membership": [ {
+				"percent": 0.058567954532699994
+			}, {
+				"percent": 0.020680427975000002
+			}, {
+				"percent": 0.920751617492
+			}]
+		}, {
+			"id": "element_102",
+			"regionDest": 1,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "No mantiene familia o mantiene familia con salario alto",
+			"membership": [ {
+				"percent": 0.0392268411681
+			}, {
+				"percent": 0.9283525782150001
+			}, {
+				"percent": 0.0324205806169
+			}]
+		}, {
+			"id": "element_103",
+			"regionDest": 6,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio bajo",
+			"membership": [ {
+				"percent": 0.872040593643
+			}, {
+				"percent": 0.0376966928105
+			}, {
+				"percent": 0.09026271354620001
+			}]
+		}, {
+			"id": "element_104",
+			"regionDest": 1,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario medio bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio bajo",
+			"membership": [ {
+				"percent": 0.0585679545335
+			}, {
+				"percent": 0.0206804279754
+			}, {
+				"percent": 0.920751617491
+			}]
+		}, {
+			"id": "element_105",
+			"regionDest": 3,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio bajo",
+			"membership": [ {
+				"percent": 0.8720405936299999
+			}, {
+				"percent": 0.037696692814
+			}, {
+				"percent": 0.0902627135555
+			}]
+		}, {
+			"id": "element_106",
+			"regionDest": 1,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio bajo",
+			"membership": [ {
+				"percent": 0.872040593618
+			}, {
+				"percent": 0.0376966928175
+			}, {
+				"percent": 0.0902627135647
+			}]
+		}, {
+			"id": "element_107",
+			"regionDest": 1,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Desempleado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "No mantiene familia o mantiene familia con salario alto",
+			"membership": [ {
+				"percent": 0.0392268411671
+			}, {
+				"percent": 0.928352578216
+			}, {
+				"percent": 0.0324205806165
+			}]
+		}, {
+			"id": "element_108",
+			"regionDest": 1,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "Mantiene familia con salario minimo",
+			"membership": [ {
+				"percent": 0.796047777272
+			}, {
+				"percent": 0.07110226967410001
+			}, {
+				"percent": 0.13284995305400002
+			}]
+		}, {
+			"id": "element_109",
+			"regionDest": 1,
+			"titulo": "No tiene educacion",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "No mantiene familia o mantiene familia con salario alto",
+			"membership": [ {
+				"percent": 0.251237346724
+			}, {
+				"percent": 0.524862025543
+			}, {
+				"percent": 0.22390062773400002
+			}]
+		}, {
+			"id": "element_110",
+			"regionDest": 1,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario medio bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio bajo",
+			"membership": [ {
+				"percent": 0.058567954533000004
+			}, {
+				"percent": 0.0206804279758
+			}, {
+				"percent": 0.920751617491
+			}]
+		}, {
+			"id": "element_111",
+			"regionDest": 3,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario medio bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio bajo",
+			"membership": [ {
+				"percent": 0.0585679545341
+			}, {
+				"percent": 0.020680427976099997
+			}, {
+				"percent": 0.92075161749
+			}]
+		}, {
+			"id": "element_112",
+			"regionDest": 1,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "Mantiene familia con salario minimo",
+			"membership": [ {
+				"percent": 0.796047777289
+			}, {
+				"percent": 0.0711022696687
+			}, {
+				"percent": 0.132849953043
+			}]
+		}, {
+			"id": "element_113",
+			"regionDest": 3,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario medio bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio bajo",
+			"membership": [ {
+				"percent": 0.0585679545342
+			}, {
+				"percent": 0.020680427976400004
+			}, {
+				"percent": 0.9207516174889999
+			}]
+		}, {
+			"id": "element_114",
+			"regionDest": 3,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "Mantiene familia con salario minimo",
+			"membership": [ {
+				"percent": 0.796047777305
+			}, {
+				"percent": 0.0711022696635
+			}, {
+				"percent": 0.132849953032
+			}]
+		}, {
+			"id": "element_115",
+			"regionDest": 5,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "Mantiene familia con salario minimo",
+			"membership": [ {
+				"percent": 0.796047777321
+			}, {
+				"percent": 0.07110226965830001
+			}, {
+				"percent": 0.132849953021
+			}]
+		}, {
+			"id": "element_116",
+			"regionDest": 1,
+			"titulo": "Educacion superior",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "No mantiene familia o mantiene familia con salario alto",
+			"membership": [ {
+				"percent": 0.147293650146
+			}, {
+				"percent": 0.719967482023
+			}, {
+				"percent": 0.13273886783
+			}]
+		}, {
+			"id": "element_117",
+			"regionDest": 1,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario medio bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio bajo",
+			"membership": [ {
+				"percent": 0.05856795453369999
+			}, {
+				"percent": 0.0206804279767
+			}, {
+				"percent": 0.92075161749
+			}]
+		}, {
+			"id": "element_118",
+			"regionDest": 1,
+			"titulo": "Educacion superior",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario medio bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio bajo",
+			"membership": [ {
+				"percent": 0.25307605079100004
+			}, {
+				"percent": 0.13784514754000002
+			}, {
+				"percent": 0.609078801669
+			}]
+		}, {
+			"id": "element_119",
+			"regionDest": 1,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario medio bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio",
+			"membership": [ {
+				"percent": 0.20100039637000003
+			}, {
+				"percent": 0.178114355137
+			}, {
+				"percent": 0.620885248493
+			}]
+		}, {
+			"id": "element_120",
+			"regionDest": 1,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario medio bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio",
+			"membership": [ {
+				"percent": 0.201000396367
+			}, {
+				"percent": 0.178114355134
+			}, {
+				"percent": 0.620885248499
+			}]
+		}, {
+			"id": "element_121",
+			"regionDest": 1,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "Mantiene familia con salario minimo",
+			"membership": [ {
+				"percent": 0.796047777339
+			}, {
+				"percent": 0.0711022696527
+			}, {
+				"percent": 0.132849953009
+			}]
+		}, {
+			"id": "element_122",
+			"regionDest": 1,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "Mantiene familia con salario minimo",
+			"membership": [ {
+				"percent": 0.796047777354
+			}, {
+				"percent": 0.0711022696478
+			}, {
+				"percent": 0.13284995299799998
+			}]
+		}, {
+			"id": "element_123",
+			"regionDest": 1,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "No mantiene familia o mantiene familia con salario alto",
+			"membership": [ {
+				"percent": 0.039226841163300004
+			}, {
+				"percent": 0.928352578222
+			}, {
+				"percent": 0.0324205806148
+			}]
+		}, {
+			"id": "element_124",
+			"regionDest": 1,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "Mantiene familia con salario minimo",
+			"membership": [ {
+				"percent": 0.796047777369
+			}, {
+				"percent": 0.07110226964289999
+			}, {
+				"percent": 0.132849952988
+			}]
+		}, {
+			"id": "element_125",
+			"regionDest": 1,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio bajo",
+			"membership": [ {
+				"percent": 0.8720405935200002
+			}, {
+				"percent": 0.0376966928479
+			}, {
+				"percent": 0.09026271363189999
+			}]
+		}, {
+			"id": "element_126",
+			"regionDest": 6,
+			"titulo": "No tiene educacion",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "Mantiene familia con salario minimo",
+			"membership": [ {
+				"percent": 0.482447577099
+			}, {
+				"percent": 0.216691313325
+			}, {
+				"percent": 0.300861109576
+			}]
+		}, {
+			"id": "element_127",
+			"regionDest": 1,
+			"titulo": "Educacion superior",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "No mantiene familia o mantiene familia con salario alto",
+			"membership": [ {
+				"percent": 0.147293650143
+			}, {
+				"percent": 0.719967482025
+			}, {
+				"percent": 0.132738867832
+			}]
+		}, {
+			"id": "element_128",
+			"regionDest": 1,
+			"titulo": "Educacion superior",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario medio bajo",
+			"mantieneFamilia": "No mantiene familia o mantiene familia con salario alto",
+			"membership": [ {
+				"percent": 0.174722029621
+			}, {
+				"percent": 0.5565254848610001
+			}, {
+				"percent": 0.268752485518
+			}]
+		}, {
+			"id": "element_129",
+			"regionDest": 1,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario medio bajo",
+			"mantieneFamilia": "No mantiene familia o mantiene familia con salario alto",
+			"membership": [ {
+				"percent": 0.14111978131
+			}, {
+				"percent": 0.6244149060490001
+			}, {
+				"percent": 0.234465312641
+			}]
+		}, {
+			"id": "element_130",
+			"regionDest": 1,
+			"titulo": "Educacion superior",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario medio",
+			"mantieneFamilia": "No mantiene familia o mantiene familia con salario alto",
+			"membership": [ {
+				"percent": 0.206077113469
+			}, {
+				"percent": 0.502988858839
+			}, {
+				"percent": 0.290934027692
+			}]
+		}, {
+			"id": "element_131",
+			"regionDest": 1,
+			"titulo": "Educacion superior",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario medio",
+			"mantieneFamilia": "No mantiene familia o mantiene familia con salario alto",
+			"membership": [ {
+				"percent": 0.20607711347
+			}, {
+				"percent": 0.502988858836
+			}, {
+				"percent": 0.290934027694
+			}]
+		}, {
+			"id": "element_132",
+			"regionDest": 1,
+			"titulo": "Educacion superior",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario medio",
+			"mantieneFamilia": "No mantiene familia o mantiene familia con salario alto",
+			"membership": [ {
+				"percent": 0.20607711347
+			}, {
+				"percent": 0.502988858833
+			}, {
+				"percent": 0.290934027697
+			}]
+		}, {
+			"id": "element_133",
+			"regionDest": 1,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario medio",
+			"mantieneFamilia": "Mantiene familia con salario medio",
+			"membership": [ {
+				"percent": 0.261764900822
+			}, {
+				"percent": 0.25693664555999995
+			}, {
+				"percent": 0.481298453618
+			}]
+		}, {
+			"id": "element_134",
+			"regionDest": 1,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio bajo",
+			"membership": [ {
+				"percent": 0.8720405935079999
+			}, {
+				"percent": 0.0376966928519
+			}, {
+				"percent": 0.0902627136403
+			}]
+		}, {
+			"id": "element_135",
+			"regionDest": 1,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio bajo",
+			"membership": [ {
+				"percent": 0.872040593497
+			}, {
+				"percent": 0.037696692855000005
+			}, {
+				"percent": 0.0902627136482
+			}]
+		}, {
+			"id": "element_136",
+			"regionDest": 6,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "No mantiene familia o mantiene familia con salario alto",
+			"membership": [ {
+				"percent": 0.0392268411552
+			}, {
+				"percent": 0.9283525782359999
+			}, {
+				"percent": 0.0324205806092
+			}]
+		}, {
+			"id": "element_137",
+			"regionDest": 2,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio bajo",
+			"membership": [ {
+				"percent": 0.872040593486
+			}, {
+				"percent": 0.0376966928579
+			}, {
+				"percent": 0.09026271365589998
+			}]
+		}, {
+			"id": "element_138",
+			"regionDest": 1,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Desempleado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "Mantiene familia con salario minimo",
+			"membership": [ {
+				"percent": 0.7960477774150001
+			}, {
+				"percent": 0.0711022696272
+			}, {
+				"percent": 0.132849952958
+			}]
+		}, {
+			"id": "element_139",
+			"regionDest": 1,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario medio bajo",
+			"mantieneFamilia": "No mantiene familia o mantiene familia con salario alto",
+			"membership": [ {
+				"percent": 0.141119781311
+			}, {
+				"percent": 0.6244149060399999
+			}, {
+				"percent": 0.234465312649
+			}]
+		}, {
+			"id": "element_140",
+			"regionDest": 1,
+			"titulo": "Educacion superior",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario medio bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio",
+			"membership": [ {
+				"percent": 0.245200633492
+			}, {
+				"percent": 0.251363333701
+			}, {
+				"percent": 0.503436032807
+			}]
+		}, {
+			"id": "element_141",
+			"regionDest": 2,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario medio bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio",
+			"membership": [ {
+				"percent": 0.201000396351
+			}, {
+				"percent": 0.178114355124
+			}, {
+				"percent": 0.620885248526
+			}]
+		}, {
+			"id": "element_142",
+			"regionDest": 1,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario medio bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio",
+			"membership": [ {
+				"percent": 0.201000396348
+			}, {
+				"percent": 0.178114355121
+			}, {
+				"percent": 0.620885248531
+			}]
+		}, {
+			"id": "element_143",
+			"regionDest": 4,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio bajo",
+			"membership": [ {
+				"percent": 0.8720405934659999
+			}, {
+				"percent": 0.0376966928642
+			}, {
+				"percent": 0.09026271367000001
+			}]
+		}, {
+			"id": "element_144",
+			"regionDest": 4,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario medio bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio bajo",
+			"membership": [ {
+				"percent": 0.0585679545481
+			}, {
+				"percent": 0.0206804279834
+			}, {
+				"percent": 0.920751617469
+			}]
+		}, {
+			"id": "element_145",
+			"regionDest": 4,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario medio bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio bajo",
+			"membership": [ {
+				"percent": 0.058567954549000004
+			}, {
+				"percent": 0.0206804279837
+			}, {
+				"percent": 0.9207516174670001
+			}]
+		}, {
+			"id": "element_146",
+			"regionDest": 4,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario medio bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio bajo",
+			"membership": [ {
+				"percent": 0.0585679545498
+			}, {
+				"percent": 0.0206804279839
+			}, {
+				"percent": 0.920751617466
+			}]
+		}, {
+			"id": "element_147",
+			"regionDest": 1,
+			"titulo": "Educacion superior",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario medio",
+			"mantieneFamilia": "No mantiene familia o mantiene familia con salario alto",
+			"membership": [ {
+				"percent": 0.206077113471
+			}, {
+				"percent": 0.502988858825
+			}, {
+				"percent": 0.290934027704
+			}]
+		}, {
+			"id": "element_148",
+			"regionDest": 1,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario medio bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio",
+			"membership": [ {
+				"percent": 0.201000396344
+			}, {
+				"percent": 0.17811435511799997
+			}, {
+				"percent": 0.620885248538
+			}]
+		}, {
+			"id": "element_149",
+			"regionDest": 1,
+			"titulo": "Educacion superior",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio",
+			"membership": [ {
+				"percent": 0.37088382829800004
+			}, {
+				"percent": 0.330164553859
+			}, {
+				"percent": 0.29895161784400004
+			}]
+		}, {
+			"id": "element_150",
+			"regionDest": 1,
+			"titulo": "Educacion superior",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "Mantiene familia con salario minimo",
+			"membership": [ {
+				"percent": 0.549025083362
+			}, {
+				"percent": 0.178871212601
+			}, {
+				"percent": 0.272103704037
+			}]
+		}, {
+			"id": "element_151",
+			"regionDest": 1,
+			"titulo": "Educacion superior",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario medio",
+			"mantieneFamilia": "No mantiene familia o mantiene familia con salario alto",
+			"membership": [ {
+				"percent": 0.206077113471
+			}, {
+				"percent": 0.5029888588220001
+			}, {
+				"percent": 0.290934027707
+			}]
+		}, {
+			"id": "element_152",
+			"regionDest": 1,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario medio bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio",
+			"membership": [ {
+				"percent": 0.20100039633900002
+			}, {
+				"percent": 0.178114355114
+			}, {
+				"percent": 0.620885248546
+			}]
+		}, {
+			"id": "element_153",
+			"regionDest": 6,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio bajo",
+			"membership": [ {
+				"percent": 0.872040593452
+			}, {
+				"percent": 0.0376966928683
+			}, {
+				"percent": 0.09026271367960001
+			}]
+		}, {
+			"id": "element_154",
+			"regionDest": 6,
+			"titulo": "Educacion superior",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario medio",
+			"mantieneFamilia": "No mantiene familia o mantiene familia con salario alto",
+			"membership": [ {
+				"percent": 0.206077113472
+			}, {
+				"percent": 0.502988858819
+			}, {
+				"percent": 0.290934027709
+			}]
+		}, {
+			"id": "element_155",
+			"regionDest": 2,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio bajo",
+			"membership": [ {
+				"percent": 0.872040593442
+			}, {
+				"percent": 0.0376966928712
+			}, {
+				"percent": 0.0902627136868
+			}]
+		}, {
+			"id": "element_156",
+			"regionDest": 1,
+			"titulo": "Educacion superior",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio",
+			"membership": [ {
+				"percent": 0.37088382829800004
+			}, {
+				"percent": 0.330164553855
+			}, {
+				"percent": 0.298951617847
+			}]
+		}, {
+			"id": "element_157",
+			"regionDest": 3,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio bajo",
+			"membership": [ {
+				"percent": 0.872040593432
+			}, {
+				"percent": 0.037696692873900005
+			}, {
+				"percent": 0.0902627136942
+			}]
+		}, {
+			"id": "element_158",
+			"regionDest": 1,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "Mantiene familia con salario minimo",
+			"membership": [ {
+				"percent": 0.7960477774629999
+			}, {
+				"percent": 0.0711022696108
+			}, {
+				"percent": 0.132849952926
+			}]
+		}, {
+			"id": "element_159",
+			"regionDest": 1,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio bajo",
+			"membership": [ {
+				"percent": 0.8720405934119999
+			}, {
+				"percent": 0.03769669287980001
+			}, {
+				"percent": 0.0902627137083
+			}]
+		}, {
+			"id": "element_160",
+			"regionDest": 1,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario medio bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio bajo",
+			"membership": [ {
+				"percent": 0.058567954557
+			}, {
+				"percent": 0.0206804279872
+			}, {
+				"percent": 0.920751617456
+			}]
+		}, {
+			"id": "element_161",
+			"regionDest": 1,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio bajo",
+			"membership": [ {
+				"percent": 0.872040593402
+			}, {
+				"percent": 0.037696692882400004
+			}, {
+				"percent": 0.09026271371510002
+			}]
+		}, {
+			"id": "element_162",
+			"regionDest": 1,
+			"titulo": "No tiene educacion",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "Mantiene familia con salario minimo",
+			"membership": [ {
+				"percent": 0.482447577124
+			}, {
+				"percent": 0.216691313316
+			}, {
+				"percent": 0.30086110956
+			}]
+		}, {
+			"id": "element_163",
+			"regionDest": 3,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "Mantiene familia con salario minimo",
+			"membership": [ {
+				"percent": 0.79604777749
+			}, {
+				"percent": 0.0711022696014
+			}, {
+				"percent": 0.132849952908
+			}]
+		}, {
+			"id": "element_164",
+			"regionDest": 3,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Desempleado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "Mantiene familia con salario minimo",
+			"membership": [ {
+				"percent": 0.796047777503
+			}, {
+				"percent": 0.0711022695975
+			}, {
+				"percent": 0.13284995289999998
+			}]
+		}, {
+			"id": "element_165",
+			"regionDest": 1,
+			"titulo": "No tiene educacion",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio bajo",
+			"membership": [ {
+				"percent": 0.46006903546000005
+			}, {
+				"percent": 0.21928897638300002
+			}, {
+				"percent": 0.32064198815699996
+			}]
+		}, {
+			"id": "element_166",
+			"regionDest": 1,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "No mantiene familia o mantiene familia con salario alto",
+			"membership": [ {
+				"percent": 0.039226841147199994
+			}, {
+				"percent": 0.928352578248
+			}, {
+				"percent": 0.032420580605200006
+			}]
+		}, {
+			"id": "element_167",
+			"regionDest": 3,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "No mantiene familia o mantiene familia con salario alto",
+			"membership": [ {
+				"percent": 0.0392268411466
+			}, {
+				"percent": 0.928352578249
+			}, {
+				"percent": 0.032420580604699996
+			}]
+		}, {
+			"id": "element_168",
+			"regionDest": 1,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio bajo",
+			"membership": [ {
+				"percent": 0.872040593372
+			}, {
+				"percent": 0.0376966928916
+			}, {
+				"percent": 0.0902627137363
+			}]
+		}, {
+			"id": "element_169",
+			"regionDest": 1,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio bajo",
+			"membership": [ {
+				"percent": 0.872040593363
+			}, {
+				"percent": 0.0376966928941
+			}, {
+				"percent": 0.0902627137428
+			}]
+		}, {
+			"id": "element_170",
+			"regionDest": 5,
+			"titulo": "No tiene educacion",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "Mantiene familia con salario minimo",
+			"membership": [ {
+				"percent": 0.482447577134
+			}, {
+				"percent": 0.216691313312
+			}, {
+				"percent": 0.30086110955400003
+			}]
+		}, {
+			"id": "element_171",
+			"regionDest": 1,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "No mantiene familia o mantiene familia con salario alto",
+			"membership": [ {
+				"percent": 0.039226841145900006
+			}, {
+				"percent": 0.9283525782500001
+			}, {
+				"percent": 0.0324205806042
+			}]
+		}, {
+			"id": "element_172",
+			"regionDest": 2,
+			"titulo": "Educacion superior",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "Mantiene familia con salario minimo",
+			"membership": [ {
+				"percent": 0.549025083404
+			}, {
+				"percent": 0.17887121258299998
+			}, {
+				"percent": 0.272103704013
+			}]
+		}, {
+			"id": "element_173",
+			"regionDest": 1,
+			"titulo": "Educacion superior",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario medio bajo",
+			"mantieneFamilia": "No mantiene familia o mantiene familia con salario alto",
+			"membership": [ {
+				"percent": 0.174722029626
+			}, {
+				"percent": 0.5565254848300001
+			}, {
+				"percent": 0.268752485544
+			}]
+		}, {
+			"id": "element_174",
+			"regionDest": 1,
+			"titulo": "Educacion superior",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario medio",
+			"mantieneFamilia": "No mantiene familia o mantiene familia con salario alto",
+			"membership": [ {
+				"percent": 0.206077113473
+			}, {
+				"percent": 0.502988858813
+			}, {
+				"percent": 0.290934027714
+			}]
+		}, {
+			"id": "element_175",
+			"regionDest": 1,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio bajo",
+			"membership": [ {
+				"percent": 0.87204059335
+			}, {
+				"percent": 0.0376966928982
+			}, {
+				"percent": 0.09026271375219999
+			}]
+		}, {
+			"id": "element_176",
+			"regionDest": 3,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio bajo",
+			"membership": [ {
+				"percent": 0.8720405933409999
+			}, {
+				"percent": 0.0376966929006
+			}, {
+				"percent": 0.0902627137585
+			}]
+		}, {
+			"id": "element_177",
+			"regionDest": 3,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio bajo",
+			"membership": [ {
+				"percent": 0.8720405933319999
+			}, {
+				"percent": 0.0376966929029
+			}, {
+				"percent": 0.0902627137646
+			}]
+		}, {
+			"id": "element_178",
+			"regionDest": 2,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio bajo",
+			"membership": [ {
+				"percent": 0.872040593324
+			}, {
+				"percent": 0.037696692905300005
+			}, {
+				"percent": 0.0902627137707
+			}]
+		}, {
+			"id": "element_179",
+			"regionDest": 2,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "No mantiene familia o mantiene familia con salario alto",
+			"membership": [ {
+				"percent": 0.039226841142699996
+			}, {
+				"percent": 0.928352578255
+			}, {
+				"percent": 0.032420580602199996
+			}]
+		}, {
+			"id": "element_180",
+			"regionDest": 6,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario medio bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio",
+			"membership": [ {
+				"percent": 0.20100039633000003
+			}, {
+				"percent": 0.178114355112
+			}, {
+				"percent": 0.620885248558
+			}]
+		}, {
+			"id": "element_181",
+			"regionDest": 1,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio bajo",
+			"membership": [ {
+				"percent": 0.8720405933159999
+			}, {
+				"percent": 0.0376966929075
+			}, {
+				"percent": 0.0902627137765
+			}]
+		}, {
+			"id": "element_182",
+			"regionDest": 3,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario medio bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio bajo",
+			"membership": [ {
+				"percent": 0.058567954556
+			}, {
+				"percent": 0.020680427988
+			}, {
+				"percent": 0.920751617456
+			}]
+		}, {
+			"id": "element_183",
+			"regionDest": 1,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "No mantiene familia o mantiene familia con salario alto",
+			"membership": [ {
+				"percent": 0.039226841142
+			}, {
+				"percent": 0.9283525782559999
+			}, {
+				"percent": 0.0324205806018
+			}]
+		}, {
+			"id": "element_184",
+			"regionDest": 4,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "No mantiene familia o mantiene familia con salario alto",
+			"membership": [ {
+				"percent": 0.0392268411414
+			}, {
+				"percent": 0.928352578257
+			}, {
+				"percent": 0.032420580601400004
+			}]
+		}, {
+			"id": "element_185",
+			"regionDest": 1,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "Mantiene familia con salario minimo",
+			"membership": [ {
+				"percent": 0.79604777756
+			}, {
+				"percent": 0.0711022695774
+			}, {
+				"percent": 0.132849952863
+			}]
+		}, {
+			"id": "element_186",
+			"regionDest": 2,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario medio bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio bajo",
+			"membership": [ {
+				"percent": 0.058567954556
+			}, {
+				"percent": 0.0206804279881
+			}, {
+				"percent": 0.920751617456
+			}]
+		}, {
+			"id": "element_187",
+			"regionDest": 2,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario medio bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio bajo",
+			"membership": [ {
+				"percent": 0.058567954556700004
+			}, {
+				"percent": 0.020680427988400002
+			}, {
+				"percent": 0.920751617455
+			}]
+		}, {
+			"id": "element_188",
+			"regionDest": 1,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario medio bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio bajo",
+			"membership": [ {
+				"percent": 0.0585679545574
+			}, {
+				"percent": 0.020680427988599998
+			}, {
+				"percent": 0.9207516174539999
+			}]
+		}, {
+			"id": "element_189",
+			"regionDest": 1,
+			"titulo": "Educacion superior",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "No mantiene familia o mantiene familia con salario alto",
+			"membership": [ {
+				"percent": 0.147293650148
+			}, {
+				"percent": 0.7199674820049999
+			}, {
+				"percent": 0.132738867847
+			}]
+		}, {
+			"id": "element_190",
+			"regionDest": 5,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio bajo",
+			"membership": [ {
+				"percent": 0.872040593299
+			}, {
+				"percent": 0.037696692912499996
+			}, {
+				"percent": 0.0902627137882
+			}]
+		}, {
+			"id": "element_191",
+			"regionDest": 5,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario medio bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio",
+			"membership": [ {
+				"percent": 0.201000396325
+			}, {
+				"percent": 0.17811435510899998
+			}, {
+				"percent": 0.620885248566
+			}]
+		}, {
+			"id": "element_192",
+			"regionDest": 1,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "Mantiene familia con salario minimo",
+			"membership": [ {
+				"percent": 0.796047777576
+			}, {
+				"percent": 0.0711022695718
+			}, {
+				"percent": 0.132849952852
+			}]
+		}, {
+			"id": "element_193",
+			"regionDest": 1,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "No mantiene familia o mantiene familia con salario alto",
+			"membership": [ {
+				"percent": 0.039226841140199996
+			}, {
+				"percent": 0.9283525782590001
+			}, {
+				"percent": 0.0324205806008
+			}]
+		}, {
+			"id": "element_194",
+			"regionDest": 2,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "Mantiene familia con salario minimo",
+			"membership": [ {
+				"percent": 0.796047777587
+			}, {
+				"percent": 0.07110226956839999
+			}, {
+				"percent": 0.13284995284499998
+			}]
+		}, {
+			"id": "element_195",
+			"regionDest": 1,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio bajo",
+			"membership": [ {
+				"percent": 0.872040593275
+			}, {
+				"percent": 0.037696692919800004
+			}, {
+				"percent": 0.090262713805
+			}]
+		}, {
+			"id": "element_196",
+			"regionDest": 1,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "Mantiene familia con salario minimo",
+			"membership": [ {
+				"percent": 0.796047777602
+			}, {
+				"percent": 0.0711022695632
+			}, {
+				"percent": 0.132849952835
+			}]
+		}, {
+			"id": "element_197",
+			"regionDest": 1,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "Mantiene familia con salario minimo",
+			"membership": [ {
+				"percent": 0.796047777612
+			}, {
+				"percent": 0.07110226956
+			}, {
+				"percent": 0.132849952828
+			}]
+		}, {
+			"id": "element_198",
+			"regionDest": 1,
+			"titulo": "Educacion superior",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario medio bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio",
+			"membership": [ {
+				"percent": 0.24520063347600002
+			}, {
+				"percent": 0.251363333682
+			}, {
+				"percent": 0.503436032842
+			}]
+		}, {
+			"id": "element_199",
+			"regionDest": 1,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario medio bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio bajo",
+			"membership": [ {
+				"percent": 0.0585679545589
+			}, {
+				"percent": 0.02068042799
+			}, {
+				"percent": 0.9207516174510001
+			}]
+		}, {
+			"id": "element_200",
+			"regionDest": 5,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio bajo",
+			"membership": [ {
+				"percent": 0.8720405932520001
+			}, {
+				"percent": 0.0376966929267
+			}, {
+				"percent": 0.0902627138208
+			}]
+		}, {
+			"id": "element_201",
+			"regionDest": 2,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio bajo",
+			"membership": [ {
+				"percent": 0.8720405932449999
+			}, {
+				"percent": 0.037696692928699996
+			}, {
+				"percent": 0.090262713826
+			}]
+		}, {
+			"id": "element_202",
+			"regionDest": 1,
+			"titulo": "No tiene educacion",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario medio bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio bajo",
+			"membership": [ {
+				"percent": 0.32540598821
+			}, {
+				"percent": 0.196773031124
+			}, {
+				"percent": 0.47782098066600004
+			}]
+		}, {
+			"id": "element_203",
+			"regionDest": 5,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio bajo",
+			"membership": [ {
+				"percent": 0.872040593238
+			}, {
+				"percent": 0.0376966929307
+			}, {
+				"percent": 0.0902627138312
+			}]
+		}, {
+			"id": "element_204",
+			"regionDest": 2,
+			"titulo": "Educacion superior",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio bajo",
+			"membership": [ {
+				"percent": 0.5216850079909999
+			}, {
+				"percent": 0.177409763638
+			}, {
+				"percent": 0.300905228371
+			}]
+		}, {
+			"id": "element_205",
+			"regionDest": 1,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio bajo",
+			"membership": [ {
+				"percent": 0.8720405932299999
+			}, {
+				"percent": 0.0376966929327
+			}, {
+				"percent": 0.09026271383680001
+			}]
+		}, {
+			"id": "element_206",
+			"regionDest": 5,
+			"titulo": "Educacion Secundaria",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "No mantiene familia o mantiene familia con salario alto",
+			"membership": [ {
+				"percent": 0.0392268411386
+			}, {
+				"percent": 0.928352578261
+			}, {
+				"percent": 0.032420580600200005
+			}]
+		}, {
+			"id": "element_207",
+			"regionDest": 3,
+			"titulo": "No tiene educacion",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "Mantiene familia con salario medio bajo",
+			"membership": [ {
+				"percent": 0.460069035448
+			}, {
+				"percent": 0.219288976387
+			}, {
+				"percent": 0.320641988165
+			}]
+		}, {
+			"id": "element_208",
+			"regionDest": 1,
+			"titulo": "No tiene educacion",
+			"condicionLaboral": "Ocupado",
+			"ingresoPorPersona": "Salario bajo",
+			"mantieneFamilia": "Mantiene familia con salario minimo",
+			"membership": [ {
+				"percent": 0.48244757716000003
+			}, {
+				"percent": 0.216691313301
+			}, {
+				"percent": 0.300861109538
+			}]
+		}
+	],
+
+	"links": [{
+		"source": "Region Chorotega",
+		"length": 500,
+		"target": "Region Central",
+		"width": 13
+	}, {
+		"source": "Region Pacifico Central",
+		"length": 500,
+		"target": "Region Central",
+		"width": 23
+	}, {
+		"source": "Region Brunca",
+		"length": 500,
+		"target": "Region Central",
+		"width": 16
+	}, {
+		"source": "Region Huetar Caribe",
+		"length": 500,
+		"target": "Region Central",
+		"width": 6
+	}, {
+		"source": "Region Huetar Norte",
+		"length": 500,
+		"target": "Region Central",
+		"width": 12
+	}, {
+		"source": "Region Central",
+		"length": 500,
+		"target": "Region Chorotega",
+		"width": 19
+	}, {
+		"source": "Region Pacifico Central",
+		"length": 500,
+		"target": "Region Chorotega",
+		"width": 2
+	}, {
+		"source": "Region Brunca",
+		"length": 500,
+		"target": "Region Chorotega",
+		"width": 2
+	}, {
+		"source": "Region Huetar Caribe",
+		"length": 500,
+		"target": "Region Chorotega",
+		"width": 3
+	}, {
+		"source": "Region Huetar Norte",
+		"length": 500,
+		"target": "Region Chorotega",
+		"width": 4
+	}, {
+		"source": "Region Central",
+		"length": 500,
+		"target": "Region Pacifico Central",
+		"width": 20
+	}, {
+		"source": "Region Chorotega",
+		"length": 500,
+		"target": "Region Pacifico Central",
+		"width": 7
+	}, {
+		"source": "Region Brunca",
+		"length": 500,
+		"target": "Region Pacifico Central",
+		"width": 4
+	}, {
+		"source": "Region Huetar Caribe",
+		"length": 500,
+		"target": "Region Pacifico Central",
+		"width": 3
+	}, {
+		"source": "Region Huetar Norte",
+		"length": 500,
+		"target": "Region Pacifico Central",
+		"width": 1
+	}, {
+		"source": "Region Central",
+		"length": 500,
+		"target": "Region Brunca",
+		"width": 16
+	}, {
+		"source": "Region Chorotega",
+		"length": 500,
+		"target": "Region Brunca",
+		"width": 1
+	}, {
+		"source": "Region Pacifico Central",
+		"length": 500,
+		"target": "Region Brunca",
+		"width": 4
+	}, {
+		"source": "Region Huetar Caribe",
+		"length": 500,
+		"target": "Region Brunca",
+		"width": 1
+	}, {
+		"source": "Region Central",
+		"length": 500,
+		"target": "Region Huetar Caribe",
+		"width": 20
+	}, {
+		"source": "Region Chorotega",
+		"length": 500,
+		"target": "Region Huetar Caribe",
+		"width": 2
+	}, {
+		"source": "Region Brunca",
+		"length": 500,
+		"target": "Region Huetar Caribe",
+		"width": 1
+	}, {
+		"source": "Region Huetar Norte",
+		"length": 500,
+		"target": "Region Huetar Caribe",
+		"width": 5
+	}, {
+		"source": "Region Central",
+		"length": 500,
+		"target": "Region Huetar Norte",
+		"width": 11
+	}, {
+		"source": "Region Chorotega",
+		"length": 500,
+		"target": "Region Huetar Norte",
+		"width": 3
+	}, {
+		"source": "Region Pacifico Central",
+		"length": 500,
+		"target": "Region Huetar Norte",
+		"width": 2
+	}, {
+		"source": "Region Brunca",
+		"length": 500,
+		"target": "Region Huetar Norte",
+		"width": 2
+	}, {
+		"source": "Region Huetar Caribe",
+		"length": 500,
+		"target": "Region Huetar Norte",
+		"width": 1
+	}, {
+		"source": "Region Central",
+		"length": 500,
+		"target": "element_5",
+		"width": 1
+	}, {
+		"source": "Region Central",
+		"length": 500,
+		"target": "element_6",
+		"width": 1
+	}, {
+		"source": "Region Central",
+		"length": 500,
+		"target": "element_7",
+		"width": 1
+	}, {
+		"source": "Region Central",
+		"length": 500,
+		"target": "element_8",
+		"width": 1
+	}, {
+		"source": "Region Central",
+		"length": 500,
+		"target": "element_9",
+		"width": 1
+	}, {
+		"source": "Region Central",
+		"length": 500,
+		"target": "element_10",
+		"width": 1
+	}, {
+		"source": "Region Central",
+		"length": 500,
+		"target": "element_11",
+		"width": 1
+	}, {
+		"source": "Region Central",
+		"length": 500,
+		"target": "element_12",
+		"width": 1
+	}, {
+		"source": "Region Central",
+		"length": 500,
+		"target": "element_13",
+		"width": 1
+	}, {
+		"source": "Region Central",
+		"length": 500,
+		"target": "element_14",
+		"width": 1
+	}, {
+		"source": "Region Central",
+		"length": 500,
+		"target": "element_15",
+		"width": 1
+	}, {
+		"source": "Region Central",
+		"length": 500,
+		"target": "element_16",
+		"width": 1
+	}, {
+		"source": "Region Central",
+		"length": 500,
+		"target": "element_17",
+		"width": 1
+	}, {
+		"source": "Region Central",
+		"length": 500,
+		"target": "element_18",
+		"width": 1
+	}, {
+		"source": "Region Central",
+		"length": 500,
+		"target": "element_19",
+		"width": 1
+	}, {
+		"source": "Region Central",
+		"length": 500,
+		"target": "element_20",
+		"width": 1
+	}, {
+		"source": "Region Central",
+		"length": 500,
+		"target": "element_21",
+		"width": 1
+	}, {
+		"source": "Region Central",
+		"length": 500,
+		"target": "element_22",
+		"width": 1
+	}, {
+		"source": "Region Central",
+		"length": 500,
+		"target": "element_23",
+		"width": 1
+	}, {
+		"source": "Region Central",
+		"length": 500,
+		"target": "element_24",
+		"width": 1
+	}, {
+		"source": "Region Central",
+		"length": 500,
+		"target": "element_25",
+		"width": 1
+	}, {
+		"source": "Region Central",
+		"length": 500,
+		"target": "element_26",
+		"width": 1
+	}, {
+		"source": "Region Central",
+		"length": 500,
+		"target": "element_27",
+		"width": 1
+	}, {
+		"source": "Region Central",
+		"length": 500,
+		"target": "element_28",
+		"width": 1
+	}, {
+		"source": "Region Central",
+		"length": 500,
+		"target": "element_29",
+		"width": 1
+	}, {
+		"source": "Region Central",
+		"length": 500,
+		"target": "element_30",
+		"width": 1
+	}, {
+		"source": "Region Central",
+		"length": 500,
+		"target": "element_31",
+		"width": 1
+	}, {
+		"source": "Region Central",
+		"length": 500,
+		"target": "element_32",
+		"width": 1
+	}, {
+		"source": "Region Central",
+		"length": 500,
+		"target": "element_33",
+		"width": 1
+	}, {
+		"source": "Region Central",
+		"length": 500,
+		"target": "element_34",
+		"width": 1
+	}, {
+		"source": "Region Central",
+		"length": 500,
+		"target": "element_35",
+		"width": 1
+	}, {
+		"source": "Region Central",
+		"length": 500,
+		"target": "element_36",
+		"width": 1
+	}, {
+		"source": "Region Central",
+		"length": 500,
+		"target": "element_37",
+		"width": 1
+	}, {
+		"source": "Region Central",
+		"length": 500,
+		"target": "element_38",
+		"width": 1
+	}, {
+		"source": "Region Central",
+		"length": 500,
+		"target": "element_39",
+		"width": 1
+	}, {
+		"source": "Region Central",
+		"length": 500,
+		"target": "element_40",
+		"width": 1
+	}, {
+		"source": "Region Central",
+		"length": 500,
+		"target": "element_41",
+		"width": 1
+	}, {
+		"source": "Region Central",
+		"length": 500,
+		"target": "element_42",
+		"width": 1
+	}, {
+		"source": "Region Central",
+		"length": 500,
+		"target": "element_43",
+		"width": 1
+	}, {
+		"source": "Region Central",
+		"length": 500,
+		"target": "element_44",
+		"width": 1
+	}, {
+		"source": "Region Central",
+		"length": 500,
+		"target": "element_45",
+		"width": 1
+	}, {
+		"source": "Region Central",
+		"length": 500,
+		"target": "element_46",
+		"width": 1
+	}, {
+		"source": "Region Central",
+		"length": 500,
+		"target": "element_47",
+		"width": 1
+	}, {
+		"source": "Region Central",
+		"length": 500,
+		"target": "element_48",
+		"width": 1
+	}, {
+		"source": "Region Central",
+		"length": 500,
+		"target": "element_49",
+		"width": 1
+	}, {
+		"source": "Region Central",
+		"length": 500,
+		"target": "element_50",
+		"width": 1
+	}, {
+		"source": "Region Central",
+		"length": 500,
+		"target": "element_51",
+		"width": 1
+	}, {
+		"source": "Region Central",
+		"length": 500,
+		"target": "element_52",
+		"width": 1
+	}, {
+		"source": "Region Central",
+		"length": 500,
+		"target": "element_53",
+		"width": 1
+	}, {
+		"source": "Region Central",
+		"length": 500,
+		"target": "element_54",
+		"width": 1
+	}, {
+		"source": "Region Central",
+		"length": 500,
+		"target": "element_55",
+		"width": 1
+	}, {
+		"source": "Region Central",
+		"length": 500,
+		"target": "element_56",
+		"width": 1
+	}, {
+		"source": "Region Central",
+		"length": 500,
+		"target": "element_57",
+		"width": 1
+	}, {
+		"source": "Region Central",
+		"length": 500,
+		"target": "element_58",
+		"width": 1
+	}, {
+		"source": "Region Central",
+		"length": 500,
+		"target": "element_59",
+		"width": 1
+	}, {
+		"source": "Region Central",
+		"length": 500,
+		"target": "element_60",
+		"width": 1
+	}, {
+		"source": "Region Central",
+		"length": 500,
+		"target": "element_61",
+		"width": 1
+	}, {
+		"source": "Region Central",
+		"length": 500,
+		"target": "element_62",
+		"width": 1
+	}, {
+		"source": "Region Central",
+		"length": 500,
+		"target": "element_63",
+		"width": 1
+	}, {
+		"source": "Region Central",
+		"length": 500,
+		"target": "element_64",
+		"width": 1
+	}, {
+		"source": "Region Central",
+		"length": 500,
+		"target": "element_65",
+		"width": 1
+	}, {
+		"source": "Region Central",
+		"length": 500,
+		"target": "element_66",
+		"width": 1
+	}, {
+		"source": "Region Central",
+		"length": 500,
+		"target": "element_67",
+		"width": 1
+	}, {
+		"source": "Region Central",
+		"length": 500,
+		"target": "element_68",
+		"width": 1
+	}, {
+		"source": "Region Central",
+		"length": 500,
+		"target": "element_69",
+		"width": 1
+	}, {
+		"source": "Region Central",
+		"length": 500,
+		"target": "element_70",
+		"width": 1
+	}, {
+		"source": "Region Central",
+		"length": 500,
+		"target": "element_71",
+		"width": 1
+	}, {
+		"source": "Region Central",
+		"length": 500,
+		"target": "element_72",
+		"width": 1
+	}, {
+		"source": "Region Central",
+		"length": 500,
+		"target": "element_73",
+		"width": 1
+	}, {
+		"source": "Region Central",
+		"length": 500,
+		"target": "element_74",
+		"width": 1
+	}, {
+		"source": "Region Central",
+		"length": 500,
+		"target": "element_75",
+		"width": 1
+	}, {
+		"source": "Region Central",
+		"length": 500,
+		"target": "element_76",
+		"width": 1
+	}, {
+		"source": "Region Central",
+		"length": 500,
+		"target": "element_77",
+		"width": 1
+	}, {
+		"source": "Region Central",
+		"length": 500,
+		"target": "element_78",
+		"width": 1
+	}, {
+		"source": "Region Central",
+		"length": 500,
+		"target": "element_79",
+		"width": 1
+	}, {
+		"source": "Region Central",
+		"length": 500,
+		"target": "element_80",
+		"width": 1
+	}, {
+		"source": "Region Central",
+		"length": 500,
+		"target": "element_81",
+		"width": 1
+	}, {
+		"source": "Region Central",
+		"length": 500,
+		"target": "element_82",
+		"width": 1
+	}, {
+		"source": "Region Central",
+		"length": 500,
+		"target": "element_83",
+		"width": 1
+	}, {
+		"source": "Region Central",
+		"length": 500,
+		"target": "element_84",
+		"width": 1
+	}, {
+		"source": "Region Central",
+		"length": 500,
+		"target": "element_85",
+		"width": 1
+	}, {
+		"source": "Region Central",
+		"length": 500,
+		"target": "element_86",
+		"width": 1
+	}, {
+		"source": "Region Central",
+		"length": 500,
+		"target": "element_87",
+		"width": 1
+	}, {
+		"source": "Region Central",
+		"length": 500,
+		"target": "element_88",
+		"width": 1
+	}, {
+		"source": "Region Central",
+		"length": 500,
+		"target": "element_89",
+		"width": 1
+	}, {
+		"source": "Region Central",
+		"length": 500,
+		"target": "element_90",
+		"width": 1
+	}, {
+		"source": "Region Chorotega",
+		"length": 500,
+		"target": "element_91",
+		"width": 1
+	}, {
+		"source": "Region Chorotega",
+		"length": 500,
+		"target": "element_92",
+		"width": 1
+	}, {
+		"source": "Region Chorotega",
+		"length": 500,
+		"target": "element_93",
+		"width": 1
+	}, {
+		"source": "Region Chorotega",
+		"length": 500,
+		"target": "element_94",
+		"width": 1
+	}, {
+		"source": "Region Chorotega",
+		"length": 500,
+		"target": "element_95",
+		"width": 1
+	}, {
+		"source": "Region Chorotega",
+		"length": 500,
+		"target": "element_96",
+		"width": 1
+	}, {
+		"source": "Region Chorotega",
+		"length": 500,
+		"target": "element_97",
+		"width": 1
+	}, {
+		"source": "Region Chorotega",
+		"length": 500,
+		"target": "element_98",
+		"width": 1
+	}, {
+		"source": "Region Chorotega",
+		"length": 500,
+		"target": "element_99",
+		"width": 1
+	}, {
+		"source": "Region Chorotega",
+		"length": 500,
+		"target": "element_100",
+		"width": 1
+	}, {
+		"source": "Region Chorotega",
+		"length": 500,
+		"target": "element_101",
+		"width": 1
+	}, {
+		"source": "Region Chorotega",
+		"length": 500,
+		"target": "element_102",
+		"width": 1
+	}, {
+		"source": "Region Chorotega",
+		"length": 500,
+		"target": "element_103",
+		"width": 1
+	}, {
+		"source": "Region Chorotega",
+		"length": 500,
+		"target": "element_104",
+		"width": 1
+	}, {
+		"source": "Region Chorotega",
+		"length": 500,
+		"target": "element_105",
+		"width": 1
+	}, {
+		"source": "Region Chorotega",
+		"length": 500,
+		"target": "element_106",
+		"width": 1
+	}, {
+		"source": "Region Chorotega",
+		"length": 500,
+		"target": "element_107",
+		"width": 1
+	}, {
+		"source": "Region Chorotega",
+		"length": 500,
+		"target": "element_108",
+		"width": 1
+	}, {
+		"source": "Region Chorotega",
+		"length": 500,
+		"target": "element_109",
+		"width": 1
+	}, {
+		"source": "Region Chorotega",
+		"length": 500,
+		"target": "element_110",
+		"width": 1
+	}, {
+		"source": "Region Chorotega",
+		"length": 500,
+		"target": "element_111",
+		"width": 1
+	}, {
+		"source": "Region Chorotega",
+		"length": 500,
+		"target": "element_112",
+		"width": 1
+	}, {
+		"source": "Region Chorotega",
+		"length": 500,
+		"target": "element_113",
+		"width": 1
+	}, {
+		"source": "Region Chorotega",
+		"length": 500,
+		"target": "element_114",
+		"width": 1
+	}, {
+		"source": "Region Chorotega",
+		"length": 500,
+		"target": "element_115",
+		"width": 1
+	}, {
+		"source": "Region Chorotega",
+		"length": 500,
+		"target": "element_116",
+		"width": 1
+	}, {
+		"source": "Region Pacifico Central",
+		"length": 500,
+		"target": "element_117",
+		"width": 1
+	}, {
+		"source": "Region Pacifico Central",
+		"length": 500,
+		"target": "element_118",
+		"width": 1
+	}, {
+		"source": "Region Pacifico Central",
+		"length": 500,
+		"target": "element_119",
+		"width": 1
+	}, {
+		"source": "Region Pacifico Central",
+		"length": 500,
+		"target": "element_120",
+		"width": 1
+	}, {
+		"source": "Region Pacifico Central",
+		"length": 500,
+		"target": "element_121",
+		"width": 1
+	}, {
+		"source": "Region Pacifico Central",
+		"length": 500,
+		"target": "element_122",
+		"width": 1
+	}, {
+		"source": "Region Pacifico Central",
+		"length": 500,
+		"target": "element_123",
+		"width": 1
+	}, {
+		"source": "Region Pacifico Central",
+		"length": 500,
+		"target": "element_124",
+		"width": 1
+	}, {
+		"source": "Region Pacifico Central",
+		"length": 500,
+		"target": "element_125",
+		"width": 1
+	}, {
+		"source": "Region Pacifico Central",
+		"length": 500,
+		"target": "element_126",
+		"width": 1
+	}, {
+		"source": "Region Pacifico Central",
+		"length": 500,
+		"target": "element_127",
+		"width": 1
+	}, {
+		"source": "Region Pacifico Central",
+		"length": 500,
+		"target": "element_128",
+		"width": 1
+	}, {
+		"source": "Region Pacifico Central",
+		"length": 500,
+		"target": "element_129",
+		"width": 1
+	}, {
+		"source": "Region Pacifico Central",
+		"length": 500,
+		"target": "element_130",
+		"width": 1
+	}, {
+		"source": "Region Pacifico Central",
+		"length": 500,
+		"target": "element_131",
+		"width": 1
+	}, {
+		"source": "Region Pacifico Central",
+		"length": 500,
+		"target": "element_132",
+		"width": 1
+	}, {
+		"source": "Region Pacifico Central",
+		"length": 500,
+		"target": "element_133",
+		"width": 1
+	}, {
+		"source": "Region Pacifico Central",
+		"length": 500,
+		"target": "element_134",
+		"width": 1
+	}, {
+		"source": "Region Pacifico Central",
+		"length": 500,
+		"target": "element_135",
+		"width": 1
+	}, {
+		"source": "Region Pacifico Central",
+		"length": 500,
+		"target": "element_136",
+		"width": 1
+	}, {
+		"source": "Region Pacifico Central",
+		"length": 500,
+		"target": "element_137",
+		"width": 1
+	}, {
+		"source": "Region Pacifico Central",
+		"length": 500,
+		"target": "element_138",
+		"width": 1
+	}, {
+		"source": "Region Pacifico Central",
+		"length": 500,
+		"target": "element_139",
+		"width": 1
+	}, {
+		"source": "Region Pacifico Central",
+		"length": 500,
+		"target": "element_140",
+		"width": 1
+	}, {
+		"source": "Region Pacifico Central",
+		"length": 500,
+		"target": "element_141",
+		"width": 1
+	}, {
+		"source": "Region Pacifico Central",
+		"length": 500,
+		"target": "element_142",
+		"width": 1
+	}, {
+		"source": "Region Pacifico Central",
+		"length": 500,
+		"target": "element_143",
+		"width": 1
+	}, {
+		"source": "Region Pacifico Central",
+		"length": 500,
+		"target": "element_144",
+		"width": 1
+	}, {
+		"source": "Region Pacifico Central",
+		"length": 500,
+		"target": "element_145",
+		"width": 1
+	}, {
+		"source": "Region Pacifico Central",
+		"length": 500,
+		"target": "element_146",
+		"width": 1
+	}, {
+		"source": "Region Pacifico Central",
+		"length": 500,
+		"target": "element_147",
+		"width": 1
+	}, {
+		"source": "Region Brunca",
+		"length": 500,
+		"target": "element_148",
+		"width": 1
+	}, {
+		"source": "Region Brunca",
+		"length": 500,
+		"target": "element_149",
+		"width": 1
+	}, {
+		"source": "Region Brunca",
+		"length": 500,
+		"target": "element_150",
+		"width": 1
+	}, {
+		"source": "Region Brunca",
+		"length": 500,
+		"target": "element_151",
+		"width": 1
+	}, {
+		"source": "Region Brunca",
+		"length": 500,
+		"target": "element_152",
+		"width": 1
+	}, {
+		"source": "Region Brunca",
+		"length": 500,
+		"target": "element_153",
+		"width": 1
+	}, {
+		"source": "Region Brunca",
+		"length": 500,
+		"target": "element_154",
+		"width": 1
+	}, {
+		"source": "Region Brunca",
+		"length": 500,
+		"target": "element_155",
+		"width": 1
+	}, {
+		"source": "Region Brunca",
+		"length": 500,
+		"target": "element_156",
+		"width": 1
+	}, {
+		"source": "Region Brunca",
+		"length": 500,
+		"target": "element_157",
+		"width": 1
+	}, {
+		"source": "Region Brunca",
+		"length": 500,
+		"target": "element_158",
+		"width": 1
+	}, {
+		"source": "Region Brunca",
+		"length": 500,
+		"target": "element_159",
+		"width": 1
+	}, {
+		"source": "Region Brunca",
+		"length": 500,
+		"target": "element_160",
+		"width": 1
+	}, {
+		"source": "Region Brunca",
+		"length": 500,
+		"target": "element_161",
+		"width": 1
+	}, {
+		"source": "Region Brunca",
+		"length": 500,
+		"target": "element_162",
+		"width": 1
+	}, {
+		"source": "Region Brunca",
+		"length": 500,
+		"target": "element_163",
+		"width": 1
+	}, {
+		"source": "Region Brunca",
+		"length": 500,
+		"target": "element_164",
+		"width": 1
+	}, {
+		"source": "Region Brunca",
+		"length": 500,
+		"target": "element_165",
+		"width": 1
+	}, {
+		"source": "Region Brunca",
+		"length": 500,
+		"target": "element_166",
+		"width": 1
+	}, {
+		"source": "Region Brunca",
+		"length": 500,
+		"target": "element_167",
+		"width": 1
+	}, {
+		"source": "Region Brunca",
+		"length": 500,
+		"target": "element_168",
+		"width": 1
+	}, {
+		"source": "Region Brunca",
+		"length": 500,
+		"target": "element_169",
+		"width": 1
+	}, {
+		"source": "Region Brunca",
+		"length": 500,
+		"target": "element_170",
+		"width": 1
+	}, {
+		"source": "Region Brunca",
+		"length": 500,
+		"target": "element_171",
+		"width": 1
+	}, {
+		"source": "Region Brunca",
+		"length": 500,
+		"target": "element_172",
+		"width": 1
+	}, {
+		"source": "Region Huetar Caribe",
+		"length": 500,
+		"target": "element_173",
+		"width": 1
+	}, {
+		"source": "Region Huetar Caribe",
+		"length": 500,
+		"target": "element_174",
+		"width": 1
+	}, {
+		"source": "Region Huetar Caribe",
+		"length": 500,
+		"target": "element_175",
+		"width": 1
+	}, {
+		"source": "Region Huetar Caribe",
+		"length": 500,
+		"target": "element_176",
+		"width": 1
+	}, {
+		"source": "Region Huetar Caribe",
+		"length": 500,
+		"target": "element_177",
+		"width": 1
+	}, {
+		"source": "Region Huetar Caribe",
+		"length": 500,
+		"target": "element_178",
+		"width": 1
+	}, {
+		"source": "Region Huetar Caribe",
+		"length": 500,
+		"target": "element_179",
+		"width": 1
+	}, {
+		"source": "Region Huetar Caribe",
+		"length": 500,
+		"target": "element_180",
+		"width": 1
+	}, {
+		"source": "Region Huetar Caribe",
+		"length": 500,
+		"target": "element_181",
+		"width": 1
+	}, {
+		"source": "Region Huetar Caribe",
+		"length": 500,
+		"target": "element_182",
+		"width": 1
+	}, {
+		"source": "Region Huetar Caribe",
+		"length": 500,
+		"target": "element_183",
+		"width": 1
+	}, {
+		"source": "Region Huetar Caribe",
+		"length": 500,
+		"target": "element_184",
+		"width": 1
+	}, {
+		"source": "Region Huetar Caribe",
+		"length": 500,
+		"target": "element_185",
+		"width": 1
+	}, {
+		"source": "Region Huetar Caribe",
+		"length": 500,
+		"target": "element_186",
+		"width": 1
+	}, {
+		"source": "Region Huetar Norte",
+		"length": 500,
+		"target": "element_187",
+		"width": 1
+	}, {
+		"source": "Region Huetar Norte",
+		"length": 500,
+		"target": "element_188",
+		"width": 1
+	}, {
+		"source": "Region Huetar Norte",
+		"length": 500,
+		"target": "element_189",
+		"width": 1
+	}, {
+		"source": "Region Huetar Norte",
+		"length": 500,
+		"target": "element_190",
+		"width": 1
+	}, {
+		"source": "Region Huetar Norte",
+		"length": 500,
+		"target": "element_191",
+		"width": 1
+	}, {
+		"source": "Region Huetar Norte",
+		"length": 500,
+		"target": "element_192",
+		"width": 1
+	}, {
+		"source": "Region Huetar Norte",
+		"length": 500,
+		"target": "element_193",
+		"width": 1
+	}, {
+		"source": "Region Huetar Norte",
+		"length": 500,
+		"target": "element_194",
+		"width": 1
+	}, {
+		"source": "Region Huetar Norte",
+		"length": 500,
+		"target": "element_195",
+		"width": 1
+	}, {
+		"source": "Region Huetar Norte",
+		"length": 500,
+		"target": "element_196",
+		"width": 1
+	}, {
+		"source": "Region Huetar Norte",
+		"length": 500,
+		"target": "element_197",
+		"width": 1
+	}, {
+		"source": "Region Huetar Norte",
+		"length": 500,
+		"target": "element_198",
+		"width": 1
+	}, {
+		"source": "Region Huetar Norte",
+		"length": 500,
+		"target": "element_199",
+		"width": 1
+	}, {
+		"source": "Region Huetar Norte",
+		"length": 500,
+		"target": "element_200",
+		"width": 1
+	}, {
+		"source": "Region Huetar Norte",
+		"length": 500,
+		"target": "element_201",
+		"width": 1
+	}, {
+		"source": "Region Huetar Norte",
+		"length": 500,
+		"target": "element_202",
+		"width": 1
+	}, {
+		"source": "Region Huetar Norte",
+		"length": 500,
+		"target": "element_203",
+		"width": 1
+	}, {
+		"source": "Region Huetar Norte",
+		"length": 500,
+		"target": "element_204",
+		"width": 1
+	}, {
+		"source": "Region Huetar Norte",
+		"length": 500,
+		"target": "element_205",
+		"width": 1
+	}, {
+		"source": "Region Huetar Norte",
+		"length": 500,
+		"target": "element_206",
+		"width": 1
+	}, {
+		"source": "Region Huetar Norte",
+		"length": 500,
+		"target": "element_207",
+		"width": 1
+	}, {
+		"source": "Region Huetar Norte",
+		"length": 500,
+		"target": "element_208",
+		"width": 1
+	}]
+}
