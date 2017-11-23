@@ -10,27 +10,35 @@ for year in range(2014,2017):
     df = pd.read_excel('../data/raw/ENAHO'+str(year)+'.xlsx')
     #data4 = df[df["CondMig"]==1]
     migrantes = df[((df["REGION"]!=df["RegResAnt"]) ) & (df["RegResAnt"]<7) & (df['A5']>17)  ]
-  
+    
     # Assuming same lines from your example
+    
 
     df_migrantes = pd.DataFrame(migrantes)
 
-    bins = [0, 300000, 700000, 1500000, 3000000]
-    group_names = ['Ingreso_Bajo', 'Ingreso_Medio_Bajo', 'Ingreso_Medio_Alto', 'Ingreso_Alto']
+    df_migrantes['itpn'] = np.where(pd.isnull(df_migrantes['itpn']) & (df_migrantes['CondAct'] == 2), 0, df_migrantes['itpn'])
+    bins = [0, 199999, 700000, 1500000, 3000000]
+    #group_names = ['Ingreso_Bajo', 'Ingreso_Medio_Bajo', 'Ingreso_Medio_Alto', 'Ingreso_Alto']
+    group_names = [1,0.8, 0.2, 0]
     ingreso_discreto = pd.cut(df_migrantes['itpn'], bins, labels=group_names)
     df_migrantes['ingreso_discreto'] = pd.cut(df_migrantes['itpn'], bins, labels=group_names)
 
-    bins = [18, 24, 60, 100]
-    group_names = ['joven_adulto', 'adulto', 'ciudadano_de_oro']
-    ingreso_discreto = pd.cut(df_migrantes['A5'], bins, labels=group_names)
+    bins = [18, 25, 30, 40, 50, 60, 70, 80, 90]
+    group_names = ['18 - 25', '26 - 30', '31 - 40', '41 - 50', '51 - 60', '61 - 70', '71 - 80', '81 - 90']
+    edad_discreta = pd.cut(df_migrantes['A5'], bins, labels=group_names)
     df_migrantes['edad'] = pd.cut(df_migrantes['A5'], bins, labels=group_names)
-
-    df_migrantes['titulo'] = np.where(df_migrantes['NivInst'] == 0, 'Sin_educacion', np.where(df_migrantes['NivInst'] < 7, 'Secundaria_completada', np.where(df_migrantes['NivInst'] < 9, 'Universidad_completada', 'Desconocido')))
-
-    df_migrantes['condicion_laboral'] = np.where(df_migrantes['CondAct'] == 1, 'Ocupado', np.where(df_migrantes['CondAct'] == 2, 'Desempleado', np.where(df_migrantes['CondAct'] == 3, 'Retirado', 'Desconocido')))
+    #df_migrantes['titulo'] = np.where(df_migrantes['NivInst'] == 0, 'Sin_educacion', np.where(df_migrantes['NivInst'] < 7, 'Secundaria_completada', np.where(df_migrantes['NivInst'] < 9, 'Universidad_completada', 'Desconocido')))
+    df_migrantes['titulo'] = np.where(df_migrantes['NivInst'] == 0, 1, np.where(df_migrantes['NivInst'] < 0.9, 3, np.where(df_migrantes['NivInst'] < 7, 0.7, np.where(df_migrantes['NivInst'] < 9, 0, 0))))
 
 
-    data_migrantes = df_migrantes.as_matrix(columns=['REGION','ZONA','edad','RegNac', 'RegResAnt','titulo','condicion_laboral','ingreso_discreto'])
+    #df_migrantes['condicion_laboral'] = np.where(df_migrantes['CondAct'] == 1, 'Ocupado', np.where(df_migrantes['CondAct'] == 2, 'Desempleado', np.where(df_migrantes['CondAct'] == 3, 'Retirado', 'Desconocido')))
+    df_migrantes['condicion_laboral'] = np.where(df_migrantes['CondAct'] == 1, 0, np.where(df_migrantes['CondAct'] == 2, 1, np.where((df_migrantes['CondAct'] == 3) & (df_migrantes['A5']>60), 0.7, 0)))
+
+    df_migrantes['calidad_vivienda'] = np.where(df_migrantes['CalViv'] == 1, 0, np.where(df_migrantes['CalViv'] == 2, 0.9, np.where(df_migrantes['CondAct'] == 3, 0.3, 0)))
+  
+    df_migrantes['mantiene_familia'] = np.where( (df_migrantes['A23'] == 1) & (df_migrantes['itpn'] < 200000), 1, np.where((df_migrantes['A23'] == 1) & (df_migrantes['itpn'] > 199999) & (df_migrantes['itpn'] < 500000), 0.75, np.where((df_migrantes['A23'] == 0) & (df_migrantes['itpn'] < 250000), 0.6,  np.where((df_migrantes['A23'] == 1) & (df_migrantes['itpn'] > 499999) & (df_migrantes['itpn'] < 800000 ), 0.3, 0))))
+    
+    data_migrantes = df_migrantes.as_matrix(columns=['REGION','ZONA','edad','RegNac', 'RegResAnt','titulo','condicion_laboral','ingreso_discreto', 'A4', 'A6', 'OcupFuerzaTrab', 'mantiene_familia', 'calidad_vivienda'])
     """
     REGION = Region socioeconomica donde reside
     Zona = 1 = Urbana, 2 = Urbana
@@ -44,16 +52,12 @@ for year in range(2014,2017):
     """
 
     new_migrantes = pd.DataFrame(data_migrantes)
-    new_migrantes.columns =['region_residencia','zona','edad','region_nacimiento', 'residencia_hace_dos_anos','titulo','condicion_laboral', 'ingreso_por_persona']
+    new_migrantes.columns =['region_residencia','zona','edad','region_nacimiento', 'residencia_hace_dos_anos','titulo','condicion_laboral', 'ingreso_por_persona', 'sexo', 'estado_conyugal', 'ocupacion_trabajo', 'mantiene_familia', 'calidad_vivienda']
 
-
-
-    data2_migrantes = new_migrantes.sample(frac=0.2)
+    new_migrantes['ocupacion_trabajo'].fillna(0, inplace=True)
+ #   data2_migrantes = new_migrantes.sample(frac=0.2)
 
   
-    new2_migrantes = pd.DataFrame(data2_migrantes)
-#    data3_migrantes = new2_migrantes.dropna().to_csv("../data/clean/"+str(year)+"_v3_migrantes.csv")
-    data3_migrantes = new2_migrantes.to_csv("../data/clean/"+str(year)+"_v3_migrantes.csv")
-
-
-    #print data3
+    new2_migrantes = pd.DataFrame(new_migrantes)
+    data3_migrantes = new2_migrantes.dropna().to_csv("../data/clean/"+str(year)+"_v4_migrantes.csv")
+ 
