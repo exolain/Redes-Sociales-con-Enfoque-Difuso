@@ -35,14 +35,16 @@ for year in range(2015,2017):
 
     for  column in df:
         for index, row in average.iterrows():
-            list_percentage = [float(row["Clus 1"]),float(row["Clus 2"]),float(row["Clus 3"]),float(row["Clus 4"]),float(row["Clus 5"]),float(row["Clus 6"])]
-            preferred_cluster = max(list_percentage)
-            clust_num = [i for i, j in enumerate(list_percentage) if j == preferred_cluster]
-            nodes.append({"id": states[int(row['state'])], "preferredCluster": int(clust_num[0]), "type": "parent", 
-            "membership":[{"percent": row["Clus 1"]},{"percent": row["Clus 2"]},{"percent": row["Clus 3"]},
-            {"percent": row["Clus 4"]},{"percent": row["Clus 5"]},{"percent": row["Clus 6"]}]})
-            link_array.append({"source":"United States","target":states[int(row['state'])],"length":500,"width":1})
-        
+            if str(states[int(row['state'])]) not in seen:
+                seen.add(str(states[int(row['state'])]))
+                list_percentage = [float(row["Clus 1"]),float(row["Clus 2"]),float(row["Clus 3"]),float(row["Clus 4"]),float(row["Clus 5"]),float(row["Clus 6"])]
+                preferred_cluster = max(list_percentage)
+                clust_num = [i for i, j in enumerate(list_percentage) if j == preferred_cluster]
+                nodes.append({"id": states[int(row['state'])], "preferredCluster": int(clust_num[0]), "type": "parent", 
+                "membership":[{"percent": row["Clus 1"]},{"percent": row["Clus 2"]},{"percent": row["Clus 3"]},
+                {"percent": row["Clus 4"]},{"percent": row["Clus 5"]},{"percent": row["Clus 6"]}]})
+                link_array.append({"source":"United States","target":states[int(row['state'])],"length":500,"width":1})
+            
             #percent_dictionary[value][clust] = average
 
 
