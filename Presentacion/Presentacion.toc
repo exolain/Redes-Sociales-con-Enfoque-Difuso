@@ -1,0 +1,15 @@
+\beamer@endinputifotherversion {3.36pt}
+\beamer@sectionintoc {1}{Introducci\'on}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{Objetivos}{5}{0}{1}
+\beamer@sectionintoc {2}{Antecedentes}{6}{0}{2}
+\beamer@subsectionintoc {2}{1}{Clustering: fuzzy c-means}{6}{0}{2}
+\beamer@subsectionintoc {2}{2}{An\'alisis de redes sociales}{7}{0}{2}
+\beamer@sectionintoc {3}{Metodolog\'ia}{9}{0}{3}
+\beamer@subsectionintoc {3}{1}{An\'alisis y pre-procesamiento de datos}{9}{0}{3}
+\beamer@subsectionintoc {3}{2}{An\'alisis de distancias}{14}{0}{3}
+\beamer@subsectionintoc {3}{3}{Algoritmo difuso}{19}{0}{3}
+\beamer@subsectionintoc {3}{4}{Caracter\'isticas de la visualizaci\'ion}{21}{0}{3}
+\beamer@sectionintoc {4}{Validaci\'on}{24}{0}{4}
+\beamer@subsectionintoc {4}{1}{Visualizacion}{24}{0}{4}
+\beamer@sectionintoc {5}{Conclusi\'on}{26}{0}{5}
+\beamer@sectionintoc {6}{Material de apoyo}{28}{0}{6}

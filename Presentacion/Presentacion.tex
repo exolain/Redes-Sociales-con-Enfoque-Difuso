@@ -1,0 +1,463 @@
+\documentclass[hyperref={pdfpagelabels=false}]{beamer}
+\usepackage{lmodern}
+\usepackage{tcolorbox}
+\usepackage{algorithm,algorithmic}
+\usetheme{Copenhagen}
+
+% the ``Thank you'' page
+\def\makethanks{%
+  \begin{frame}
+  \frametitle{\@thankstitle}
+  ?`Preguntas?
+  \end{frame}
+}
+% in ``article'' mode there's no ``Thank you'' page
+\mode<article>
+  {\providecommand\makethanks{}}
+
+% commands for the title and message of the "Thank you" page
+\def\thankstitle#1{
+\def\@thankstitle{#1}}
+\thankstitle{!`Muchas gracias por su atenci\'on!}
+
+\addtobeamertemplate{navigation symbols}{}{%
+    \usebeamerfont{footline}%
+    \usebeamercolor[fg]{footline}%
+    \hspace{1em}%
+    \insertframenumber
+}
+
+\title{Desarrollo de una herramienta de visualizaci\'on de redes sociales mediante un enfoque difuso}  
+\author{Natalia Mar\'in P\'erez \\
+       Tutor: Carlos Gonz\'alez Alvarado} 
+\institute{Instituto Tecnol\'ogico de Costa Rica}
+\date{Noviembre 27,2017} 
+\begin{document}
+\begin{frame}
+\titlepage
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Tabla de contenidos}
+\tableofcontents
+\end{frame} 
+
+
+\section{Introducci\'on} 
+\begin{frame}
+\frametitle{Introducci\'on} 
+    \begin{figure}
+        \begin{center}
+            \includegraphics[height=0.6\textheight]{imagenes/scienceperson.png}
+            \hfill
+            \includegraphics[height=0.5\textheight]{imagenes/investigacion.png}
+        \end{center}
+    \end{figure}
+
+\end{frame}
+\begin{frame}
+\frametitle{Importancia de la difusidad en redes sociales} 
+    \begin{figure}
+        \begin{center}
+            \includegraphics[height=0.35\textheight]{imagenes/clustering.png}
+            \hfill
+            \includegraphics[height=0.4\textheight]{imagenes/redes.png}
+
+        \end{center}
+    \end{figure}
+
+\end{frame}
+\subsection{Objetivos}
+\begin{frame}
+\frametitle{Objetivos}
+      \begin{tcolorbox}
+  Desarrollar una herramienta de visualizaci\'on de redes sociales utilizando un enfoque difuso. Evaluando los datos de migraci\'on en Costa Rica, as\'i como la representaci\'on de c\'omo interact\'uan las
+personas con la tecnolog\'ia.
+       \end{tcolorbox}
+
+\begin{itemize}
+\item   Analizar y comparar diferentes distancias con el fin de escoger cu\'al se adapta mejor al problema
+\item Desarrollar una metodolog\'ia que permita el an\'alisis de cl\'usteres difusos en una red social
+\item Implementar una herramienta que represente, de forma difusa, la conexi\'on entre objetos en diferentes particiones
+\item Validar la herramienta con diferentes conjuntos de datos para medir su efectividad
+\end{itemize} 
+\end{frame}
+
+
+\section{Antecedentes} 
+\subsection{Clustering: fuzzy c-means}
+\begin{frame}
+\frametitle{Algoritmo difuso: fuzzy c-means}
+\begin{exampleblock}{F\'ormula fuzzy c-means}
+\[
+J_m(U,V) = \sum_{k=1}^N \sum_{i=1}^C u_{ij}^m ||Y_k - v_i||^2
+\]
+\end{exampleblock}
+\begin{center}
+ \scalebox{0.65}{
+\begin{tcolorbox}
+\[
+Y = {y_1, y_2, ..., y_n} \subset R^n = datos,
+\]
+\[
+c = numero\ de\ clusteres\ en\ Y; 2 \leq c < n,
+\]
+\[
+m = exponente\ en\ peso; 1 \leq m < \infty,
+\]
+\[
+U = particion\ difusa\ de\ Y; U \in M_{fc},
+\]
+\[
+v = v_1, v_2, ..., v_c = vectores\ de\ centros,
+\]
+\[
+v_i = (v_{i1}, v_{i2}, ..., v_{in}) = centro\ de\ cluster\ i
+\]
+\end{tcolorbox}
+}
+\end{center}
+\end{frame}
+
+
+\subsection{An\'alisis de redes sociales}
+\begin{frame}\frametitle{Concepto de redes sociales y difusidad}
+        \begin{figure}[ht]
+        \begin{minipage}[b]{0.45\linewidth}
+            \centering
+            \includegraphics[width=\textwidth]{imagenes/fuerza.png}
+            \caption{a. Fuerza de atracci\'on nodo a nodo b. Fuerza de repulsi\'on nodo a nodo}
+            \label{fig:a}
+        \end{minipage}
+        \hspace{0.5cm}
+        \begin{minipage}[b]{0.45\linewidth}
+            \centering
+            \includegraphics[width=\textwidth]{imagenes/cluster.png}
+            \caption{Ejemplo de representaci\'on de cluster difuso}
+            \label{fig:b}
+        \end{minipage}
+    \end{figure}
+\end{frame}
+\begin{frame}\frametitle{Ejemplo de difusidad en redes sociales}
+\begin{columns}
+    \begin{column}{0.48\textwidth}
+            \begin{figure}
+    \caption{Movimientos internos en Costa Rica durante una semana-seg\'un encuesta realizada en mayo 2017}
+        \begin{center}
+            \includegraphics[height=0.6\textheight]{imagenes/prueba.png}
+        \end{center}
+        \end{figure}
+    \end{column}
+    \begin{column}{0.48\textwidth}
+       \begin{exampleblock}{Movimiento interno}
+        \[ t=tiempo\]
+        \[ i = provincia_i\]
+        \[ j = provincia_j\]
+        \[t_i + t_j = 7\]
+        
+        \[ 
+        porcentajes\_membresia=\frac{t_i}{7} y \frac{t_j}{7}
+        \]
+        \end{exampleblock}
+    \end{column}
+\end{columns}
+
+    
+\end{frame}
+
+
+
+\section{Metodolog\'ia}
+\subsection{An\'alisis y pre-procesamiento de datos}
+\begin{frame}
+\frametitle{Proceso general}
+    \begin{figure}
+        \begin{center}
+            \includegraphics[height=0.4\textheight]{imagenes/proceso_general.png}
+        \end{center}
+    \end{figure}
+\end{frame}
+
+\begin{frame}
+\frametitle{Caso 1: Datos de migraci\'on en Costa Rica (INEC)}
+\begin{columns}
+    \begin{column}{0.38\textwidth}
+     \begin{figure}
+     \includegraphics[height=0.55\textheight]{imagenes/razones.png}
+     \end{figure}
+    \end{column}
+    \begin{column}{0.68\textwidth}
+        \begin{table}[]
+		\centering
+		\caption{Atributos a analizar}
+		\label{my-label}
+		\begin{tabular}{ll}
+		\hline
+		\multicolumn{2}{c}{Atributos} \\ \hline
+		\begin{tabular}[c]{@{}l@{}}Regi\'on de \\ residencia actual	\end{tabular} & \begin{tabular}[c]{@{}l@{}}Condici\'on de \\ actividad	\end{tabular} \\ \hline
+		\begin{tabular}[c]{@{}l@{}}Regi\'on residencia \\ hace dos a\~nos	\end{tabular} & T\'itulo \\ \hline	
+		Mantiene familia & Estado conyugal \\ \hline
+		\begin{tabular}[c]{@{}l@{}}Ingreso por\\  persona neto\end{tabular} 			& Ocupaci\'on
+\end{tabular}
+	\end{table}
+    \end{column}
+\end{columns}
+
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Caso 1: An\'alisis de datos de migraci\'on en Costa Rica}
+    \begin{figure}
+            \includegraphics[height=0.65\textheight]{imagenes/analisis1.png}
+            \hfill
+            \includegraphics[height=0.65\textheight]{imagenes/analisis2.png}
+    \end{figure}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Caso 2: An\'alisis de datos de interacci\'on de personas con la tecnolog\'ia}
+	\begin{columns}
+    \begin{column}{0.38\textwidth}
+        \begin{figure}
+            \includegraphics[height=0.6\textheight]{imagenes/pca.png}
+    \end{figure}
+    \end{column}
+    \begin{column}{0.88\textwidth}
+        \begin{table}[]
+		\caption{Atributos a analizar}
+		\label{my-label}
+		\begin{tabular}{ll}
+		\hline
+		\multicolumn{2}{c}{Atributos} \\ \hline
+		\begin{tabular}[c]{@{}l@{}}Uso de internet \\ (general)\end{tabular} 		& \begin{tabular}[c]{@{}l@{}}Tiene tel\'efono \\ inteligente				\end{tabular} \\ \hline
+		\begin{tabular}[c]{@{}l@{}}Uso de internet \\ en dispositivo m\'ovil				\end{tabular} & \begin{tabular}[c]{@{}l@{}}Tenencia de \\ computadora\end{tabular} \\ \hline
+		\begin{tabular}[c]{@{}l@{}}Uso de internet en \\ el lugar de residencia\end{tabular} & \begin{tabular}[c]{@{}l@{}}Frecuencia en \\ redes sociales\end{tabular} \\ \hline
+		\begin{tabular}[c]{@{}l@{}}Nivel de conexi\'on \\ a internet					\end{tabular} & 
+		\end{tabular}
+		\end{table}
+    \end{column}
+\end{columns}
+    
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Pre-procesamiento de datos}
+\begin{itemize}
+\item Limpieza de datos
+\item Transformaci\'on de los datos: normalizaci\'on, discretizaci\'on
+\item Obtenci\'on de muestra: solo personas migrantes (interna), mayor de edad.
+\end{itemize}
+\begin{figure}
+        \begin{center}
+            \includegraphics[height=0.5\textheight]{imagenes/python_pandas.jpg}
+        \end{center}
+    \end{figure}  
+\end{frame}
+
+
+\subsection{An\'alisis de distancias}
+\begin{frame}
+\frametitle{An\'alisis y selecci\'on de distancia}
+\begin{itemize}
+\item Distancia Ahmad and Dey: comparaci\'on de dos datos categ\'oricos \pause
+\item Distancia Euclideana:no aplica para datos categ\'oricos \pause
+\item Distancia Hamming: recomendada para an\'alisis de tipo binario \pause
+\item Distancia Gower: Permite el an\'alisis de variables mixtas: tanto n\'umericas como categ\'oricas
+\end{itemize}
+
+\begin{exampleblock}{F\'ormula Gower}
+\[
+S_{ij} = \frac{\sum_k w_{ijk} x S_{ijk}}{\sum_k w_{ijk}}
+\]
+\end{exampleblock}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Distancia de gower}
+\begin{center}
+ \scalebox{0.65}{
+    \begin{minipage}{0.7\linewidth}
+\begin{algorithm}[H]
+\begin{algorithmic}[1]
+\STATE $suma\_elemento\_ij=0$
+\STATE $suma\_peso\_ij=0$
+\FOR{$c\ en\ columnas$}
+\STATE $objeto\_ij=0.0$ 
+\STATE $peso\_ij=0.0$ 
+        \IF{$tipo\_de\_datos[c]\ es\ numero$}   
+        \STATE $objeto\_ij=absoluto(vi[c]-vj[c])/(datos\_mixtos[c])$   
+        \STATE $peso\_ij=peso[c]$
+        \ELSE   
+        \STATE $suma\_elemento\_ij=[1,0][vi[c]==vj[c]]$
+        \STATE $peso\_ij=(peso[c])$
+        \ENDIF   
+        \STATE $suma\_elemento\_ij+= (peso\_ij*objeto_ij)$ 
+        \STATE $suma\_peso\_ij+=peso\_ij$    
+    \ENDFOR  
+    \RETURN $suma\_elemento\_ij/suma\_peso\_ij$
+\end{algorithmic}
+\caption{Pseudoc\'odigo distancia de gower}
+\label{alg:seq}
+\end{algorithm}
+\end{minipage}%
+    }\end{center}
+\end{frame}
+
+
+\subsection{Algoritmo difuso}
+\begin{frame}
+\frametitle{Proceso algoritmo fuzzy c-means}
+    \begin{figure}
+        \begin{center}
+            \includegraphics[height=0.8\textheight]{imagenes/proceso_difuso.png}
+        \end{center}
+    \end{figure}
+\end{frame}
+
+\begin{frame}
+\frametitle{Evaluaci\'on del agrupamiento}
+    \begin{figure}
+        \begin{center}
+            \includegraphics[height=0.4\textheight]{imagenes/silueta1.png}
+            \hfill
+            \includegraphics[height=0.4\textheight]{imagenes/silueta2.png}
+        \end{center}
+    \end{figure}
+\end{frame}
+
+
+\subsection{Caracter\'isticas de la visualizaci\'ion}
+\begin{frame}
+\frametitle{Estructura de archivo para generar visualizacion}
+    \begin{figure}
+        \begin{center}
+            \includegraphics[height=0.7\textheight]{imagenes/estructura_json.png}
+            \includegraphics[height=0.6\textheight]{imagenes/estructura_nodos.png}
+        \end{center}
+    \end{figure}
+\end{frame}
+
+\begin{frame}
+\frametitle{Comparaci\'on: Enfoque difuso(soft) y k-means (hard) }
+    \begin{figure}
+    \caption{Comparaci\'on de an\'alisis de agrupaci\'on utilizando algoritmo k-means con respecto al algoritmo de fuzzy c-means}
+        \begin{center}
+            \includegraphics[height=0.7\textheight]{imagenes/analisismig.png}
+        \end{center}
+    \end{figure}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Visualizaci\'on de enlace a partir de regiones espec\'ificas }
+    \begin{figure}
+    \caption{Movimientos y densidad de migraci\'on a partir de la regi\'on Pac\'ifico Central}
+        \begin{center}
+            \includegraphics[height=0.6\textheight]{imagenes/links.png}
+        \end{center}
+    \end{figure}
+\end{frame}
+\section{Validaci\'on} 
+\subsection{Visualizacion}
+\begin{frame}
+\frametitle{Caso 1: Migraci\'on interna en Costa Rica}
+\begin{figure}
+            \includegraphics[height=0.7\textheight]{imagenes/compara_migracion.png}
+    \end{figure}   
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Caso 2: Interacci\'on de personas con la tecnolog\'ia en Estados Unidos}
+\begin{figure}
+        \begin{center}
+            \includegraphics[height=0.8\textheight]{imagenes/compara_tec.png}
+        \end{center}
+    \end{figure}   
+\end{frame}
+
+
+
+\section{Conclusi\'on}
+\begin{frame}
+\frametitle{Conclusi\'on}
+\begin{itemize}
+\item  Evoluci\'on en el tiempo de datos agrupados con un enfoque difuso para una red social
+\item Comparaci\'on del an\'alisis difuso con respecto a uno binario
+\item Visualizaci\'on propuesta permite una manera intuitiva de inferir la membres\'ia y relaciones de manera din\'amica
+\item  El algoritmo \textit{force-directed} para agrupar los nodos de acuerdo a su membres\'ia
+\item Casos analizados: Migraciones internas en Costa Rica y encuesta sobre la interacci\'on de personas con la tecnolog\'ia. 
+\end{itemize} 
+\end{frame}
+
+
+
+\makethanks
+
+\section{Material de apoyo} 
+\begin{frame}
+\frametitle{Material de apoyo}
+Diapositivas de apoyo
+\end{frame}
+
+\begin{frame}
+\frametitle{Trabajo futuro}
+\begin{itemize}
+\item Probar la metodolog\'ia con otros estudios como: 
+\begin{itemize}
+\item  el movimiento de las personas a trav\'es del tiempo influido por las nuevas tecnolog\'ias
+\item La influencia de las relaciones en la migraci\'on de personas tanto de manera interna como externa
+\end{itemize}
+\item Se puede mejorar la transici\'on de la visualizaci\'on para que no se note de una manera m\'as natural a trav\'es del tiempo
+\end{itemize} 
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Similitudes en el conjunto de datos}
+\begin{table}[]
+\centering
+\caption{Par de elementos m\'as similares del conjunto de datos Migraci\'on Interna en Costa Rica}
+\label{tabla1}
+\begin{tabular}{llllll}
+\hline
+T\'itulo & \begin{tabular}[c]{@{}l@{}}Condici\'on \\ laboral\end{tabular} & Ingreso & \begin{tabular}[c]{@{}l@{}}Estado \\ conyugal\end{tabular} & \begin{tabular}[c]{@{}l@{}}Calidad \\ vivienda\end{tabular} & \begin{tabular}[c]{@{}l@{}}Mantiene \\ familia\end{tabular} \\ \hline
+0.7 & 0 & 1 & 1 & 0 & 1 \\
+0.7 & 0 & 1 & 1 & 0 & 0.75 \\ \hline
+\end{tabular}
+\end{table}
+\end{frame}
+
+\begin{frame}
+\frametitle{Disimilitudes en el conjunto de datos}
+
+\begin{table}[]
+\centering
+\caption{Par de elementos m\'as disimilares del conjunto de datos Migraci\'on Interna en Costa Rica}
+\label{tabla2}
+\begin{tabular}{llllll}
+\hline
+T\'itulo & \begin{tabular}[c]{@{}l@{}}Condici\'on \\ laboral\end{tabular} & Ingreso  & \begin{tabular}[c]{@{}l@{}}Estado \\ conyugal\end{tabular} & \begin{tabular}[c]{@{}l@{}}Calidad \\ vivienda\end{tabular} & \begin{tabular}[c]{@{}l@{}}Mantiene \\ familia\end{tabular} \\ \hline
+1      & 0                   & 1                   & 1               & 0.9                & 1                \\
+0      & 0                   & 0.2                  & 6               & 0                & 0             \\ \hline
+\end{tabular}
+\end{table}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{C\'odigo creaci\'on de nodos}
+\begin{figure}
+        \begin{center}
+            \includegraphics[height=0.8\textheight]{imagenes/creacion_nodos.png}
+        \end{center}
+    \end{figure}   
+
+\end{frame}
+
+\end{document}
